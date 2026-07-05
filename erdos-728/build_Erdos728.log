@@ -1,0 +1,4 @@
+ℹ [8580/8580] Built ErdosProblems.Erdos728 (38s)
+info: ErdosProblems/Erdos728.lean:2063:0: 'Erdos728.Erdos728b.erdos_728' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: ErdosProblems/Erdos728.lean:2066:0: 'Erdos728.Erdos728b.erdos_728_fc' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (8580 jobs).
