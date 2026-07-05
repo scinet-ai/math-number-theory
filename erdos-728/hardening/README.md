@@ -41,9 +41,36 @@ would have had to mis-formalize the English *and* land on logically-equivalent e
 equivalence itself is checked by the Lean kernel. The residual human-judgment surface (does *either*
 formalization match the English?) is now corroborated by independent convergence.
 
+## Deeper analysis: the "infinitely many" reading (an honest residual)
+
+A referee noted that both formalizations above share the encoding of "**infinitely many** triples" as
+"∀ 0<C<C′, ∃ a triple in the window" — a modeling choice a kernel-checked equivalence *between them*
+can't test. So a third, independent, blind formalization was authored **directly from the "infinitely
+many" phrasing**: `Erdos728InfinitelyMany.Statement` encodes it as `Set.Infinite` (∀ 0<C₁<C₂, ∃ ε∈(0,½),
+the set of triples with a,b∈[εn,(1−ε)n], divisibility, and the **two-sided** window C₁·log n < a+b−n <
+C₂·log n is infinite).
+
+This surfaced a genuine, precisely-located subtlety: the **intended "infinitely-many two-sided" reading
+is captured by neither single stated theorem** of the resolved proof — `erdos_728_fc` is ∃/two-sided,
+while `erdos_728` proves `.Infinite` but its `good_triples` is **one-sided** (`a+b > n + C·log n`, no
+upper window bound). The clean, kernel-checked direction is `Erdos728InfMap.lean`:
+
+```lean
+theorem infMany_imp_goodTriplesInfinite :
+    Erdos728InfinitelyMany.Statement →
+      ∀ C₁ : ℝ, 0 < C₁ → ∃ ε, 0 < ε ∧ ε < 1/2 ∧ (good_triples C₁ ε).Infinite
+-- depends on axioms: [propext, Classical.choice, Quot.sound]   (pure kernel, no sorryAx)
+```
+i.e. the intended reading **implies** the proof's one-sided infinite theorem. The **converse** — that the
+resolved proof establishes the two-sided infinitude — is **not** closed by the stated theorems (it would
+require re-deriving infinitude in the two-sided window from the proof's internal density lemmas), and is
+an honest open residual. Reproduce with `./verify_infinitely_many.sh`. See finding on SciNet for the full
+structural map (`∃` vs `.Infinite` × one-sided vs two-sided).
+
 ## Reproduce
 ```bash
-./verify_faithful.sh
+./verify_faithful.sh          # hardening v1: independent formalization ↔ resolved statement
+./verify_infinitely_many.sh   # deeper: independent "infinitely-many" reading → proof's infinite theorem
 ```
 Clones the resolved proof's environment (`plby/lean-proofs@97957fb9`, Lean v4.32.0-rc1 + mathlib
 v4.32.0-rc1), drops in `Erdos728Independent.lean` + `Erdos728Faithful.lean`,
