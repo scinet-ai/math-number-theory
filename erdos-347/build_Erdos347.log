@@ -1,0 +1,565 @@
+info: downloading https://releases.lean-lang.org/lean4/v4.24.0/lean-4.24.0-darwin_aarch64.tar.zst
+info: installing /Users/alexroman/.elan/toolchains/leanprover--lean4---v4.24.0
+info: mathlib: cloning https://github.com/leanprover-community/mathlib4
+info: mathlib: checking out revision 'f897ebcf72cd16f89ab4577d0c826cd14afaafc7'
+info: plausible: cloning https://github.com/leanprover-community/plausible
+info: plausible: checking out revision 'dfd06ebfe8d0e8fa7faba9cb5e5a2e74e7bd2805'
+info: LeanSearchClient: cloning https://github.com/leanprover-community/LeanSearchClient
+info: LeanSearchClient: checking out revision '99657ad92e23804e279f77ea6dbdeebaa1317b98'
+info: importGraph: cloning https://github.com/leanprover-community/import-graph
+info: importGraph: checking out revision 'd768126816be17600904726ca7976b185786e6b9'
+info: proofwidgets: cloning https://github.com/leanprover-community/ProofWidgets4
+info: proofwidgets: checking out revision '556caed0eadb7901e068131d1be208dd907d07a2'
+info: aesop: cloning https://github.com/leanprover-community/aesop
+info: aesop: checking out revision '725ac8cd67acd70a7beaf47c3725e23484c1ef50'
+info: Qq: cloning https://github.com/leanprover-community/quote4
+info: Qq: checking out revision 'dea6a3361fa36d5a13f87333dc506ada582e025c'
+info: batteries: cloning https://github.com/leanprover-community/batteries
+info: batteries: checking out revision '8da40b72fece29b7d3fe3d768bac4c8910ce9bee'
+info: Cli: cloning https://github.com/leanprover/lean4-cli
+info: Cli: checking out revision '91c18fa62838ad0ab7384c03c9684d99d306e1da'
+✔ [3/21] Built Cache.Lean (619ms)
+✔ [4/21] Built Cache.IO (632ms)
+✔ [5/21] Built Cache.Hashing (356ms)
+✔ [6/21] Built Cache.Lean:c.o (2.6s)
+✔ [7/21] Built Cache.Hashing:c.o (1.8s)
+✔ [8/21] Built Cache.IO:c.o (2.6s)
+✔ [14/21] Built Batteries.Data.String.Basic:c.o (45ms)
+✔ [15/21] Built Batteries.Data.Array.Match:c.o (104ms)
+✔ [16/21] Built Batteries.Data.String.Matcher:c.o (87ms)
+✔ [17/21] Built Cache.Requests (593ms)
+✔ [18/21] Built Cache.Main (358ms)
+✔ [19/21] Built Cache.Main:c.o (258ms)
+✔ [20/21] Built Cache.Requests:c.o (611ms)
+✔ [21/21] Built cache:exe (1.3s)
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  847k  100  847k    0     0   950k      0 --:--:-- --:--:-- --:--:-- 1548k
+
+installing leantar 0.1.15
+Fetching ProofWidgets cloud release... done!
+Current branch: HEAD
+Using cache (Azure) from origin: leanprover-community/mathlib4
+Attempting to download 7335 file(s) from leanprover-community/mathlib4 cache
+Downloaded: 1 file(s) [attempted 1/7335 = 0%, 25 KB/s]Downloaded: 16 file(s) [attempted 16/7335 = 0%, 23 KB/s]Downloaded: 60 file(s) [attempted 60/7335 = 0%, 50 KB/s]Downloaded: 100 file(s) [attempted 100/7335 = 1%, 218 KB/s]Downloaded: 150 file(s) [attempted 150/7335 = 2%, 97 KB/s]Downloaded: 190 file(s) [attempted 190/7335 = 2%, 242 KB/s]Downloaded: 240 file(s) [attempted 240/7335 = 3%, 725 KB/s]Downloaded: 290 file(s) [attempted 290/7335 = 3%, 181 KB/s]Downloaded: 340 file(s) [attempted 340/7335 = 4%, 122 KB/s]Downloaded: 380 file(s) [attempted 380/7335 = 5%, 123 KB/s]Downloaded: 430 file(s) [attempted 430/7335 = 5%, 551 KB/s]Downloaded: 480 file(s) [attempted 480/7335 = 6%, 909 KB/s]Downloaded: 530 file(s) [attempted 530/7335 = 7%, 187 KB/s]Downloaded: 580 file(s) [attempted 580/7335 = 7%, 349 KB/s]Downloaded: 630 file(s) [attempted 630/7335 = 8%, 68 KB/s]Downloaded: 681 file(s) [attempted 681/7335 = 9%, 410 KB/s]Downloaded: 731 file(s) [attempted 731/7335 = 9%, 234 KB/s]Downloaded: 781 file(s) [attempted 781/7335 = 10%, 33 KB/s]Downloaded: 791 file(s) [attempted 791/7335 = 10%, 762 KB/s]Downloaded: 841 file(s) [attempted 841/7335 = 11%, 27 KB/s]Downloaded: 894 file(s) [attempted 894/7335 = 12%, 1220 KB/s]Downloaded: 941 file(s) [attempted 941/7335 = 12%, 478 KB/s]Downloaded: 991 file(s) [attempted 991/7335 = 13%, 463 KB/s]Downloaded: 1001 file(s) [attempted 1001/7335 = 13%, 296 KB/s]Downloaded: 1051 file(s) [attempted 1051/7335 = 14%, 76 KB/s]Downloaded: 1101 file(s) [attempted 1101/7335 = 15%, 159 KB/s]Downloaded: 1161 file(s) [attempted 1161/7335 = 15%, 135 KB/s]Downloaded: 1201 file(s) [attempted 1201/7335 = 16%, 83 KB/s]Downloaded: 1251 file(s) [attempted 1251/7335 = 17%, 82 KB/s]Downloaded: 1310 file(s) [attempted 1310/7335 = 17%, 167 KB/s]Downloaded: 1360 file(s) [attempted 1360/7335 = 18%, 81 KB/s]Downloaded: 1420 file(s) [attempted 1420/7335 = 19%, 413 KB/s]Downloaded: 1470 file(s) [attempted 1470/7335 = 20%, 138 KB/s]Downloaded: 1530 file(s) [attempted 1530/7335 = 20%, 125 KB/s]Downloaded: 1580 file(s) [attempted 1580/7335 = 21%, 336 KB/s]Downloaded: 1640 file(s) [attempted 1640/7335 = 22%, 609 KB/s]Downloaded: 1690 file(s) [attempted 1690/7335 = 23%, 52 KB/s]Downloaded: 1740 file(s) [attempted 1740/7335 = 23%, 313 KB/s]Downloaded: 1793 file(s) [attempted 1793/7335 = 24%, 382 KB/s]Downloaded: 1850 file(s) [attempted 1850/7335 = 25%, 92 KB/s]Downloaded: 1905 file(s) [attempted 1905/7335 = 25%, 159 KB/s]Downloaded: 1960 file(s) [attempted 1960/7335 = 26%, 472 KB/s]Downloaded: 2010 file(s) [attempted 2010/7335 = 27%, 456 KB/s]Downloaded: 2060 file(s) [attempted 2060/7335 = 28%, 113 KB/s]Downloaded: 2110 file(s) [attempted 2110/7335 = 28%, 74 KB/s]Downloaded: 2160 file(s) [attempted 2160/7335 = 29%, 163 KB/s]Downloaded: 2220 file(s) [attempted 2220/7335 = 30%, 64 KB/s]Downloaded: 2270 file(s) [attempted 2270/7335 = 30%, 621 KB/s]Downloaded: 2280 file(s) [attempted 2280/7335 = 31%, 268 KB/s]Downloaded: 2330 file(s) [attempted 2330/7335 = 31%, 35 KB/s]Downloaded: 2380 file(s) [attempted 2380/7335 = 32%, 243 KB/s]Downloaded: 2440 file(s) [attempted 2440/7335 = 33%, 64 KB/s]Downloaded: 2490 file(s) [attempted 2490/7335 = 33%, 144 KB/s]Downloaded: 2540 file(s) [attempted 2540/7335 = 34%, 298 KB/s]Downloaded: 2600 file(s) [attempted 2600/7335 = 35%, 802 KB/s]Downloaded: 2650 file(s) [attempted 2650/7335 = 36%, 347 KB/s]Downloaded: 2700 file(s) [attempted 2700/7335 = 36%, 92 KB/s]Downloaded: 2759 file(s) [attempted 2759/7335 = 37%, 147 KB/s]Downloaded: 2819 file(s) [attempted 2819/7335 = 38%, 37 KB/s]Downloaded: 2869 file(s) [attempted 2869/7335 = 39%, 576 KB/s]Downloaded: 2919 file(s) [attempted 2919/7335 = 39%, 86 KB/s]Downloaded: 2969 file(s) [attempted 2969/7335 = 40%, 110 KB/s]Downloaded: 3019 file(s) [attempted 3019/7335 = 41%, 331 KB/s]Downloaded: 3079 file(s) [attempted 3079/7335 = 41%, 266 KB/s]Downloaded: 3129 file(s) [attempted 3129/7335 = 42%, 47 KB/s]Downloaded: 3139 file(s) [attempted 3139/7335 = 42%, 800 KB/s]Downloaded: 3199 file(s) [attempted 3199/7335 = 43%, 75 KB/s]Downloaded: 3250 file(s) [attempted 3250/7335 = 44%, 452 KB/s]Downloaded: 3299 file(s) [attempted 3299/7335 = 44%, 352 KB/s]Downloaded: 3349 file(s) [attempted 3349/7335 = 45%, 260 KB/s]Downloaded: 3359 file(s) [attempted 3359/7335 = 45%, 1646 KB/s]Downloaded: 3409 file(s) [attempted 3409/7335 = 46%, 185 KB/s]Downloaded: 3469 file(s) [attempted 3469/7335 = 47%, 154 KB/s]Downloaded: 3519 file(s) [attempted 3519/7335 = 47%, 205 KB/s]Downloaded: 3569 file(s) [attempted 3569/7335 = 48%, 155 KB/s]Downloaded: 3619 file(s) [attempted 3619/7335 = 49%, 545 KB/s]Downloaded: 3671 file(s) [attempted 3671/7335 = 50%, 1859 KB/s]Downloaded: 3729 file(s) [attempted 3729/7335 = 50%, 518 KB/s]Downloaded: 3779 file(s) [attempted 3779/7335 = 51%, 267 KB/s]Downloaded: 3829 file(s) [attempted 3829/7335 = 52%, 879 KB/s]Downloaded: 3889 file(s) [attempted 3889/7335 = 53%, 134 KB/s]Downloaded: 3939 file(s) [attempted 3939/7335 = 53%, 519 KB/s]Downloaded: 3989 file(s) [attempted 3989/7335 = 54%, 647 KB/s]Downloaded: 3999 file(s) [attempted 3999/7335 = 54%, 512 KB/s]Downloaded: 4049 file(s) [attempted 4049/7335 = 55%, 382 KB/s]Downloaded: 4105 file(s) [attempted 4105/7335 = 55%, 545 KB/s]Downloaded: 4159 file(s) [attempted 4159/7335 = 56%, 453 KB/s]Downloaded: 4218 file(s) [attempted 4218/7335 = 57%, 353 KB/s]Downloaded: 4268 file(s) [attempted 4268/7335 = 58%, 562 KB/s]Downloaded: 4328 file(s) [attempted 4328/7335 = 59%, 825 KB/s]Downloaded: 4387 file(s) [attempted 4387/7335 = 59%, 378 KB/s]Downloaded: 4438 file(s) [attempted 4438/7335 = 60%, 1436 KB/s]Downloaded: 4488 file(s) [attempted 4488/7335 = 61%, 393 KB/s]Downloaded: 4538 file(s) [attempted 4538/7335 = 61%, 661 KB/s]Downloaded: 4598 file(s) [attempted 4598/7335 = 62%, 51 KB/s]Downloaded: 4648 file(s) [attempted 4648/7335 = 63%, 699 KB/s]Downloaded: 4698 file(s) [attempted 4698/7335 = 64%, 264 KB/s]Downloaded: 4748 file(s) [attempted 4748/7335 = 64%, 290 KB/s]Downloaded: 4808 file(s) [attempted 4808/7335 = 65%, 819 KB/s]Downloaded: 4858 file(s) [attempted 4858/7335 = 66%, 350 KB/s]Downloaded: 4908 file(s) [attempted 4908/7335 = 66%, 29 KB/s]Downloaded: 4968 file(s) [attempted 4968/7335 = 67%, 245 KB/s]Downloaded: 5018 file(s) [attempted 5018/7335 = 68%, 65 KB/s]Downloaded: 5068 file(s) [attempted 5068/7335 = 69%, 1186 KB/s]Downloaded: 5128 file(s) [attempted 5128/7335 = 69%, 721 KB/s]Downloaded: 5178 file(s) [attempted 5178/7335 = 70%, 122 KB/s]Downloaded: 5238 file(s) [attempted 5238/7335 = 71%, 146 KB/s]Downloaded: 5278 file(s) [attempted 5278/7335 = 71%, 324 KB/s]Downloaded: 5328 file(s) [attempted 5328/7335 = 72%, 241 KB/s]Downloaded: 5388 file(s) [attempted 5388/7335 = 73%, 255 KB/s]Downloaded: 5448 file(s) [attempted 5448/7335 = 74%, 124 KB/s]Downloaded: 5488 file(s) [attempted 5488/7335 = 74%, 573 KB/s]Downloaded: 5538 file(s) [attempted 5538/7335 = 75%, 69 KB/s]Downloaded: 5598 file(s) [attempted 5598/7335 = 76%, 330 KB/s]Downloaded: 5658 file(s) [attempted 5658/7335 = 77%, 438 KB/s]Downloaded: 5698 file(s) [attempted 5698/7335 = 77%, 448 KB/s]Downloaded: 5757 file(s) [attempted 5757/7335 = 78%, 1181 KB/s]Downloaded: 5807 file(s) [attempted 5807/7335 = 79%, 192 KB/s]Downloaded: 5867 file(s) [attempted 5867/7335 = 79%, 183 KB/s]Downloaded: 5917 file(s) [attempted 5917/7335 = 80%, 57 KB/s]Downloaded: 5967 file(s) [attempted 5967/7335 = 81%, 56 KB/s]Downloaded: 6027 file(s) [attempted 6027/7335 = 82%, 260 KB/s]Downloaded: 6087 file(s) [attempted 6087/7335 = 82%, 105 KB/s]Downloaded: 6127 file(s) [attempted 6127/7335 = 83%, 183 KB/s]Downloaded: 6177 file(s) [attempted 6177/7335 = 84%, 163 KB/s]Downloaded: 6237 file(s) [attempted 6237/7335 = 85%, 63 KB/s]Downloaded: 6287 file(s) [attempted 6287/7335 = 85%, 325 KB/s]Downloaded: 6337 file(s) [attempted 6337/7335 = 86%, 51 KB/s]Downloaded: 6387 file(s) [attempted 6387/7335 = 87%, 538 KB/s]Downloaded: 6447 file(s) [attempted 6447/7335 = 87%, 181 KB/s]Downloaded: 6507 file(s) [attempted 6507/7335 = 88%, 264 KB/s]Downloaded: 6567 file(s) [attempted 6567/7335 = 89%, 699 KB/s]Downloaded: 6617 file(s) [attempted 6617/7335 = 90%, 994 KB/s]Downloaded: 6667 file(s) [attempted 6667/7335 = 90%, 38 KB/s]Downloaded: 6727 file(s) [attempted 6727/7335 = 91%, 351 KB/s]Downloaded: 6777 file(s) [attempted 6777/7335 = 92%, 393 KB/s]Downloaded: 6787 file(s) [attempted 6787/7335 = 92%, 938 KB/s]Downloaded: 6837 file(s) [attempted 6837/7335 = 93%, 105 KB/s]Downloaded: 6888 file(s) [attempted 6888/7335 = 93%, 66 KB/s]Downloaded: 6937 file(s) [attempted 6937/7335 = 94%, 260 KB/s]Downloaded: 6997 file(s) [attempted 6997/7335 = 95%, 60 KB/s]Downloaded: 7047 file(s) [attempted 7047/7335 = 96%, 703 KB/s]Downloaded: 7107 file(s) [attempted 7107/7335 = 96%, 139 KB/s]Downloaded: 7166 file(s) [attempted 7166/7335 = 97%, 57 KB/s]Downloaded: 7216 file(s) [attempted 7216/7335 = 98%, 306 KB/s]Downloaded: 7228 file(s) [attempted 7228/7335 = 98%, 230 KB/s]Downloaded: 7276 file(s) [attempted 7276/7335 = 99%, 175 KB/s]Downloaded: 7335 file(s) [attempted 7335/7335 = 100%, 175 KB/s]
+Decompressing 7335 file(s)
+Unpacked in 4977 ms
+Completed successfully!
+⚠ [7351/7351] Built ErdosProblems.Erdos347 (95s)
+info: ErdosProblems/Erdos347.lean:38:0: Nat.log2 (n : ℕ) : ℕ
+warning: ErdosProblems/Erdos347.lean:76:2: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:152:6: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:176:35: `LT.lt.not_le` has been deprecated: Use `LT.lt.not_ge` instead
+warning: ErdosProblems/Erdos347.lean:201:28: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:201:69: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:202:99: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:202:120: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:207:18: `List.get?_eq_get` has been deprecated: Use `a[i]?` instead.
+info: ErdosProblems/Erdos347.lean:225:10: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:230:39: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:232:41: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:233:12: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:236:37: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:239:48: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:236:37: This simp argument is unused:
+  List.get!
+
+Hint: Omit it from the simp argument list.
+  simp +decide ̵[̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵!̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:241:39: This simp argument is unused:
+  block_index_spec
+
+Hint: Omit it from the simp argument list.
+  simp +decide ̵[̵ ̵b̵l̵o̵c̵k̵_̵i̵n̵d̵e̵x̵_̵s̵p̵e̵c̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:246:81: This simp argument is unused:
+  x
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵x̵ ̵]̵ ̵at h_A_val_n_plus_1 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:247:40: This simp argument is unused:
+  Nat.log2
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵N̵a̵t̵.̵l̵o̵g̵2̵ ̵]̵ ̵at x
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:250:59: This simp argument is unused:
+  x
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵x̵ ̵]̵ ̵at h_A_val_n_plus_1 ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:259:3: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:259:33: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:262:6: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:263:76: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵N̵a̵t̵.̵p̵o̵w̵_̵s̵u̵c̵c̵'̵,̵ ̵m̵u̵l̵_̵a̵s̵s̵o̵c̵ ̵]̵[̲N̲a̲t̲.̲p̲o̲w̲_̲s̲u̲c̲c̲'̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:264:45: This simp argument is unused:
+  List.getElem?_range
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵r̵a̵n̵g̵e̵ ̵]̵[̲L̲i̲s̲t̲.̲g̲e̲t̲E̲l̲e̲m̲?̲_̲a̲p̲p̲e̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:275:192: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:280:8: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: ErdosProblems/Erdos347.lean:275:162: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵p̵o̵w̵_̵s̵u̵c̵c̵'̵,̵ ̵m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵ ̵d̵i̵v̵_̵e̵q̵_̵m̵u̵l̵_̵i̵n̵v̵ ̵]̵[̲p̲o̲w̲_̲s̲u̲c̲c̲'̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲d̲i̲v̲_̲e̲q̲_̲m̲u̲l̲_̲i̲n̲v̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:345:14: Try this:
+  exact M_pos n
+warning: ErdosProblems/Erdos347.lean:405:31: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:405:112: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:413:12: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:423:24: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:423:99: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:439:57: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:443:10: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:445:39: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:446:41: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:447:12: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:450:85: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:450:85: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:450:85: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:418:81: This simp argument is unused:
+  Nat.pow_succ'
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵N̵a̵t̵.̵p̵o̵w̵_̵s̵u̵c̵c̵'̵,̵ ̵N̵a̵t̵.̵m̵u̵l̵_̵s̵u̵c̵c̵ ̵]̵[̲N̲a̲t̲.̲m̲u̲l̲_̲s̲u̲c̲c̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:418:96: This simp argument is unused:
+  Nat.mul_succ
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵N̵a̵t̵.̵p̵o̵w̵_̵s̵u̵c̵c̵'̵,̵ ̵N̵a̵t̵.̵m̵u̵l̵_̵s̵u̵c̵c̵ ̵]̵[̲N̲a̲t̲.̲p̲o̲w̲_̲s̲u̲c̲c̲'̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:421:47: This simp argument is unused:
+  List.getElem?_range
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵r̵a̵n̵g̵e̵ ̵]̵[̲L̲i̲s̲t̲.̲g̲e̲t̲E̲l̲e̲m̲?̲_̲a̲p̲p̲e̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:448:29: This simp argument is unused:
+  Nat.sub_sub
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide ̵[̵ ̵N̵a̵t̵.̵s̵u̵b̵_̵s̵u̵b̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:450:85: This simp argument is unused:
+  List.get!
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide ̵[̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵!̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:521:296: This simp argument is unused:
+  Nat.log2
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide ̵[̵ ̵N̵a̵t̵.̵l̵o̵g̵2̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:595:23: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:608:180: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:602:56: This simp argument is unused:
+  Nat.sub_eq_zero_of_le
+
+Hint: Omit it from the simp argument list.
+  simp_all +arith +decide ̵[̵ ̵N̵a̵t̵.̵s̵u̵b̵_̵e̵q̵_̵z̵e̵r̵o̵_̵o̵f̵_̵l̵e̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:623:105: This simp argument is unused:
+  hbs'
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵h̵b̵s̵'̵,̵ ̵h̵b̵0̵ ̵]̵[̲h̲b̲0̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:623:111: This simp argument is unused:
+  hb0
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵h̵b̵s̵'̵,̵ ̵h̵b̵0̵ ̵]̵[̲h̲b̲s̲'̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:633:28: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:635:77: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:648:82: This simp argument is unused:
+  pow_succ'
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide ̵[̵ ̵p̵o̵w̵_̵s̵u̵c̵c̵'̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:691:53: This simp argument is unused:
+  List.getElem?_range
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵a̵p̵p̵e̵n̵d̵,̵ ̵L̵i̵s̵t̵.̵g̵e̵t̵E̵l̵e̵m̵?̵_̵r̵a̵n̵g̵e̵ ̵]̵[̲L̲i̲s̲t̲.̲g̲e̲t̲E̲l̲e̲m̲?̲_̲a̲p̲p̲e̲n̲d̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:701:69: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:718:42: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:717:11: unused variable `d`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ErdosProblems/Erdos347.lean:724:54: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:727:5: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:727:18: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:727:31: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:727:44: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:727:60: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:729:55: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:737:10: Try this:
+  exact Finset.le_card_iff_exists_subset_card.mp h_exists_subset
+warning: ErdosProblems/Erdos347.lean:740:49: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:740:68: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:741:59: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:741:78: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:741:145: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:742:61: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:742:80: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:742:147: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:746:10: Try this:
+  exact rfl
+warning: ErdosProblems/Erdos347.lean:749:25: This simp argument is unused:
+  List.map_eq_map_iff
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide ̵[̵ ̵L̵i̵s̵t̵.̵m̵a̵p̵_̵e̵q̵_̵m̵a̵p̵_̵i̵f̵f̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:758:60: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:772:38: `LT.lt.not_le` has been deprecated: Use `LT.lt.not_ge` instead
+warning: ErdosProblems/Erdos347.lean:818:60: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:818:27: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:821:101: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:821:121: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:830:103: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:839:8: Try this: intro a ha x hx H
+warning: ErdosProblems/Erdos347.lean:851:11: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:854:67: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:867:223: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:867:236: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:867:277: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:867:290: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:867:334: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:873:81: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:873:46: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:945:108: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:967:8: Try this:
+  exact List.nodup_range
+warning: ErdosProblems/Erdos347.lean:971:19: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:979:66: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:979:105: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:981:22: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:981:61: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:996:30: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:999:8: Try this:
+  exact (mem_B_iff_mem_B_finset i ((greedy_expansion n_0 N m).1[i - n_0]?.getD 0)).mp this
+warning: ErdosProblems/Erdos347.lean:1005:10: `LT.lt.not_le` has been deprecated: Use `LT.lt.not_ge` instead
+warning: ErdosProblems/Erdos347.lean:955:72: This simp argument is unused:
+  Finset.sum_range_succ'
+
+Hint: Omit it from the simp argument list.
+  simp +decide ̵[̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵r̵a̵n̵g̵e̵_̵s̵u̵c̵c̵'̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:962:54: This simp argument is unused:
+  hb'
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵h̵b̵'̵,̵ ̵h̵b̵ ̵]̵[̲h̲b̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:962:59: This simp argument is unused:
+  hb
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵h̵b̵'̵,̵ ̵h̵b̵ ̵]̵[̲h̲b̲'̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:964:142: This simp argument is unused:
+  Finset.sum_range_succ'
+
+Hint: Omit it from the simp argument list.
+  s̵i̵m̵p̵ ̵+̵d̵e̵c̵i̵d̵e̵ ̵[̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵r̵a̵n̵g̵e̵_̵s̵u̵c̵c̵'̵ ̵]̵ ̵a̵t̵ ̵h̵b̵s̲i̲m̲p̲ ̲+̲d̲e̲c̲i̲d̲e̲ ̲a̲t̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲h̲b̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:984:49: This simp argument is unused:
+  Nat.add_sub_cancel'
+
+Hint: Omit it from the simp argument list.
+  simp +decide ̵[̵ ̵N̵a̵t̵.̵a̵d̵d̵_̵s̵u̵b̵_̵c̵a̵n̵c̵e̵l̵'̵ ̵]̵
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:998:103: This simp argument is unused:
+  hi₁
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵h̵i̵₁̵,̵ ̵h̵i̵₂̵,̵[̲h̲i̲₂̲,̲
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲Nat.add_sub_of_le h̵i̵₁̵ ̵]̵h̲i̲₁̲]̲ at this ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:998:108: This simp argument is unused:
+  hi₂
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵h̵i̵₁̵,̵ ̵h̵i̵₂̵,̵[̲h̲i̲₁̲,̲
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲Nat.add_sub_of_le h̵i̵₁̵ ̵]̵h̲i̲₁̲]̲ at this ⊢
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:1074:0: Multiset.esymm.{u_1} {R : Type u_1} [CommSemiring R] (s : Multiset R) (n : ℕ) : R
+warning: ErdosProblems/Erdos347.lean:1122:53: unused variable `hJ`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+info: ErdosProblems/Erdos347.lean:1185:6: Try this:
+  exact Finset.esymm_map_val (fun x ↦ 1 / f x) s k
+warning: ErdosProblems/Erdos347.lean:1189:19: This simp argument is unused:
+  Finset.prod_eq_zero_iff
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵F̵i̵n̵s̵e̵t̵.̵p̵r̵o̵d̵_̵e̵q̵_̵z̵e̵r̵o̵_̵i̵f̵f̵,̵ ̵h̵f̵ ̵]̵[̲h̲f̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:1189:44: This simp argument is unused:
+  hf
+
+Hint: Omit it from the simp argument list.
+  simp +decide [ ̵Finset.prod_eq_zero_iff,̵ ̵h̵f̵ ̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:1237:4: Try this:
+  exact B_card_eq n
+info: ErdosProblems/Erdos347.lean:1252:6: Try this:
+  exact M_recurrence_ineq n
+info: ErdosProblems/Erdos347.lean:1307:10: Try this:
+  exact M_pos n_0
+info: ErdosProblems/Erdos347.lean:1308:10: Try this:
+  exact M_pos n_0
+warning: ErdosProblems/Erdos347.lean:1317:112: `Nat.Ico_succ_right` has been deprecated: Use `Finset.Ico_succ_right_eq_Icc` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} [inst : LinearOrder α] [inst_1 : LocallyFiniteOrder α] [inst_2 : SuccOrder α] [NoMaxOrder α]
+    (a b : α), Finset.Ico a (Order.succ b) = Finset.Icc a b
+instead of
+  ∀ (a b : ℕ), Finset.Ico a b.succ = Finset.Icc a b
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.Ico_succ_right` to `Finset.Ico_succ_right_eq_Icc x`).
+warning: ErdosProblems/Erdos347.lean:1317:158: `Nat.Icc_succ_left` has been deprecated: Use `Finset.Icc_succ_left_eq_Ioc` instead
+
+Note: The updated constant has a different type:
+  ∀ {α : Type u_1} [inst : LinearOrder α] [inst_1 : LocallyFiniteOrder α] [inst_2 : SuccOrder α] [NoMaxOrder α]
+    (a b : α), Finset.Icc (Order.succ a) b = Finset.Ioc a b
+instead of
+  ∀ (a b : ℕ), Finset.Icc a.succ b = Finset.Ioc a b
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.Icc_succ_left` to `Finset.Icc_succ_left_eq_Ioc x`).
+warning: ErdosProblems/Erdos347.lean:1317:132: This simp argument is unused:
+  Finset.prod_Ioc_succ_top
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵N̵a̵t̵.̵I̵c̵o̵_̵s̵u̵c̵c̵_̵r̵i̵g̵h̵t̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵p̵r̵o̵d̵_̵I̵o̵c̵_̵s̵u̵c̵c̵_̵t̵o̵p̵,̵ ̵N̵a̵t̵.̵I̵c̵c̵_̵s̵u̵c̵c̵_̵l̵e̵f̵t̵ ̵]̵[̲N̲a̲t̲.̲I̲c̲o̲_̲s̲u̲c̲c̲_̲r̲i̲g̲h̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲N̲a̲t̲.̲I̲c̲c̲_̲s̲u̲c̲c̲_̲l̲e̲f̲t̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:1317:158: This simp argument is unused:
+  Nat.Icc_succ_left
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵N̵a̵t̵.̵I̵c̵o̵_̵s̵u̵c̵c̵_̵r̵i̵g̵h̵t̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵p̵r̵o̵d̵_̵I̵o̵c̵_̵s̵u̵c̵c̵_̵t̵o̵p̵,̵ ̵N̵a̵t̵.̵I̵c̵c̵_̵s̵u̵c̵c̵_̵l̵e̵f̵t̵ ̵]̵[̲N̲a̲t̲.̲I̲c̲o̲_̲s̲u̲c̲c̲_̲r̲i̲g̲h̲t̲,̲
+  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲F̲i̲n̲s̲e̲t̲.̲p̲r̲o̲d̲_̲I̲o̲c̲_̲s̲u̲c̲c̲_̲t̲o̲p̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:1354:8: Try this:
+  exact ratio_recurrence n_0 N hN
+info: ErdosProblems/Erdos347.lean:1373:8: Try this:
+  exact a_seq_pos n
+info: ErdosProblems/Erdos347.lean:1389:89: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1389:89: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1389:89: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1398:10: Try this:
+  exact sum_inv_a_seq_diverges n_0
+warning: ErdosProblems/Erdos347.lean:1442:109: This simp argument is unused:
+  Finset.mul_sum _ _ _
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵r̵a̵n̵g̵e̵_̵s̵u̵c̵c̵'̵,̵[̲F̲i̲n̲s̲e̲t̲.̲s̲u̲m̲_̲r̲a̲n̲g̲e̲_̲s̲u̲c̲c̲'̲,̲ Nat.factorial_succ, mul_assoc, mul_comm,
+  ̲  ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲ ̲m̵u̵l̵_̵l̵e̵f̵t̵_̵c̵o̵m̵m̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵m̵u̵l̵_̵s̵u̵m̵ ̵_̵ ̵_̵ ̵_̵ ̵]̵m̲u̲l̲_̲l̲e̲f̲t̲_̲c̲o̲m̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:1496:368: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1497:29: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1533:59: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1534:28: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: ErdosProblems/Erdos347.lean:1549:122: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp +decide [̵ ̵d̵i̵v̵_̵e̵q̵_̵m̵u̵l̵_̵i̵n̵v̵,̵[̲d̲i̲v̲_̲e̲q̲_̲m̲u̲l̲_̲i̲n̲v̲,̲
+  ̲  ̲ ̲ ̲ ̲ ̲Finset.mul_sum _ _ _, m̵u̵l̵_̵a̵s̵s̵o̵c̵,̵ ̵mul_comm, mul_left_comm, S̵_̵s̵u̵m̵ ̵]̵S̲_̲s̲u̲m̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:1571:119: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+warning: ErdosProblems/Erdos347.lean:1576:39: This simp argument is unused:
+  mul_assoc
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [ ̵div_eq_mul_inv, mul_a̵s̵s̵o̵c,̵ ̵m̵u̵l̵_̵c̵omm, mul_left_comm, Finset.mul_sum _ _ _, Finset.sum_mul ̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:1576:75: This simp argument is unused:
+  Finset.mul_sum _ _ _
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [̵ ̵d̵i̵v̵_̵e̵q̵_̵m̵u̵l̵_̵i̵n̵v̵,̵[̲d̲i̲v̲_̲e̲q̲_̲m̲u̲l̲_̲i̲n̲v̲,̲ mul_assoc, mul_comm, mul_left_comm, F̵i̵n̵s̵e̵t̵.̵m̵u̵l̵_̵s̵u̵m̵ ̵_̵ ̵_̵ ̵_̵,̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵m̵u̵l̵ ̵]̵F̲i̲n̲s̲e̲t̲.̲s̲u̲m̲_̲m̲u̲l̲]̲
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: ErdosProblems/Erdos347.lean:1576:97: This simp argument is unused:
+  Finset.sum_mul
+
+Hint: Omit it from the simp argument list.
+  simp_all +decide [ ̵div_eq_mul_inv, mul_assoc, mul_comm, mul_left_comm, Finset.mul_sum _ _ _,̵ ̵F̵i̵n̵s̵e̵t̵.̵s̵u̵m̵_̵m̵u̵l̵ ̵]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+info: ErdosProblems/Erdos347.lean:1689:125: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1696:19: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1756:103: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:1810:8: Try this:
+  exact fun N a ↦ density_ratio_lower_bound_ineq n_0 N
+info: ErdosProblems/Erdos347.lean:1842:6: Try this:
+  exact Nat.le_refl (M n * (2 ^ (k n + 1) - 3) / 2)
+warning: ErdosProblems/Erdos347.lean:1900:8: `LE.le.not_lt` has been deprecated: Use `LE.le.not_gt` instead
+warning: ErdosProblems/Erdos347.lean:1932:40: `LT.lt.not_le` has been deprecated: Use `LT.lt.not_ge` instead
+warning: ErdosProblems/Erdos347.lean:1961:80: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ErdosProblems/Erdos347.lean:1966:54: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ErdosProblems/Erdos347.lean:1980:145: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ErdosProblems/Erdos347.lean:2009:80: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: ErdosProblems/Erdos347.lean:2014:54: try 'simp' instead of 'simpa'
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+info: ErdosProblems/Erdos347.lean:2025:31: Try this:
+  ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: ErdosProblems/Erdos347.lean:2071:4: Try this:
+  exact block_index_succ n
+warning: ErdosProblems/Erdos347.lean:2074:24: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:2074:89: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:2075:115: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:2075:148: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:2078:16: `List.get?_eq_get` has been deprecated: Use `a[i]?` instead.
+warning: ErdosProblems/Erdos347.lean:2090:35: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:2090:119: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:2095:37: `List.get!` has been deprecated: Use `a[i]!` instead.
+warning: ErdosProblems/Erdos347.lean:2095:118: `List.get!` has been deprecated: Use `a[i]!` instead.
+info: ErdosProblems/Erdos347.lean:2098:10: Try this:
+  exact fun n ↦ rfl
+info: ErdosProblems/Erdos347.lean:2183:0: 'answer_is_yes' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Lean.trustCompiler, Quot.sound]
+info: ErdosProblems/Erdos347.lean:2184:0: 'main_theorem' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Lean.trustCompiler, Quot.sound]
+Build completed successfully (7351 jobs).
