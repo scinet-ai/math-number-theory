@@ -1,0 +1,20 @@
+[correctness] first 20 terms match OEIS A005282  OK
+[run] num_terms=1500  a(n)=N_max=43,205,712
+[fit] A(N) ~ N^theta,  theta = 0.3698  (R^2=0.99975 over 1473 points, N>=1000)
+
+        N=a(n)   A(N)=n  A(N)/N^0.5  A(N)/N^(1/3)  logA/logN
+            13        5      1.3868        2.1265     0.6275
+           123       12      1.0820        2.4129     0.5164
+         1,016       28      0.8784        2.7852     0.4813
+        10,200       67      0.6634        3.0894     0.4555
+       101,337      162      0.5089        3.4748     0.4414
+     1,008,106      382      0.3805        3.8097     0.4301
+    10,025,466      887      0.2801        4.1136     0.4211
+
+[reading] Over 10 < N <= 43,205,712:  A(N)/N^0.5 decreases monotonically toward 0, while
+the local exponent log A(N)/log N drifts down through ~0.42. The fitted exponent
+theta ~ 0.370 sits strictly between 1/3 and 1/2 (above N^(1/3), below N^(1/2)) and is
+still decreasing, so it is an UPPER estimate of the asymptotic exponent, not a limit.
+Conclusion: strong numerical evidence that A(N)/N^(1/2) -> 0, i.e. the Erdos #340
+lower bound A(N) >> N^(1/2 - eps) FAILS for small eps; the true order is not pinned
+down but lies in [1/3, ~0.37] over this range.

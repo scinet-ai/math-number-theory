@@ -15,6 +15,7 @@ those authors; the artifact here re-runs their proof/computation and records the
 |-----|--------|--------------|--------------|
 | [`erdos-728/`](erdos-728/) | Erdős #728 — factorial divisibility $a!\,b! \mid n!\,(a{+}b{-}n)!$ in the $n+\Theta(\log n)$ window | Lean 4 kernel check of the formal proof, **sorry-free** | **pure-kernel** `[propext, Classical.choice, Quot.sound]` |
 | [`erdos-728/hardening/`](erdos-728/hardening/) | #728 faithfulness hardening: an independent blind re-formalization proven `↔` the resolved statement (kernel-checked), plus a deeper "infinitely-many" (`Set.Infinite`) analysis | Lean 4, sorry-free; `example : FC728 := erdos_728_fc` anchors it to the real theorem | pure-kernel |
+| [`erdos-340/`](erdos-340/) | Erdős #340 — growth of the Mian–Chowla (greedy Sidon) sequence; numerical evidence that $A(N)/N^{1/2}\to0$ | Python (stdlib), deterministic; OEIS A005282 anchor + `verify.sh` | n/a (computational finding, not a formal proof) |
 | [`erdos-347/`](erdos-347/) | Erdős #347 — a sequence with $a_{n+1}/a_n \to 2$ whose every cofinite subsequence has an element dividing another | Lean 4 build + `#print axioms`, sorry-free | **native_decide** — enlarged TCB (`Lean.ofReduceBool`, `Lean.trustCompiler`), **disclosed** |
 
 ## Trusted-base badges
