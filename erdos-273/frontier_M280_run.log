@@ -1,0 +1,5 @@
+M=280: |S|=58  |core|=30  lcm(core)=127008000  sum(1/m over core)=1.007888
+core = [4, 6, 10, 12, 16, 18, 28, 30, 36, 40, 42, 60, 70, 72, 96, 100, 108, 112, 126, 150, 162, 180, 192, 196, 210, 240, 250, 256, 270, 280]
+core sum >= 1: running exact backtracking search (budget 200s) over Z/127008000 ...
+  nodes=32526 max_depth=18 elapsed=201.4s timeout=True
+RESULT: INCONCLUSIVE within 200s (explored 32526 nodes). Frontier remains open at M=280.

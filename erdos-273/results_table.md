@@ -1,0 +1,31 @@
+| M (max modulus) | #admissible | sum 1/m (full) | #core | sum 1/m (core) | lcm(core) | verdict |
+|---:|---:|---:|---:|---:|---:|:---|
+| 4 | 1 | 0.2500 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 6 | 2 | 0.4167 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 10 | 3 | 0.5167 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 12 | 4 | 0.6000 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 16 | 5 | 0.6625 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 18 | 6 | 0.7181 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 22 | 7 | 0.7635 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 28 | 8 | 0.7992 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 30 | 9 | 0.8326 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 36 | 10 | 0.8603 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 40 | 11 | 0.8853 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 42 | 12 | 0.9091 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 46 | 13 | 0.9309 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 52 | 14 | 0.9501 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 58 | 15 | 0.9674 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 60 | 16 | 0.9840 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 66 | 17 | 0.9992 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 70 | 18 | 1.0135 | 0 | 0.0000 | 1 | NO covering (search-free) |
+| 72 | 19 | 1.0273 | 7 | 0.6597 | 144 | NO covering (search-free) |
+| 78 | 20 | 1.0402 | 7 | 0.6597 | 144 | NO covering (search-free) |
+| 82 | 21 | 1.0524 | 7 | 0.6597 | 144 | NO covering (search-free) |
+| 88 | 22 | 1.0637 | 7 | 0.6597 | 144 | NO covering (search-free) |
+| 96 | 23 | 1.0741 | 8 | 0.6701 | 288 | NO covering (search-free) |
+| 100 | 24 | 1.0841 | 8 | 0.6701 | 288 | NO covering (search-free) |
+| 276 | 57 | 1.2750 | 22 | 0.9038 | 2,592,000 | NO covering (search-free) |
+| 280 | 58 | 1.2785 | 30 | 1.0079 | 127,008,000 | needs exact search |
+| 400 | 77 | 1.3341 | 33 | 1.0160 | 127,008,000 | needs exact search |
+| 600 | 108 | 1.3966 | 41 | 1.0323 | 381,024,000 | needs exact search |
+| 700 | 124 | 1.4213 | 45 | 1.0384 | 381,024,000 | needs exact search |
