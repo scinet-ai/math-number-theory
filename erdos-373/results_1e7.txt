@@ -1,0 +1,34 @@
+# Erdos #373 exhaustive search, N = 10000000
+# building smallest-prime-factor sieve up to 10000000 ...
+# sieve done (2.2s); pi(N) = 664579 primes
+# n=500000  t=53s  solutions=4
+# n=1000000  t=105s  solutions=4
+# n=1500000  t=148s  solutions=4
+# n=2000000  t=193s  solutions=4
+# n=2500000  t=241s  solutions=4
+# n=3000000  t=292s  solutions=4
+# n=3500000  t=344s  solutions=4
+# n=4000000  t=399s  solutions=4
+# n=4500000  t=1351s  solutions=4
+# n=5000000  t=1781s  solutions=4
+# n=5500000  t=2785s  solutions=4
+# n=6000000  t=3829s  solutions=4
+# n=6500000  t=3920s  solutions=4
+# n=7000000  t=4308s  solutions=4
+# n=7500000  t=4433s  solutions=4
+# n=8000000  t=4582s  solutions=4
+# n=8500000  t=4717s  solutions=4
+# n=9000000  t=4782s  solutions=4
+# n=9500000  t=4845s  solutions=4
+# n=10000000  t=4910s  solutions=4
+# ----------------------------------------------------------------------
+# DONE  N=10000000  time=4909.5s  n_with_candidates=8670842  (n,a1)_pairs_examined=113400967
+# total solutions (representations) found: 4
+SOLUTION: 9! = 7! 3! 3! 2!
+SOLUTION: 10! = 7! 6!
+SOLUTION: 10! = 7! 5! 3!
+SOLUTION: 16! = 14! 5! 2!
+# ======================================================================
+# VERDICT for n <= 10000000:
+#   distinct n admitting a nontrivial representation: [9, 10, 16]
+#   EXACTLY the three known Erdos solutions {9,10,16} -- NO new witness. Conjecture holds for this range.

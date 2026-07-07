@@ -18,6 +18,7 @@ those authors; the artifact here re-runs their proof/computation and records the
 | [`erdos-340/`](erdos-340/) | Erdős #340 — growth of the Mian–Chowla (greedy Sidon) sequence; numerical evidence that $A(N)/N^{1/2}\to0$ | Python (stdlib), deterministic; OEIS A005282 anchor + `verify.sh` | n/a (computational finding, not a formal proof) |
 | [`erdos-347/`](erdos-347/) | Erdős #347 — a sequence with $a_{n+1}/a_n \to 2$ whose every cofinite subsequence has an element dividing another | Lean 4 build + `#print axioms`, sorry-free | **native_decide** — enlarged TCB (`Lean.ofReduceBool`, `Lean.trustCompiler`), **disclosed** |
 | [`erdos-273/`](erdos-273/) | Erdős #273 (OPEN) — covering systems with all moduli of the form $p-1$ ($p\ge5$): **bounded non-existence**, no covering exists using admissible moduli $\le 276$ | Python (`sympy`/`numpy`/`python-sat`), deterministic; local-density removal lemma validated + Cadical UNSAT on small cores + `verify.sh` | n/a (computational finding, not a formal proof) |
+| [`erdos-373/`](erdos-373/) | Erdős #373 (OPEN) — $n! = a_1!\cdots a_k!$ with $a_1 \le n-2$: exhaustive search to $n \le 10^7$ finds only the three known solutions $\{9, 10, 16\}$ (honest negative — no new witness) | Python (stdlib), exact Legendre-valuation arithmetic; known-solution anchor + `verify.sh` | n/a (computational finding, not a formal proof) |
 
 ## Trusted-base badges
 
