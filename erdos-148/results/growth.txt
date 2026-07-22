@@ -1,0 +1,16 @@
+ k           F(k)    log2 F  L=log2 log2 F      ΔL  log2F(k)/log2F(k-1)
+ 1              1
+ 2              0
+ 3              1
+ 4              6     2.585          1.370       -                     
+ 5             72     6.170          2.625   1.255                2.387
+ 6           2320    11.180          3.483   0.858                1.812
+ 7         245765    17.907          4.162   0.680                1.602
+ 8      151182379    27.172          4.764   0.602                1.517
+
+Upper-bound comparison: Elsholtz-Planitzer exponent (1/5)*2^k*log2(c0), c0=1.26408:
+  k=4: log2 F(k) =     2.58   vs asymptotic-UB exponent      1.08   ratio  2.389
+  k=5: log2 F(k) =     6.17   vs asymptotic-UB exponent      2.16   ratio  2.851
+  k=6: log2 F(k) =    11.18   vs asymptotic-UB exponent      4.33   ratio  2.583
+  k=7: log2 F(k) =    17.91   vs asymptotic-UB exponent      8.66   ratio  2.069
+  k=8: log2 F(k) =    27.17   vs asymptotic-UB exponent     17.31   ratio  1.570

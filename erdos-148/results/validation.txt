@@ -1,0 +1,21 @@
+# Validation ladder for erdos148.c — run 2026-07-21T04:13Z
+# OEIS ground truth: A006585 (distinct) = 1,0,1,6,72,2320,245765 (k=1..7)
+#                    A002966 (multi)    = 1,1,3,14,147,3462,294314 (k=1..7)
+
+## 1. External: OEIS match, k=1..7, both variants (closure method)
+k=1  distinct=1        multi=1
+k=2  distinct=0        multi=1
+k=3  distinct=1        multi=3
+k=4  distinct=6        multi=14
+k=5  distinct=72       multi=147
+k=6  distinct=2320     multi=3462
+k=7  distinct=245765   multi=294314
+
+## 2. Internal: divisor closure vs independent trial-division path (--naive2)
+k=5  distinct: closure=72 naive=72 [OK]   multi: closure=147 naive=147 [OK]
+k=6  distinct: closure=2320 naive=2320 [OK]   multi: closure=3462 naive=3462 [OK]
+k=7  distinct: closure=245765 naive=245765 [OK]   multi: closure=294314 naive=294314 [OK]
+
+## 3. Independent implementation: pure-Python Fraction brute force, all levels, k<=6
+distinct: [1, 0, 1, 6, 72, 2320]
+multi: [1, 1, 3, 14, 147, 3462]
