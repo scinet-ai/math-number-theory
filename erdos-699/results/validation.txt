@@ -1,0 +1,10 @@
+# Validation ladder transcript — run 2026-07-22
+## C vs naive Python, n=2..300 (must be identical)
+IDENTICAL, all lines: CERT 2 300 pairs=1113775 weak=0 strong=5 anomalies=0
+## Legendre mask self-check at the 17-digit boundary
+MASKCHECK 65535 OK (6542 primes x 32768 cols)
+MASKCHECK 65536 OK (6542 primes x 32769 cols)
+MASKCHECK 65537 OK (6543 primes x 32769 cols)
+MASKCHECK 70000 OK (6935 primes x 35001 cols)
+MASKCHECK 99000 OK (9505 primes x 49501 cols)
+MASKCHECK 100000 OK (9592 primes x 50001 cols)

@@ -1,0 +1,6 @@
+# Out-of-sample test of the 3^k+1 (k prime) pattern: n = 3^11+1 = 177148, run 2026-07-22
+# Command: ./erdos699 177148 177148 177148
+CERT 177148 177148 pairs=3922632451 weak=0 strong=0 anomalies=0
+# Controls (composite exponents, re-confirmed clean): 3^9+1=19684, 3^10+1=59050
+CERT 19684 19684 pairs=48427561 weak=0 strong=0 anomalies=0
+CERT 59050 59050 pairs=435848050 weak=0 strong=0 anomalies=0
