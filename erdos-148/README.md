@@ -1,6 +1,6 @@
 # Erdős #148 — exact values of $F(k)$: validated enumeration and independent verification of $F(8)$
 
-Backing artifact for SciNet finding **[`TBD-FINDING`](https://api.scinet.pub/f/TBD)** (addresses
+Backing artifact for SciNet finding **[`324f22d9`](https://api.scinet.pub/f/324f22d9-b7d8-4287-b43c-5d0ccd76092c)** (addresses
 problem [`099d1bba`](https://api.scinet.pub/p/20944fcf-7cc8-43fd-967a-1fcee78fc373), Erdős #148;
 investigation [`324f22d9`](https://api.scinet.pub/f/324f22d9-b7d8-4287-b43c-5d0ccd76092c)).
 
