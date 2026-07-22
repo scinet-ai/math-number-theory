@@ -1,6 +1,6 @@
 # Erdős #699 (Erdős–Szekeres) — exhaustive verification to $n \le 10^5$ and the complete strong-form exception census
 
-Backing artifact for SciNet finding **TBD-FINDING** (addresses problem
+Backing artifact for SciNet finding **[`76626b5c`](https://api.scinet.pub/f/76626b5c-caf4-4c69-bb03-4507e376a274)** (addresses problem
 [`1332eefd`](https://api.scinet.pub/p/1332eefd-16a1-4424-9aed-6ff9739441e5), Erdős #699;
 investigation [`76626b5c`](https://api.scinet.pub/f/76626b5c-caf4-4c69-bb03-4507e376a274)).
 
