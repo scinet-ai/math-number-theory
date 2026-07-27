@@ -1,0 +1,14 @@
+order 12: CHECK trees=551 nonunimodal=0 nonlogconcave=0 hash=589031e619ee5e59 gentreeg_nout=551 cpu=0.00
+order 13: CHECK trees=1301 nonunimodal=0 nonlogconcave=0 hash=cbf0b2723a87155b gentreeg_nout=1301 cpu=0.00
+order 14: CHECK trees=3159 nonunimodal=0 nonlogconcave=0 hash=a602475ac5ae3503 gentreeg_nout=3159 cpu=0.00
+order 15: CHECK trees=7741 nonunimodal=0 nonlogconcave=0 hash=c9653127b17a23ee gentreeg_nout=7741 cpu=0.00
+order 16: CHECK trees=19320 nonunimodal=0 nonlogconcave=0 hash=d82a7c9fb3b6d344 gentreeg_nout=19320 cpu=0.01
+order 17: CHECK trees=48629 nonunimodal=0 nonlogconcave=0 hash=6f0bd1755fbd34ed gentreeg_nout=48629 cpu=0.02
+order 18: CHECK trees=123867 nonunimodal=0 nonlogconcave=0 hash=cef958bbc42453a2 gentreeg_nout=123867 cpu=0.06
+order 19: CHECK trees=317955 nonunimodal=0 nonlogconcave=0 hash=e8eb098f9867b5c5 gentreeg_nout=317955 cpu=0.14
+order 20: CHECK trees=823065 nonunimodal=0 nonlogconcave=0 hash=08851147aefe3e8e gentreeg_nout=823065 cpu=0.41
+order 21: CHECK trees=2144505 nonunimodal=0 nonlogconcave=0 hash=a833ca3a40590482 gentreeg_nout=2144505 cpu=1.16
+order 22: CHECK trees=5623756 nonunimodal=0 nonlogconcave=0 hash=93e0f0a98bc7b93a gentreeg_nout=5623756 cpu=3.15
+order 23: CHECK trees=14828074 nonunimodal=0 nonlogconcave=0 hash=54ee53e88d438c0a gentreeg_nout=14828074 cpu=9.03
+order 24: CHECK trees=39299897 nonunimodal=0 nonlogconcave=0 hash=dfc2d8e73e1ab905 gentreeg_nout=39299897 cpu=24.71
+order 25: CHECK trees=104636890 nonunimodal=0 nonlogconcave=0 hash=7f70b2140dbfd5dd gentreeg_nout=104636890 cpu=69.54

@@ -1,0 +1,27 @@
+chunk   3: families 428076 greedy 406054 backtrack 22022 unsat 0 undecided 0 fnv 0x73cd093c5c411efd
+chunk   7: families 428076 greedy 411619 backtrack 16457 unsat 0 undecided 0 fnv 0xe874a946e06742a7
+chunk  11: families 428076 greedy 400221 backtrack 27855 unsat 0 undecided 0 fnv 0x750e50e792e17eb5
+chunk  15: families 428076 greedy 408088 backtrack 19988 unsat 0 undecided 0 fnv 0xc735546461140b8d
+chunk  19: families 428076 greedy 406198 backtrack 21878 unsat 0 undecided 0 fnv 0xc79b5678c096e5d1
+chunk  23: families 428076 greedy 405955 backtrack 22121 unsat 0 undecided 0 fnv 0xa8d51a6444b1b59f
+chunk  27: families 428076 greedy 413305 backtrack 14769 unsat 0 undecided 2 fnv 0x1719139fb5269565
+chunk 27 exited 1
+chunk  31: families 428076 greedy 418232 backtrack 9844 unsat 0 undecided 0 fnv 0x843f0ff25a765fe1
+chunk  35: families 428076 greedy 416454 backtrack 11622 unsat 0 undecided 0 fnv 0xdad959f0a103fe5d
+chunk  39: families 428076 greedy 406310 backtrack 21766 unsat 0 undecided 0 fnv 0xa44922d136545de3
+chunk  43: families 428076 greedy 417083 backtrack 10993 unsat 0 undecided 0 fnv 0x6aa6157b72c03dfb
+chunk  47: families 428076 greedy 404328 backtrack 23748 unsat 0 undecided 0 fnv 0xa958d6681ce7cabd
+chunk  51: families 428076 greedy 411608 backtrack 16468 unsat 0 undecided 0 fnv 0xf5d979cc625e4f79
+chunk  55: families 428076 greedy 415324 backtrack 12752 unsat 0 undecided 0 fnv 0x666ca03eada88ca3
+chunk  59: families 428076 greedy 411753 backtrack 16323 unsat 0 undecided 0 fnv 0x7b9db4c60016d9db
+chunk  63: families 428076 greedy 414574 backtrack 13502 unsat 0 undecided 0 fnv 0x85d8f1f56bdeb01d
+chunk  67: families 428076 greedy 416289 backtrack 11787 unsat 0 undecided 0 fnv 0x81c1a64fa55355c5
+chunk  71: families 428076 greedy 411142 backtrack 16934 unsat 0 undecided 0 fnv 0x54364a1f04b41475
+chunk  75: families 428076 greedy 414681 backtrack 13395 unsat 0 undecided 0 fnv 0xa2183118a7f2d47d
+chunk  79: families 428076 greedy 416776 backtrack 11300 unsat 0 undecided 0 fnv 0x45906f6f609b2103
+chunk  83: families 428076 greedy 414173 backtrack 13903 unsat 0 undecided 0 fnv 0xf0eddb1a8610da6f
+chunk  87: families 428076 greedy 415358 backtrack 12718 unsat 0 undecided 0 fnv 0x28c346c9b7972dd7
+chunk  91: families 428076 greedy 417044 backtrack 11032 unsat 0 undecided 0 fnv 0xb956d7b1c1d6646f
+chunk  95: families 428076 greedy 415158 backtrack 12918 unsat 0 undecided 0 fnv 0x1836969588394029
+chunk  99: families 428076 greedy 421321 backtrack 6755 unsat 0 undecided 0 fnv 0xa15eb33fd58cd8ff
+chunk 103: families 428076 greedy 418950 backtrack 9126 unsat 0 undecided 0 fnv 0xd1bdc0c3d0469a0f

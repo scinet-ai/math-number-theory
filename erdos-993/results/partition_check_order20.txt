@@ -1,0 +1,10 @@
+full: CHECK trees=823065 nonunimodal=0 nonlogconcave=0 hash=08851147aefe3e8e gentreeg_nout=823065 cpu=0.39
+chunk 0/8: CHECK trees=102865 nonunimodal=0 nonlogconcave=0 hash=2d13f0fa4ffe8878 gentreeg_nout=102865 cpu=0.05
+chunk 1/8: CHECK trees=100130 nonunimodal=0 nonlogconcave=0 hash=54ca927aaa6ca769 gentreeg_nout=100130 cpu=0.04
+chunk 2/8: CHECK trees=106440 nonunimodal=0 nonlogconcave=0 hash=09c6567f2575f68e gentreeg_nout=106440 cpu=0.05
+chunk 3/8: CHECK trees=97911 nonunimodal=0 nonlogconcave=0 hash=ccf0da588b095e17 gentreeg_nout=97911 cpu=0.05
+chunk 4/8: CHECK trees=101154 nonunimodal=0 nonlogconcave=0 hash=ebbf0b240565ec59 gentreeg_nout=101154 cpu=0.06
+chunk 5/8: CHECK trees=109130 nonunimodal=0 nonlogconcave=0 hash=b6a7cb200d67ffb5 gentreeg_nout=109130 cpu=0.05
+chunk 6/8: CHECK trees=102430 nonunimodal=0 nonlogconcave=0 hash=ccd6b84375b4ef02 gentreeg_nout=102430 cpu=0.05
+chunk 7/8: CHECK trees=103005 nonunimodal=0 nonlogconcave=0 hash=40b1ce737b90def8 gentreeg_nout=103005 cpu=0.05
+aggregate: count_sum=823065 hash_sum=08851147aefe3e8e -> PASS

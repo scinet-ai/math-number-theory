@@ -1,0 +1,64 @@
+n 9 top_index 36 expected_families 9108 sample_stride 50000 node_cap 1000000000
+nongreedy 71 code 1 family 0 1 5 2 1 0 0
+nongreedy 72 code 1 family 0 2 0 0 0 0 0
+nongreedy 73 code 1 family 0 2 0 0 1 0 0
+nongreedy 77 code 1 family 0 2 0 2 1 0 0
+nongreedy 97 code 1 family 0 2 4 0 1 0 0
+nongreedy 103 code 1 family 0 2 5 0 1 0 0
+nongreedy 108 code 1 family 0 3 0 0 0 0 0
+nongreedy 181 code 1 family 0 5 0 0 1 0 0
+nongreedy 194 code 1 family 0 5 2 1 0 0 0
+nongreedy 200 code 1 family 0 5 3 1 0 0 0
+nongreedy 230 code 1 family 0 6 2 1 0 0 0
+nongreedy 236 code 1 family 0 6 3 1 0 0 0
+nongreedy 271 code 1 family 0 7 3 0 1 0 0
+nongreedy 290 code 1 family 0 8 0 1 0 0 0
+nongreedy 301 code 1 family 0 8 2 0 1 0 0
+nongreedy 307 code 1 family 0 8 3 0 1 0 0
+nongreedy 343 code 1 family 0 9 3 0 1 0 0
+nongreedy 1259 code 1 family 3 1 5 2 1 0 0
+nongreedy 2190 code 1 family 5 5 5 0 0 0 0
+nongreedy 2250 code 1 family 5 7 3 0 0 0 0
+nongreedy 2298 code 1 family 5 8 5 0 0 0 0
+nongreedy 2683 code 1 family 6 8 3 0 1 0 0
+nongreedy 2898 code 1 family 7 3 3 0 0 0 0
+nongreedy 3438 code 1 family 8 7 3 0 0 0 0
+nongreedy 3486 code 1 family 8 8 5 0 0 0 0
+nongreedy 4141 code 1 family 10 5 0 0 1 0 0
+nongreedy 4501 code 1 family 11 4 0 0 1 0 0
+nongreedy 5202 code 1 family 13 1 3 0 0 0 0
+nongreedy 5749 code 1 family 14 5 4 0 1 0 0
+nongreedy 5887 code 1 family 14 9 3 0 1 0 0
+nongreedy 5999 code 1 family 15 1 3 2 1 0 0
+nongreedy 6003 code 1 family 15 1 4 1 1 0 0
+nongreedy 6009 code 1 family 15 1 5 1 1 0 0
+nongreedy 6035 code 1 family 15 2 3 2 1 0 0
+nongreedy 6097 code 1 family 15 4 2 0 1 0 0
+nongreedy 6102 code 1 family 15 4 3 0 0 0 0
+nongreedy 6109 code 1 family 15 4 4 0 1 0 0
+nongreedy 6115 code 1 family 15 4 5 0 1 0 0
+nongreedy 6133 code 1 family 15 5 2 0 1 0 0
+nongreedy 6145 code 1 family 15 5 4 0 1 0 0
+nongreedy 6181 code 1 family 15 6 4 0 1 0 0
+nongreedy 6241 code 1 family 15 8 2 0 1 0 0
+nongreedy 6289 code 1 family 15 9 4 0 1 0 0
+nongreedy 6295 code 1 family 15 9 5 0 1 0 0
+nongreedy 6325 code 1 family 15 10 4 0 1 0 0
+nongreedy 6390 code 1 family 16 1 3 0 0 0 0
+nongreedy 6493 code 1 family 16 4 2 0 1 0 0
+nongreedy 6498 code 1 family 16 4 3 0 0 0 0
+nongreedy 6505 code 1 family 16 4 4 0 1 0 0
+nongreedy 6511 code 1 family 16 4 5 0 1 0 0
+nongreedy 6925 code 1 family 17 5 2 0 1 0 0
+nongreedy 7993 code 1 family 20 2 0 0 1 0 0
+nongreedy 8317 code 1 family 21 0 0 0 1 0 0
+nongreedy 8521 code 1 family 21 5 4 0 1 0 0
+nongreedy 8527 code 1 family 21 5 5 0 1 0 0
+nongreedy 8659 code 1 family 21 9 3 0 1 0 0
+nongreedy 8695 code 1 family 21 10 3 0 1 0 0
+nongreedy 8917 code 1 family 22 5 4 0 1 0 0
+nongreedy 9055 code 1 family 22 9 3 0 1 0 0
+families 9108
+greedy 9049 backtrack 59 unsat 0 undecided 0
+witness_fnv 0xbedba05e9afef08f
+complete yes

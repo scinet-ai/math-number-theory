@@ -1,0 +1,24 @@
+    ... n=96 round 25, pool=9701
+    ... n=96 round 50, pool=14279
+    ... n=96 round 75, pool=17698
+    ... n=96 round 100, pool=20953
+    ... n=96 round 125, pool=24032
+    ... n=96 round 150, pool=27075
+    ... n=96 round 175, pool=29812
+    ... n=96 round 200, pool=32590
+    ... n=96 round 225, pool=35239
+    ... n=96 round 250, pool=37762
+    ... n=96 round 275, pool=40175
+    ... n=96 round 300, pool=42555
+    ... n=96 round 325, pool=44805
+    ... n=96 round 350, pool=47052
+    ... n=96 round 375, pool=49226
+    ... n=96 round 400, pool=51094
+    ... n=96 round 425, pool=53012
+    ... n=96 round 450, pool=54900
+    ... n=96 round 475, pool=56553
+Traceback (most recent call last):
+  File "<stdin>", line 6, in <module>
+  File "/Users/alexroman/research/scinet_seeding/erdos-fleet/attacks/erdos-1199/code/cegar_search.py", line 107, in solve_lazy
+    raise RuntimeError(f"kissat exit {proc.returncode}")
+RuntimeError: kissat exit -15

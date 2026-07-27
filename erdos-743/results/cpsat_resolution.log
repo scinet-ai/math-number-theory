@@ -1,0 +1,29 @@
+undecided families to resolve: 27
+resolved: chunk 0 family 388870 -> packing found
+resolved: chunk 0 family 388871 -> packing found
+resolved: chunk 0 family 389266 -> packing found
+resolved: chunk 0 family 389267 -> packing found
+resolved: chunk 1 family 179783 -> packing found
+resolved: chunk 1 family 234431 -> packing found
+resolved: chunk 2 family 179783 -> packing found
+resolved: chunk 2 family 234431 -> packing found
+resolved: chunk 5 family 79594 -> packing found
+resolved: chunk 5 family 79595 -> packing found
+resolved: chunk 5 family 152458 -> packing found
+resolved: chunk 5 family 152459 -> packing found
+resolved: chunk 5 family 197998 -> packing found
+resolved: chunk 5 family 197999 -> packing found
+resolved: chunk 14 family 122363 -> packing found
+resolved: chunk 26 family 6731 -> packing found
+resolved: chunk 27 family 50291 -> packing found
+resolved: chunk 27 family 123155 -> packing found
+resolved: chunk 45 family 1583 -> packing found
+resolved: chunk 48 family 179783 -> packing found
+resolved: chunk 48 family 234431 -> packing found
+resolved: chunk 49 family 234431 -> packing found
+resolved: chunk 77 family 6730 -> packing found
+resolved: chunk 77 family 6731 -> packing found
+resolved: chunk 84 family 319967 -> packing found
+resolved: chunk 84 family 347291 -> packing found
+resolved: chunk 100 family 292643 -> packing found
+resolved 27/27 (infeasible: False, timeouts: False)

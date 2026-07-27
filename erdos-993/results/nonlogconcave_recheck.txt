@@ -1,0 +1,2 @@
+re-verified 149 saved non-log-concave trees (exact big-int arithmetic):
+all sequences match the C checker, all genuinely non-log-concave, all unimodal

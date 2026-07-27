@@ -1,0 +1,12 @@
+ok n=1: 1 trees, all sequences match
+ok n=2: 1 trees, all sequences match
+ok n=3: 1 trees, all sequences match
+ok n=4: 2 trees, all sequences match
+ok n=5: 3 trees, all sequences match
+ok n=6: 6 trees, all sequences match
+ok n=7: 11 trees, all sequences match
+ok n=8: 23 trees, all sequences match
+ok n=9: 47 trees, all sequences match
+ok n=10: 106 trees, all sequences match
+ok n=11: 235 trees, all sequences match
+PASS: 436 trees cross-checked against brute force

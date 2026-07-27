@@ -1,0 +1,2 @@
+CHECK trees=279793450 nonunimodal=0 nonlogconcave=2 hash=65b36344eebd45c3 gentreeg_nout=279793450 cpu=170.34
+      170.88 real       170.05 user         0.28 sys

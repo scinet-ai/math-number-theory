@@ -1,0 +1,13 @@
+== 1/3 tree lists: regenerate + completeness checks ==
+tree lists reproduce byte-identically
+== 2/3 solver: rebuild + re-run chunks ==
+re-run chunks reproduce byte-identically (incl. witness hashes)
+== 3/3 witnesses: independent networkx validation (slice) ==
+witness check: n=10 files=106 witnesses_checked=4239 failures=0
+witness check: n=9 files=47 witnesses_checked=1877 failures=0
+witness check: n=10 files=13 witnesses_checked=27 failures=0
+== summary over banked n=10 chunks ==
+chunks 106 families 45376056 greedy 43792160 backtrack 1583869 unsat 0 undecided 27
+stragglers reconcile: 27 undecided families all have validated packing witnesses
+VERIFY OK: every family of trees T_2..T_10 packs K_10
+./verify.sh 2>&1  13.97s user 0.38s system 93% cpu 15.407 total

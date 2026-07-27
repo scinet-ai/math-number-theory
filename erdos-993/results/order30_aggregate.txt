@@ -1,0 +1,8 @@
+chunks:          240/240
+trees checked:   14,830,871,802
+expected (OEIS A000055(30)): 14,830,871,802
+non-unimodal:    0
+non-log-concave: 121
+sequence hash:   c20d7f070e7da7d1
+total checker CPU seconds: 12,847
+CERTIFIED: every tree on 30 vertices was generated exactly once and checked

@@ -1,0 +1,4 @@
+CC=gcc
+CFLAGS= -O3
+MORECFLAGS= -march=native
+ld: warning: -single_module is obsolete

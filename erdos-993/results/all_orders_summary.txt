@@ -1,0 +1,26 @@
+Per-order sweep results from this workspace (all counts match OEIS A000055 exactly).
+Orders 1-11 were additionally cross-checked tree-by-tree against a brute force
+(results/crosscheck_n1_11.txt, 436 trees). Non-unimodal trees found: NONE anywhere.
+
+order  trees_checked    non_unimodal  non_log_concave  sequence_hash
+   12             551    0              0             589031e619ee5e59
+   13           1,301    0              0             cbf0b2723a87155b
+   14           3,159    0              0             a602475ac5ae3503
+   15           7,741    0              0             c9653127b17a23ee
+   16          19,320    0              0             d82a7c9fb3b6d344
+   17          48,629    0              0             6f0bd1755fbd34ed
+   18         123,867    0              0             cef958bbc42453a2
+   19         317,955    0              0             e8eb098f9867b5c5
+   20         823,065    0              0             08851147aefe3e8e
+   21       2,144,505    0              0             a833ca3a40590482
+   22       5,623,756    0              0             93e0f0a98bc7b93a
+   23      14,828,074    0              0             54ee53e88d438c0a
+   24      39,299,897    0              0             dfc2d8e73e1ab905
+   25     104,636,890    0              0             7f70b2140dbfd5dd
+   26     279,793,450    0              2             65b36344eebd45c3
+   27     751,065,460    0              0             5926df6c04960e73
+   28   2,023,443,032    0             19             466f2fce255e753f
+   29   5,469,566,585    0              7             9ce0c5b2851eb033
+   30  14,830,871,802    0            121             c20d7f070e7da7d1
+
+total  23,522,619,039  trees on 12..30 vertices, plus 436 on 1..11

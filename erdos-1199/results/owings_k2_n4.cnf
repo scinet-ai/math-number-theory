@@ -1,0 +1,4 @@
+c finite Owings instance n=4 k=2
+p cnf 4 2
+2 3 4 0
+-2 -3 -4 0

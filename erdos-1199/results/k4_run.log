@@ -1,0 +1,4 @@
+  k=4 n=8: SAT (2 clauses, 0.00s solve)
+  k=4 n=16: SAT (140 clauses, 0.00s solve)
+  k=4 n=32: SAT (3640 clauses, 0.00s solve)
+  k=4 n=64: SAT (71920 clauses, 0.04s solve)

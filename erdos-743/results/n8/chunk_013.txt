@@ -1,0 +1,5 @@
+n 8 top_index 13 expected_families 396 sample_stride 5000 node_cap 100000000
+families 396
+greedy 396 backtrack 0 unsat 0 undecided 0
+witness_fnv 0x7f58ee3c71fa93a9
+complete yes

@@ -1,0 +1,23 @@
+{"k": 2, "n": 4, "status": "SAT", "clauses": 2, "gen_seconds": 0.0, "solve_seconds": 0.004, "witness": "witness_k2_n4.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:14"}
+{"k": 2, "n": 8, "status": "SAT", "clauses": 12, "gen_seconds": 0.0, "solve_seconds": 0.002, "witness": "witness_k2_n8.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:14"}
+{"k": 2, "n": 16, "status": "UNSAT", "clauses": 56, "gen_seconds": 0.0, "solve_seconds": 0.003, "ts": "2026-07-27T01:49:14"}
+{"k": 2, "n": 12, "status": "SAT", "clauses": 30, "gen_seconds": 0.0, "solve_seconds": 0.002, "witness": "witness_k2_n12.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:14"}
+{"k": 2, "n": 14, "status": "UNSAT", "clauses": 42, "gen_seconds": 0.0, "solve_seconds": 0.002, "ts": "2026-07-27T01:49:14"}
+{"k": 2, "n": 13, "status": "SAT", "clauses": 30, "gen_seconds": 0.0, "solve_seconds": 0.002, "witness": "witness_k2_n13.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:14"}
+{"k": 2, "event": "threshold", "n_of_k": 14, "sat_below": 13, "ts": "2026-07-27T01:49:14"}
+{"k": 3, "n": 6, "status": "SAT", "clauses": 2, "gen_seconds": 0.0, "solve_seconds": 0.003, "witness": "witness_k3_n6.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:26"}
+{"k": 3, "n": 12, "status": "SAT", "clauses": 40, "gen_seconds": 0.0, "solve_seconds": 0.002, "witness": "witness_k3_n12.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:26"}
+{"k": 3, "n": 24, "status": "SAT", "clauses": 440, "gen_seconds": 0.0, "solve_seconds": 0.002, "witness": "witness_k3_n24.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:26"}
+{"k": 3, "n": 48, "status": "UNSAT", "clauses": 4048, "gen_seconds": 0.003, "solve_seconds": 0.056, "ts": "2026-07-27T01:49:26"}
+{"k": 3, "n": 36, "status": "SAT", "clauses": 1632, "gen_seconds": 0.001, "solve_seconds": 0.003, "witness": "witness_k3_n36.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:26"}
+{"k": 3, "n": 42, "status": "SAT", "clauses": 2660, "gen_seconds": 0.002, "solve_seconds": 0.01, "witness": "witness_k3_n42.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:26"}
+{"k": 3, "n": 45, "status": "SAT", "clauses": 3080, "gen_seconds": 0.002, "solve_seconds": 0.011, "witness": "witness_k3_n45.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:26"}
+{"k": 3, "n": 46, "status": "UNSAT", "clauses": 3542, "gen_seconds": 0.003, "solve_seconds": 0.052, "ts": "2026-07-27T01:49:26"}
+{"k": 3, "event": "threshold", "n_of_k": 46, "sat_below": 45, "ts": "2026-07-27T01:49:26"}
+{"k": 4, "n": 8, "status": "SAT", "clauses": 2, "gen_seconds": 0.0, "solve_seconds": 0.003, "witness": "witness_k4_n8.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:44"}
+{"k": 4, "n": 16, "status": "SAT", "clauses": 140, "gen_seconds": 0.0, "solve_seconds": 0.002, "witness": "witness_k4_n16.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:44"}
+{"k": 4, "n": 32, "status": "SAT", "clauses": 3640, "gen_seconds": 0.004, "solve_seconds": 0.003, "witness": "witness_k4_n32.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:44"}
+{"k": 4, "n": 64, "status": "SAT", "clauses": 71920, "gen_seconds": 0.073, "solve_seconds": 0.036, "witness": "witness_k4_n64.txt", "independent_recheck": "AVOIDING", "ts": "2026-07-27T01:49:44"}
+{"k": 2, "n": 14, "event": "drat_certificate", "clauses": 42, "kissat_exit": 20, "kissat_seconds": 0.003, "drat_trim_verified": true, "drat_trim_seconds": 0.025, "proof_bytes": 201, "ts": "2026-07-27T01:51:22"}
+{"k": 3, "n": 46, "event": "drat_certificate", "clauses": 3542, "kissat_exit": 20, "kissat_seconds": 0.055, "drat_trim_verified": true, "drat_trim_seconds": 0.061, "proof_bytes": 138878, "ts": "2026-07-27T01:51:22"}
+{"k": 4, "event": "budget_stop", "certified": "n(4) > 64 via witness_k4_n64.txt (independent recheck AVOIDING)", "undecided": [96, 128], "note": "orchestrator requested final output; lazy-pool runs at n=96 (pool 54900, round 450) and n=128 (pool 60000+, round 150+) and the full 2.5M-clause n=128 kissat run (13+ CPU min) were stopped before deciding", "ts": "2026-07-27T02:03:56"}

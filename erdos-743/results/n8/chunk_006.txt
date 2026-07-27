@@ -1,0 +1,7 @@
+n 8 top_index 6 expected_families 396 sample_stride 5000 node_cap 100000000
+nongreedy 217 code 1 family 6 0 0 1 0 0
+nongreedy 257 code 1 family 7 0 2 1 0 0
+families 396
+greedy 394 backtrack 2 unsat 0 undecided 0
+witness_fnv 0x09be551001fe4739
+complete yes

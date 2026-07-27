@@ -1,0 +1,8 @@
+Totals computed from banked chunk files, 2026-07-27T06:02:28Z
+-- n=8 (23 chunks)
+families 9108 greedy 9072 backtrack 36 unsat 0 undecided 0
+-- n=9 (47 chunks)
+families 428076 greedy 421520 backtrack 6556 unsat 0 undecided 0
+-- n=10 (106 chunks)
+families 45376056 greedy 43792160 backtrack 1583869 unsat 0 undecided 27
+-- n=10 stragglers resolved by CP-SAT: 27 (all SAT, witnesses validated)
