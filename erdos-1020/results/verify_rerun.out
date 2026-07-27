@@ -1,0 +1,39 @@
+OK  r=4 k=3 n=12 f=330 conj=330 match=True
+OK  r=4 k=3 n=13 f=385 conj=385 match=True
+OK  r=4 k=3 n=14 f=506 conj=506 match=True
+OK  r=4 k=3 n=15 f=650 conj=650 match=True
+OK  r=4 k=3 n=16 f=819 conj=819 match=True
+OK  r=4 k=3 n=17 f=1015 conj=1015 match=True
+OK  r=4 k=3 n=18 f=1240 conj=1240 match=True
+OK  r=4 k=4 n=16 f=1365 conj=1365 match=True
+OK  r=4 k=4 n=17 f=1379 conj=1379 match=True
+OK  r=4 k=4 n=18 f=1695 conj=1695 match=True
+OK  r=4 k=4 n=19 f=2056 conj=2056 match=True
+OK  r=4 k=4 n=20 f=2465 conj=2465 match=True
+OK  r=4 k=4 n=21 f=2925 conj=2925 match=True
+OK  r=4 k=4 n=22 f=3439 conj=3439 match=True
+OK  r=4 k=4 n=23 f=4010 conj=4010 match=True
+OK  r=4 k=4 n=24 f=4641 conj=4641 match=True
+OK  r=4 k=4 n=25 f=5335 conj=5335 match=True
+OK  r=5 k=3 n=15 f=2002 conj=2002 match=True
+OK  r=5 k=3 n=16 f=2366 conj=2366 match=True
+OK  r=5 k=3 n=17 f=3185 conj=3185 match=True
+OK  r=5 k=3 n=18 f=4200 conj=4200 match=True
+OK  r=5 k=3 n=19 f=5440 conj=5440 match=True
+OK  r=5 k=3 n=20 f=6936 conj=6936 match=True
+OK  r=5 k=3 n=21 f=8721 conj=8721 match=True
+OK  r=5 k=3 n=22 f=10830 conj=10830 match=True
+OK  r=5 k=3 n=23 f=13300 conj=13300 match=True
+26 certified cells verified; overall: PASS
+--- re-solving f(n;4,3), n=13..17 from scratch ---
+{"r": 4, "k": 3, "n": 13, "status": "OPTIMAL", "certified_optimal": true, "f": 385, "upper_bound": 385, "conjectured": 385, "cand_clique": 330, "cand_cover": 385, "matches_conjecture": true, "n_vars": 715, "n_shift_constraints": 1980, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.18, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve n=13: f=385 expected=385 -> OK
+{"r": 4, "k": 3, "n": 14, "status": "OPTIMAL", "certified_optimal": true, "f": 506, "upper_bound": 506, "conjectured": 506, "cand_clique": 330, "cand_cover": 506, "matches_conjecture": true, "n_vars": 1001, "n_shift_constraints": 2860, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.18, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve n=14: f=506 expected=506 -> OK
+{"r": 4, "k": 3, "n": 15, "status": "OPTIMAL", "certified_optimal": true, "f": 650, "upper_bound": 650, "conjectured": 650, "cand_clique": 330, "cand_cover": 650, "matches_conjecture": true, "n_vars": 1365, "n_shift_constraints": 4004, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.24, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve n=15: f=650 expected=650 -> OK
+{"r": 4, "k": 3, "n": 16, "status": "OPTIMAL", "certified_optimal": true, "f": 819, "upper_bound": 819, "conjectured": 819, "cand_clique": 330, "cand_cover": 819, "matches_conjecture": true, "n_vars": 1820, "n_shift_constraints": 5460, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.33, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve n=16: f=819 expected=819 -> OK
+{"r": 4, "k": 3, "n": 17, "status": "OPTIMAL", "certified_optimal": true, "f": 1015, "upper_bound": 1015, "conjectured": 1015, "cand_clique": 330, "cand_cover": 1015, "matches_conjecture": true, "n_vars": 2380, "n_shift_constraints": 7280, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.44, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve n=17: f=1015 expected=1015 -> OK
+verify.sh: ALL CHECKS PASSED

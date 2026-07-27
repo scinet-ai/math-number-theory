@@ -1,0 +1,118 @@
+{
+ "exact_range": [
+  1,
+  59
+ ],
+ "S_at_frontier": 29,
+ "point_exponents_exact_tail": [
+  {
+   "n": 45,
+   "S": 24,
+   "exponent": 0.8349
+  },
+  {
+   "n": 46,
+   "S": 24,
+   "exponent": 0.8301
+  },
+  {
+   "n": 47,
+   "S": 24,
+   "exponent": 0.8254
+  },
+  {
+   "n": 48,
+   "S": 25,
+   "exponent": 0.8315
+  },
+  {
+   "n": 49,
+   "S": 25,
+   "exponent": 0.8271
+  },
+  {
+   "n": 50,
+   "S": 26,
+   "exponent": 0.8328
+  },
+  {
+   "n": 51,
+   "S": 26,
+   "exponent": 0.8286
+  },
+  {
+   "n": 52,
+   "S": 27,
+   "exponent": 0.8341
+  },
+  {
+   "n": 53,
+   "S": 27,
+   "exponent": 0.8301
+  },
+  {
+   "n": 54,
+   "S": 27,
+   "exponent": 0.8262
+  },
+  {
+   "n": 55,
+   "S": 27,
+   "exponent": 0.8225
+  },
+  {
+   "n": 56,
+   "S": 28,
+   "exponent": 0.8278
+  },
+  {
+   "n": 57,
+   "S": 28,
+   "exponent": 0.8242
+  },
+  {
+   "n": 58,
+   "S": 29,
+   "exponent": 0.8293
+  },
+  {
+   "n": 59,
+   "S": 29,
+   "exponent": 0.8258
+  }
+ ],
+ "lsq_slope_logS_logN_exact_tail_from": 29,
+ "lsq_slope_logS_logN_exact_tail": 0.7038,
+ "lower_bound_points": [
+  {
+   "n": 68,
+   "S_lower_bound": 31,
+   "exponent_lb": 0.8138
+  },
+  {
+   "n": 100,
+   "S_lower_bound": 42,
+   "exponent_lb": 0.8116
+  },
+  {
+   "n": 150,
+   "S_lower_bound": 54,
+   "exponent_lb": 0.7961
+  },
+  {
+   "n": 200,
+   "S_lower_bound": 65,
+   "exponent_lb": 0.7879
+  },
+  {
+   "n": 300,
+   "S_lower_bound": 80,
+   "exponent_lb": 0.7683
+  }
+ ],
+ "reference_exponents": {
+  "alon_erdos_lower": 0.6666666666666666,
+  "conjectured": "1 (as N^{1-o(1)})"
+ },
+ "caveat": "Point exponents log S/log N drift down over the certified range; lower-bound exponents at larger N only bound the truth from below. Data at this scale cannot distinguish N^{1-o(1)} from a power N^c, c<1; the Croot-Mao-Yip bound N^{1-c/loglog N} is consistent with the observed slow drift."
+}

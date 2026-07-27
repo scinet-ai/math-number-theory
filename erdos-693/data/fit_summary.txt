@@ -1,0 +1,52 @@
+=== k=2:  2042 values of n, range [3, 1000000] ===
+model  G(n,2) ~ C*(log n)^c   [fit of log G on log log n]
+  n >=     10:  c = 1.647   C = 1.024   R^2 = 0.9140   (2035 pts)
+  n >=    100:  c = 1.654   C = 1.010   R^2 = 0.8516   (1945 pts)
+  n >=   1000:  c = 1.781   C = 0.765   R^2 = 0.8663   (1045 pts)
+  n >=  10000:  c = 1.500   C = 1.474   R^2 = 0.9127   (31 pts)
+  n >= 100000:  c = 1.635   C = 1.041   R^2 = 0.8649   (11 pts)
+
+  per-decade maxima (n, G, G/(log n)^2, G/(log n)^1.5, log n):
+    n=       7  G=   4   G/log^2= 1.056   G/log^1.5= 1.474   log n=  1.95
+    n=      97  G=  15   G/log^2= 0.717   G/log^1.5= 1.533   log n=  4.57
+    n=     811  G=  30   G/log^2= 0.669   G/log^1.5= 1.731   log n=  6.70
+    n=    8910  G=  40   G/log^2= 0.484   G/log^1.5= 1.458   log n=  9.09
+    n=   39810  G=  57   G/log^2= 0.508   G/log^1.5= 1.654   log n= 10.59
+    n=  794300  G=  77   G/log^2= 0.417   G/log^1.5= 1.538   log n= 13.59
+    n= 1000000  G=  77   G/log^2= 0.403   G/log^1.5= 1.499   log n= 13.82
+
+  witness location (relative position of gap_start in [n, n^2]):
+    n=    1000  G=  23  gap at 956091  rel-pos=0.9560  |A|=363896
+    n=    3160  G=  30  gap at 7279602  rel-pos=0.7289  |A|=3442454
+    n=   10000  G=  40  gap at 53270168  rel-pos=0.5327  |A|=32896587
+    n=   31620  G=  50  gap at 664132874  rel-pos=0.6642  |A|=316387438
+    n=  100000  G=  61  gap at 8549181964  rel-pos=0.8549  |A|=3059442219
+    n=  316200  G=  65  gap at 83780362065  rel-pos=0.8380  |A|=29686877765
+    n= 1000000  G=  77  gap at 787148268885  rel-pos=0.7871  |A|=289032444529
+
+=== k=3:  521 values of n, range [3, 10000] ===
+model  G(n,3) ~ C*(log n)^c   [fit of log G on log log n]
+  n >=     10:  c = 1.335   C = 2.757   R^2 = 0.9514   (514 pts)
+  n >=    100:  c = 1.508   C = 2.029   R^2 = 0.9329   (424 pts)
+  n >=   1000:  c = 1.408   C = 2.474   R^2 = 0.8806   (18 pts)
+
+  per-decade maxima (n, G, G/(log n)^2, G/(log n)^1.5, log n):
+    n=       8  G=   8   G/log^2= 1.850   G/log^1.5= 2.668   log n=  2.08
+    n=      75  G=  24   G/log^2= 1.288   G/log^1.5= 2.675   log n=  4.32
+    n=     891  G=  40   G/log^2= 0.867   G/log^1.5= 2.260   log n=  6.79
+    n=    6310  G=  54   G/log^2= 0.705   G/log^1.5= 2.086   log n=  8.75
+    n=   10000  G=  60   G/log^2= 0.707   G/log^1.5= 2.147   log n=  9.21
+
+  witness location (relative position of gap_start in [n, n^3]):
+    n=    1000  G=  40  gap at 142838876  rel-pos=0.1428  |A|=359152965  gs/n^2=142.8389
+    n=    2239  G=  46  gap at 1343321802  rel-pos=0.1197  |A|=3939577358  gs/n^2=267.9612
+    n=    5012  G=  52  gap at 22321540352  rel-pos=0.1773  |A|=43304568392  gs/n^2=888.5913
+    n=   10000  G=  60  gap at 233690691  rel-pos=0.0002  |A|=338393020495  gs/n^2=2.3369
+
+=== Poisson-Ford heuristic (context, not a proof) ===
+Ford density exponent delta = 1-(1+log log 2)/log 2 = 0.08607
+Heuristic G(n,k) ~ (log n)^(1+delta) * (log log n)^(3/2)  ==> local
+log-log slope (d log G / d log log n) = 1 + delta + 1.5/log log n:
+    n=   10000: predicted local slope = 1.762
+    n=  100000: predicted local slope = 1.700
+    n= 1000000: predicted local slope = 1.657

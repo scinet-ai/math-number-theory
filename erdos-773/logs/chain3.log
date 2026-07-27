@@ -1,0 +1,3 @@
+[chain3] extending at N=54, S(53)=27
+[chain3] N=54 S=27 kissat-unsat wall=139.947s
+[cert] N=54 verified=True (213.63s, 236964550B proof)

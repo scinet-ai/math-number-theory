@@ -1,0 +1,63 @@
+OK  r=4 k=3 n=12 f=330 conj=330 match=True no-matching-proof: union<rk (spans 11 < 12 vertices)
+OK  r=4 k=3 n=13 f=385 conj=385 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=4 k=3 n=14 f=506 conj=506 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=4 k=3 n=15 f=650 conj=650 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=4 k=3 n=16 f=819 conj=819 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=4 k=3 n=17 f=1015 conj=1015 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=4 k=3 n=18 f=1240 conj=1240 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=4 k=4 n=16 f=1365 conj=1365 match=True no-matching-proof: union<rk (spans 15 < 16 vertices)
+OK  r=4 k=4 n=17 f=1379 conj=1379 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=18 f=1695 conj=1695 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=19 f=2056 conj=2056 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=20 f=2465 conj=2465 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=21 f=2925 conj=2925 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=22 f=3439 conj=3439 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=23 f=4010 conj=4010 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=24 f=4641 conj=4641 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=4 n=25 f=5335 conj=5335 match=True no-matching-proof: transversal (T=[1, 2, 3] hits every edge)
+OK  r=4 k=5 n=20 f=3876 conj=3876 match=True no-matching-proof: union<rk (spans 19 < 20 vertices)
+OK  r=4 k=5 n=21 f=3876 conj=3876 match=True no-matching-proof: union<rk (spans 19 < 20 vertices)
+OK  r=4 k=5 n=22 f=4255 conj=4255 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=23 f=4979 conj=4979 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=24 f=5781 conj=5781 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=25 f=6665 conj=6665 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=26 f=7635 conj=7635 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=27 f=8695 conj=8695 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=28 f=9849 conj=9849 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=29 f=11101 conj=11101 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=30 f=12455 conj=12455 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=4 k=5 n=31 f=13915 conj=13915 match=True no-matching-proof: transversal (T=[1, 2, 3, 4] hits every edge)
+OK  r=5 k=3 n=15 f=2002 conj=2002 match=True no-matching-proof: union<rk (spans 14 < 15 vertices)
+OK  r=5 k=3 n=16 f=2366 conj=2366 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=5 k=3 n=17 f=3185 conj=3185 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=5 k=3 n=18 f=4200 conj=4200 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=5 k=3 n=19 f=5440 conj=5440 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=5 k=3 n=20 f=6936 conj=6936 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=5 k=3 n=21 f=8721 conj=8721 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=5 k=3 n=22 f=10830 conj=10830 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=5 k=3 n=23 f=13300 conj=13300 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=18 f=12376 conj=12376 match=True no-matching-proof: union<rk (spans 17 < 18 vertices)
+OK  r=6 k=3 n=19 f=14756 conj=14756 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=20 f=20196 conj=20196 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=21 f=27132 conj=27132 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=22 f=35853 conj=35853 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=23 f=46683 conj=46683 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=24 f=59983 conj=59983 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=25 f=76153 conj=76153 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=26 f=95634 conj=95634 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+OK  r=6 k=3 n=27 f=118910 conj=118910 match=True no-matching-proof: transversal (T=[1, 2] hits every edge)
+48 certified cells verified; overall: PASS
+--- re-solving f(n;4,3) n=13..17 (v1, full constraints) and f(21;4,5) (v2, lazy) from scratch ---
+{"r": 4, "k": 3, "n": 13, "status": "OPTIMAL", "certified_optimal": true, "f": 385, "upper_bound": 385, "conjectured": 385, "cand_clique": 330, "cand_cover": 385, "matches_conjecture": true, "n_vars": 715, "n_shift_constraints": 1980, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.22, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve r=4 k=3 n=13: f=385 expected=385 -> OK
+{"r": 4, "k": 3, "n": 14, "status": "OPTIMAL", "certified_optimal": true, "f": 506, "upper_bound": 506, "conjectured": 506, "cand_clique": 330, "cand_cover": 506, "matches_conjecture": true, "n_vars": 1001, "n_shift_constraints": 2860, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.23, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve r=4 k=3 n=14: f=506 expected=506 -> OK
+{"r": 4, "k": 3, "n": 15, "status": "OPTIMAL", "certified_optimal": true, "f": 650, "upper_bound": 650, "conjectured": 650, "cand_clique": 330, "cand_cover": 650, "matches_conjecture": true, "n_vars": 1365, "n_shift_constraints": 4004, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.31, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve r=4 k=3 n=15: f=650 expected=650 -> OK
+{"r": 4, "k": 3, "n": 16, "status": "OPTIMAL", "certified_optimal": true, "f": 819, "upper_bound": 819, "conjectured": 819, "cand_clique": 330, "cand_cover": 819, "matches_conjecture": true, "n_vars": 1820, "n_shift_constraints": 5460, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.4, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve r=4 k=3 n=16: f=819 expected=819 -> OK
+{"r": 4, "k": 3, "n": 17, "status": "OPTIMAL", "certified_optimal": true, "f": 1015, "upper_bound": 1015, "conjectured": 1015, "cand_clique": 330, "cand_cover": 1015, "matches_conjecture": true, "n_vars": 2380, "n_shift_constraints": 7280, "n_matching_constraints": 5775, "matching_mode": "full", "lazy_rounds": 1, "walltime_s": 0.52, "solver": "ortools-cpsat", "workers": 3, "seed": 0}
+re-solve r=4 k=3 n=17: f=1015 expected=1015 -> OK
+{"r": 4, "k": 5, "n": 21, "status": "OPTIMAL", "certified_optimal": true, "f": 3876, "upper_bound": 3876, "conjectured": 3876, "cand_clique": 3876, "cand_cover": 3605, "matches_conjecture": true, "n_vars": 5985, "n_shift_constraints": 19380, "n_matching_constraints": 120000, "matching_mode": "lazy-diversified", "n_partitions_total": 2546168625, "lazy_rounds": 1, "walltime_s": 11.98, "solver": "ortools-cpsat", "workers": 3, "seed": 0, "solver_code": "emc_solve2.py"}
+re-solve r=4 k=5 n=21: f=3876 expected=3876 -> OK
+verify.sh: ALL CHECKS PASSED

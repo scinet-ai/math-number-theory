@@ -1,0 +1,10 @@
+[15:07:10] interval [1499875, 1508324] gap=8449: probing [1499875, 1501283]
+[15:10:07] B=1499875: SAT in 153.1s, certificate verified (/Users/alexroman/research/scinet_seeding/erdos-fleet/attacks/erdos-436-r2/certs/k8_B1499875_cert.txt)
+[15:11:06] B=1501283: SAT in 212.1s, certificate verified (/Users/alexroman/research/scinet_seeding/erdos-fleet/attacks/erdos-436-r2/certs/k8_B1501283_cert.txt)
+[15:11:06] interval [1501283, 1508324] gap=7041: probing [1502456, 1503630]
+[15:18:34] B=1502456: SAT in 423.7s, certificate verified (/Users/alexroman/research/scinet_seeding/erdos-fleet/attacks/erdos-436-r2/certs/k8_B1502456_cert.txt)
+[15:18:36] B=1503630: SAT in 426.1s, certificate verified (/Users/alexroman/research/scinet_seeding/erdos-fleet/attacks/erdos-436-r2/certs/k8_B1503630_cert.txt)
+[15:18:36] interval [1503630, 1508324] gap=4694: probing [1504412, 1505194]
+[15:28:59] B=1504412: SAT in 598.7s, certificate verified (/Users/alexroman/research/scinet_seeding/erdos-fleet/attacks/erdos-436-r2/certs/k8_B1504412_cert.txt)
+[16:13:59] B=1505194: rc=0 in 3301.3s
+[16:13:59] unexpected verdict at B=1505194: rc=0; halting (state saved)

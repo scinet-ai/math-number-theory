@@ -1,0 +1,17 @@
+[val] N=38 t=22 expect=UNSAT got=UNSAT wall=0.4s OK
+[val] N=39 t=22 expect=SAT got=SAT wall=0.3s OK
+[val] N=40 t=23 expect=UNSAT got=UNSAT wall=0.7s OK
+[val] N=41 t=23 expect=UNSAT got=UNSAT wall=1.6s OK
+[val] N=42 t=23 expect=UNSAT got=UNSAT wall=4.3s OK
+[val] N=43 t=23 expect=SAT got=SAT wall=0.0s OK
+[val] N=44 t=24 expect=SAT got=SAT wall=1.2s OK
+[val] N=45 t=25 expect=UNSAT got=UNSAT wall=1.6s OK
+[val] N=46 t=25 expect=UNSAT got=UNSAT wall=7.5s OK
+[val] N=47 t=25 expect=UNSAT got=UNSAT wall=16.3s OK
+[val] N=48 t=25 expect=SAT got=SAT wall=0.7s OK
+[val] N=49 t=26 expect=UNSAT got=UNSAT wall=20.9s OK
+[val] N=50 t=26 expect=SAT got=SAT wall=1.5s OK
+[val] N=51 t=27 expect=UNSAT got=UNSAT wall=28.5s OK
+[val] N=52 t=27 expect=SAT got=SAT wall=1.1s OK
+[val] N=53 t=28 expect=UNSAT got=UNSAT wall=18.9s OK
+[val] done, mismatches=0

@@ -1,0 +1,1 @@
+kissat -q cnf/k8_B1508324.cnf > results/sat_k8_B1508324.out  861.24s user 36.67s system 96% cpu 15:34.82 total

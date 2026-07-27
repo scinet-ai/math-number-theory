@@ -1,0 +1,13 @@
+[chain2] resuming at N=46, S(45)=24
+[chain2] N=46 S=24 kissat-unsat wall=10.794s
+[cert] N=46 verified=True (14.57s, 23911089B proof)
+[chain2] N=47 S=24 kissat-unsat wall=21.815s
+[chain2] N=48 S=25 kissat-sat wall=0.32s
+[cert] N=47 verified=True (31.45s, 45460261B proof)
+[chain2] N=49 S=25 kissat-unsat wall=36.833s
+[chain2] N=50 S=26 kissat-sat wall=0.188s
+[cert] N=49 verified=True (55.07s, 70390289B proof)
+[chain2] N=51 S=26 kissat-unsat wall=56.235s
+[chain2] N=52 S=27 kissat-sat wall=5.324s
+[cert] N=51 verified=True (73.29s, 98495126B proof)
+[chain2] N=53 S=27 kissat-unsat wall=76.512s

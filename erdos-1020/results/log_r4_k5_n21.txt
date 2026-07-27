@@ -1,0 +1,12 @@
+
+===== round 1 constraints=0 =====
+
+===== round 2 constraints=200000 =====
+
+===== round 3 constraints=400000 =====
+
+===== round 1 constraints=0 =====
+
+===== round 2 constraints=1500000 =====
+
+===== round 3 constraints=3000000 =====

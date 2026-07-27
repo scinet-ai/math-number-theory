@@ -1,0 +1,2 @@
+{"r": 4, "k": 5, "n": 21, "mode": "sampled-relaxation(120000,seed=12345)", "highs_status": "HighsModelStatus.kOptimal", "highs_relaxation_optimum": 3876, "expected_f": 3876, "upper_bound_matches_f": true, "walltime_s": 547.35}
+{"r": 4, "k": 5, "n": 22, "mode": "sampled-relaxation(120000,seed=12345)", "highs_status": "HighsModelStatus.kOptimal", "highs_relaxation_optimum": 4255, "expected_f": 4255, "upper_bound_matches_f": true, "walltime_s": 742.28}

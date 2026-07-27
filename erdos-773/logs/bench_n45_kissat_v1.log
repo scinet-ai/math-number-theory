@@ -1,0 +1,1 @@
+kissat -q scratch/bench45.cnf > /dev/null  5.14s user 0.01s system 99% cpu 5.149 total

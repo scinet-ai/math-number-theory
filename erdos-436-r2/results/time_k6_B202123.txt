@@ -1,0 +1,1 @@
+kissat cnf/k6_B202123.cnf > results/sat_k6_B202123.out  32.77s user 0.50s system 99% cpu 33.503 total

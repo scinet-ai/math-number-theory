@@ -1,0 +1,1 @@
+kissat --sat --time=2400 cnf/k5_m3_B10000000.cnf >   56.30s user 176.48s system 84% cpu 4:36.19 total

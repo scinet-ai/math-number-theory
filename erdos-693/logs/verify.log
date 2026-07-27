@@ -1,0 +1,5 @@
+[1] OEIS cross-check: 81 terms compared, OK
+[2] witness check: 2563 rows, 0 bad
+[3] full recompute n=2000 k=2: G=28 witness 3684563->3684591 |A|=1405014 OK
+[3] full recompute n=500 k=3: G=33 witness 599205->599238 |A|=45830559 OK
+VERIFICATION PASSED

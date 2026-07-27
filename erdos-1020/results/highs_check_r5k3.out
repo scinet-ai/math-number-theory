@@ -1,0 +1,2 @@
+{"r": 5, "k": 3, "n": 16, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 2366, "highs_dual_bound": 2366.000000000001, "expected_from_cpsat": 2366, "agree": true, "walltime_s": 157.31}
+{"r": 5, "k": 3, "n": 17, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 3185, "highs_dual_bound": 3185.0000000000005, "expected_from_cpsat": 3185, "agree": true, "walltime_s": 85.51}

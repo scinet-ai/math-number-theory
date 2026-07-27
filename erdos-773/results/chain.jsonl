@@ -1,0 +1,59 @@
+{"n": 1, "S": 1, "step": "base", "witness": [1], "wall": 0.0}
+{"n": 2, "target": 2, "n_clauses": 0, "S": 2, "step": "heuristic-sat", "witness": [1, 2], "wall": 0.0}
+{"n": 3, "target": 3, "n_clauses": 0, "S": 3, "step": "heuristic-sat", "witness": [1, 2, 3], "wall": 0.0}
+{"n": 4, "target": 4, "n_clauses": 0, "S": 4, "step": "heuristic-sat", "witness": [1, 2, 3, 4], "wall": 0.0}
+{"n": 5, "target": 5, "n_clauses": 0, "S": 5, "step": "heuristic-sat", "witness": [1, 2, 3, 4, 5], "wall": 0.0}
+{"n": 6, "target": 6, "n_clauses": 0, "S": 6, "step": "heuristic-sat", "witness": [1, 2, 3, 4, 5, 6], "wall": 0.0}
+{"n": 7, "target": 7, "n_clauses": 1, "S": 6, "step": "cpsat-unsat", "witness": [1, 2, 3, 4, 5, 6], "wall": 0.011, "conflicts": 0}
+{"n": 8, "target": 7, "n_clauses": 2, "S": 7, "step": "heuristic-sat", "witness": [1, 2, 3, 4, 5, 6, 8], "wall": 0.0}
+{"n": 9, "target": 8, "n_clauses": 3, "S": 8, "step": "heuristic-sat", "witness": [1, 2, 3, 4, 5, 6, 8, 9], "wall": 0.0}
+{"n": 10, "target": 9, "n_clauses": 3, "S": 9, "step": "heuristic-sat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10], "wall": 0.0}
+{"n": 11, "target": 10, "n_clauses": 5, "S": 9, "step": "cpsat-unsat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10], "wall": 0.001, "conflicts": 0}
+{"n": 12, "target": 10, "n_clauses": 6, "S": 9, "step": "cpsat-unsat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10], "wall": 0.006, "conflicts": 0}
+{"n": 13, "target": 10, "n_clauses": 8, "S": 10, "step": "heuristic-sat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10, 13], "wall": 0.0}
+{"n": 14, "target": 11, "n_clauses": 11, "S": 10, "step": "cpsat-unsat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10, 13], "wall": 0.006, "conflicts": 14}
+{"n": 15, "target": 11, "n_clauses": 12, "S": 11, "step": "cpsat-sat", "witness": [2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15], "wall": 0.003, "conflicts": 7}
+{"n": 16, "target": 12, "n_clauses": 14, "S": 12, "step": "heuristic-sat", "witness": [2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 16], "wall": 0.0}
+{"n": 17, "target": 13, "n_clauses": 18, "S": 12, "step": "cpsat-unsat", "witness": [2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 16], "wall": 0.002, "conflicts": 59}
+{"n": 18, "target": 13, "n_clauses": 21, "S": 13, "step": "heuristic-sat", "witness": [2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 16, 18], "wall": 0.0}
+{"n": 19, "target": 14, "n_clauses": 26, "S": 13, "step": "cpsat-unsat", "witness": [2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 16, 18], "wall": 0.003, "conflicts": 144}
+{"n": 20, "target": 14, "n_clauses": 29, "S": 13, "step": "cpsat-unsat", "witness": [2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 15, 16, 18], "wall": 0.003, "conflicts": 419}
+{"n": 21, "target": 14, "n_clauses": 33, "S": 14, "step": "cpsat-sat", "witness": [2, 3, 4, 5, 6, 8, 9, 10, 12, 13, 17, 18, 20, 21], "wall": 0.002, "conflicts": 0}
+{"n": 22, "target": 15, "n_clauses": 37, "S": 14, "step": "cpsat-unsat", "witness": [2, 3, 4, 5, 6, 8, 9, 10, 12, 13, 17, 18, 20, 21], "wall": 0.005, "conflicts": 947}
+{"n": 23, "target": 15, "n_clauses": 44, "S": 14, "step": "cpsat-unsat", "witness": [2, 3, 4, 5, 6, 8, 9, 10, 12, 13, 17, 18, 20, 21], "wall": 0.008, "conflicts": 1505}
+{"n": 24, "target": 15, "n_clauses": 48, "S": 15, "step": "cpsat-sat", "witness": [1, 2, 3, 4, 5, 8, 9, 11, 14, 15, 18, 19, 22, 23, 24], "wall": 0.003, "conflicts": 0}
+{"n": 25, "target": 16, "n_clauses": 53, "S": 16, "step": "cpsat-sat", "witness": [1, 2, 4, 5, 6, 8, 12, 13, 14, 15, 20, 21, 22, 23, 24, 25], "wall": 0.003, "conflicts": 0}
+{"n": 26, "target": 17, "n_clauses": 59, "S": 17, "step": "cpsat-sat", "witness": [1, 2, 4, 5, 6, 8, 12, 13, 15, 18, 20, 21, 22, 23, 24, 25, 26], "wall": 0.003, "conflicts": 0}
+{"n": 27, "target": 18, "n_clauses": 65, "S": 17, "step": "cpsat-unsat", "witness": [1, 2, 4, 5, 6, 8, 12, 13, 15, 18, 20, 21, 22, 23, 24, 25, 26], "wall": 0.012, "conflicts": 3584}
+{"n": 28, "target": 18, "n_clauses": 71, "S": 17, "step": "cpsat-unsat", "witness": [1, 2, 4, 5, 6, 8, 12, 13, 15, 18, 20, 21, 22, 23, 24, 25, 26], "wall": 0.021, "conflicts": 6372}
+{"n": 29, "target": 18, "n_clauses": 80, "S": 17, "step": "cpsat-unsat", "witness": [1, 2, 4, 5, 6, 8, 12, 13, 15, 18, 20, 21, 22, 23, 24, 25, 26], "wall": 0.05, "conflicts": 14207}
+{"n": 30, "target": 18, "n_clauses": 85, "S": 18, "step": "cpsat-sat", "witness": [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 16, 19, 22, 24, 25, 27, 28, 30], "wall": 0.005, "conflicts": 70}
+{"n": 31, "target": 19, "n_clauses": 94, "S": 19, "step": "cpsat-sat", "witness": [3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 18, 19, 22, 24, 28, 29, 30, 31], "wall": 0.003, "conflicts": 0}
+{"n": 32, "target": 20, "n_clauses": 103, "S": 19, "step": "cpsat-unsat", "witness": [3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 18, 19, 22, 24, 28, 29, 30, 31], "wall": 0.108, "conflicts": 31708}
+{"n": 33, "target": 20, "n_clauses": 112, "S": 19, "step": "cpsat-unsat", "witness": [3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 18, 19, 22, 24, 28, 29, 30, 31], "wall": 0.227, "conflicts": 55583}
+{"n": 34, "target": 20, "n_clauses": 122, "S": 20, "step": "cpsat-sat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10, 13, 16, 21, 24, 25, 26, 28, 30, 31, 33, 34], "wall": 0.003, "conflicts": 0}
+{"n": 35, "target": 21, "n_clauses": 131, "S": 20, "step": "cpsat-unsat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10, 13, 16, 21, 24, 25, 26, 28, 30, 31, 33, 34], "wall": 0.39, "conflicts": 88802}
+{"n": 36, "target": 21, "n_clauses": 138, "S": 20, "step": "cpsat-unsat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10, 13, 16, 21, 24, 25, 26, 28, 30, 31, 33, 34], "wall": 1.064, "conflicts": 258356}
+{"n": 37, "target": 21, "n_clauses": 149, "S": 21, "step": "heuristic-sat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10, 13, 16, 21, 24, 25, 26, 28, 30, 31, 33, 34, 37], "wall": 0.0}
+{"n": 38, "target": 22, "n_clauses": 160, "S": 21, "step": "cpsat-unsat", "witness": [1, 2, 3, 4, 5, 6, 8, 9, 10, 13, 16, 21, 24, 25, 26, 28, 30, 31, 33, 34, 37], "wall": 2.476, "conflicts": 521144}
+{"n": 39, "target": 22, "n_clauses": 171, "S": 22, "step": "cpsat-sat", "witness": [4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 21, 23, 28, 29, 30, 31, 34, 35, 36, 38, 39], "wall": 0.005, "conflicts": 313}
+{"n": 40, "target": 23, "n_clauses": 180, "S": 22, "step": "cpsat-unsat", "witness": [4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 21, 23, 28, 29, 30, 31, 34, 35, 36, 38, 39], "wall": 4.955, "conflicts": 979794}
+{"n": 41, "target": 23, "n_clauses": 195, "S": 22, "step": "cpsat-unsat", "witness": [4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 21, 23, 28, 29, 30, 31, 34, 35, 36, 38, 39], "wall": 9.334, "conflicts": 1629819}
+{"n": 42, "target": 23, "n_clauses": 205, "S": 22, "step": "cpsat-unsat", "witness": [4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 21, 23, 28, 29, 30, 31, 34, 35, 36, 38, 39], "wall": 29.199, "conflicts": 4798619}
+{"n": 43, "target": 23, "n_clauses": 221, "S": 23, "step": "cpsat-sat", "witness": [4, 6, 7, 9, 10, 11, 12, 13, 14, 15, 19, 21, 22, 25, 28, 30, 31, 34, 36, 37, 39, 40, 43], "wall": 0.006, "conflicts": 472}
+{"n": 44, "target": 24, "n_clauses": 234, "S": 24, "step": "cpsat-sat", "witness": [5, 7, 9, 10, 12, 14, 15, 16, 17, 18, 19, 21, 24, 29, 30, 32, 34, 35, 36, 38, 39, 41, 43, 44], "wall": 0.015, "conflicts": 3214}
+{"n": 45, "target": 25, "n_clauses": 244, "S": 24, "step": "cpsat-unsat", "witness": [5, 7, 9, 10, 12, 14, 15, 16, 17, 18, 19, 21, 24, 29, 30, 32, 34, 35, 36, 38, 39, 41, 43, 44], "wall": 124.606, "conflicts": 14339340}
+{"n": 46, "target": 25, "engine": "kissat", "S": 24, "step": "kissat-unsat", "witness": [5, 7, 9, 10, 12, 14, 15, 16, 17, 18, 19, 21, 24, 29, 30, 32, 34, 35, 36, 38, 39, 41, 43, 44], "wall": 10.794, "nvars": 1012, "nclauses": 2216}
+{"n": 47, "target": 25, "engine": "kissat", "S": 24, "step": "kissat-unsat", "witness": [5, 7, 9, 10, 12, 14, 15, 16, 17, 18, 19, 21, 24, 29, 30, 32, 34, 35, 36, 38, 39, 41, 43, 44], "wall": 21.815, "nvars": 1081, "nclauses": 2370}
+{"n": 48, "target": 25, "engine": "kissat", "S": 25, "step": "kissat-sat", "witness": [5, 8, 10, 12, 13, 14, 15, 17, 18, 21, 24, 26, 28, 29, 32, 35, 38, 39, 41, 42, 43, 44, 45, 47, 48], "wall": 0.32, "nvars": 1152, "nclauses": 2523}
+{"n": 49, "target": 26, "engine": "kissat", "S": 25, "step": "kissat-unsat", "witness": [5, 8, 10, 12, 13, 14, 15, 17, 18, 21, 24, 26, 28, 29, 32, 35, 38, 39, 41, 42, 43, 44, 45, 47, 48], "wall": 36.833, "nvars": 1176, "nclauses": 2588}
+{"n": 50, "target": 26, "engine": "kissat", "S": 26, "step": "kissat-sat", "witness": [5, 8, 9, 10, 12, 14, 15, 17, 18, 20, 21, 24, 26, 27, 29, 32, 35, 36, 38, 41, 42, 44, 45, 47, 48, 50], "wall": 0.188, "nvars": 1250, "nclauses": 2749}
+{"n": 51, "target": 27, "engine": "kissat", "S": 26, "step": "kissat-unsat", "witness": [5, 8, 9, 10, 12, 14, 15, 17, 18, 20, 21, 24, 26, 27, 29, 32, 35, 36, 38, 41, 42, 44, 45, 47, 48, 50], "wall": 56.235, "nvars": 1275, "nclauses": 2814}
+{"n": 52, "target": 27, "engine": "kissat", "S": 27, "step": "kissat-sat", "witness": [1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 19, 22, 24, 25, 28, 30, 34, 36, 37, 39, 40, 43, 46, 49, 51, 52], "wall": 5.324, "nvars": 1352, "nclauses": 2981}
+{"n": 53, "target": 28, "engine": "kissat", "S": 27, "step": "kissat-unsat", "witness": [1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 19, 22, 24, 25, 28, 30, 34, 36, 37, 39, 40, 43, 46, 49, 51, 52], "wall": 76.512, "nvars": 1378, "nclauses": 3054}
+{"n": 54, "target": 28, "engine": "kissat-profile", "S": 27, "step": "kissat-unsat", "witness": [1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 19, 22, 24, 25, 28, 30, 34, 36, 37, 39, 40, 43, 46, 49, 51, 52], "wall": 139.947, "nvars": 1188, "nclauses": 4895}
+{"n": 55, "target": 28, "engine": "kissat-profile-cube", "S": 27, "step": "cube-unsat", "witness": [1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 19, 22, 24, 25, 28, 30, 34, 36, 37, 39, 40, 43, 46, 49, 51, 52], "cubes": [[54], [-54]], "nvars": 1217}
+{"n": 56, "target": 28, "engine": "kissat-profile", "S": 28, "step": "kissat-sat", "witness": [1, 2, 3, 4, 5, 6, 8, 11, 12, 14, 15, 17, 20, 24, 26, 27, 32, 35, 38, 41, 42, 45, 47, 50, 51, 53, 54, 56], "wall": 0.053, "nvars": 1246, "nclauses": 5151}
+{"n": 57, "target": 29, "engine": "kissat-profile", "S": 28, "step": "kissat-unsat", "witness": [1, 2, 3, 4, 5, 6, 8, 11, 12, 14, 15, 17, 20, 24, 26, 27, 32, 35, 38, 41, 42, 45, 47, 50, 51, 53, 54, 56], "wall": 473.883, "nvars": 1304, "nclauses": 5396}
+{"n": 58, "target": 29, "engine": "kissat-profile", "S": 29, "step": "kissat-sat", "witness": [1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 19, 22, 24, 25, 28, 30, 34, 36, 37, 39, 40, 43, 46, 49, 51, 52, 57, 58], "wall": 1.079, "nvars": 1334, "nclauses": 5531}
+{"n": 59, "target": 30, "engine": "kissat-profile", "S": 29, "step": "kissat-unsat", "witness": [1, 3, 4, 6, 7, 9, 10, 12, 13, 15, 16, 19, 22, 24, 25, 28, 30, 34, 36, 37, 39, 40, 43, 46, 49, 51, 52, 57, 58], "wall": 266.074, "nvars": 1394, "nclauses": 5790}

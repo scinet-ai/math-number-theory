@@ -1,0 +1,24 @@
+[backfill] 22 UNSAT levels to certify: [7, 11, 12, 14, 17, 19, 20, 22, 23, 27, 28, 29, 32, 33, 35, 36, 38, 40, 41, 42, 45, 53]
+[backfill] N=7 t=7 verified=True kissat=0.0s drat-trim=0.02s
+[backfill] N=11 t=10 verified=True kissat=0.0s drat-trim=0.02s
+[backfill] N=12 t=10 verified=True kissat=0.0s drat-trim=0.02s
+[backfill] N=14 t=11 verified=True kissat=0.0s drat-trim=0.02s
+[backfill] N=17 t=13 verified=True kissat=0.0s drat-trim=0.03s
+[backfill] N=19 t=14 verified=True kissat=0.01s drat-trim=0.02s
+[backfill] N=20 t=14 verified=True kissat=0.01s drat-trim=0.02s
+[backfill] N=22 t=15 verified=True kissat=0.01s drat-trim=0.02s
+[backfill] N=23 t=15 verified=True kissat=0.01s drat-trim=0.03s
+[backfill] N=27 t=18 verified=True kissat=0.02s drat-trim=0.03s
+[backfill] N=28 t=18 verified=True kissat=0.02s drat-trim=0.04s
+[backfill] N=29 t=18 verified=True kissat=0.06s drat-trim=0.06s
+[backfill] N=32 t=20 verified=True kissat=0.09s drat-trim=0.09s
+[backfill] N=33 t=20 verified=True kissat=0.12s drat-trim=0.11s
+[backfill] N=35 t=21 verified=True kissat=0.18s drat-trim=0.18s
+[backfill] N=36 t=21 verified=True kissat=0.47s drat-trim=0.47s
+[backfill] N=38 t=22 verified=True kissat=0.72s drat-trim=0.72s
+[backfill] N=40 t=23 verified=True kissat=1.32s drat-trim=1.4s
+[backfill] N=41 t=23 verified=True kissat=2.14s drat-trim=2.36s
+[backfill] N=42 t=23 verified=True kissat=4.28s drat-trim=5.05s
+[backfill] N=45 t=25 verified=True kissat=5.42s drat-trim=6.8s
+[backfill] N=53 t=28 verified=True kissat=66.23s drat-trim=89.15s
+[backfill] done

@@ -1,0 +1,7 @@
+{"r": 4, "k": 3, "n": 12, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 330, "highs_dual_bound": 330.0, "expected_from_cpsat": 330, "agree": true, "walltime_s": 0.32}
+{"r": 4, "k": 3, "n": 13, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 385, "highs_dual_bound": 384.99999999999994, "expected_from_cpsat": 385, "agree": true, "walltime_s": 0.8}
+{"r": 4, "k": 3, "n": 14, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 506, "highs_dual_bound": 506.0, "expected_from_cpsat": 506, "agree": true, "walltime_s": 1.02}
+{"r": 4, "k": 3, "n": 15, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 650, "highs_dual_bound": 650.0, "expected_from_cpsat": 650, "agree": true, "walltime_s": 0.99}
+{"r": 4, "k": 3, "n": 16, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 819, "highs_dual_bound": 819.0000000000001, "expected_from_cpsat": 819, "agree": true, "walltime_s": 1.07}
+{"r": 4, "k": 3, "n": 17, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 1015, "highs_dual_bound": 1014.9999999999998, "expected_from_cpsat": 1015, "agree": true, "walltime_s": 1.08}
+{"r": 4, "k": 3, "n": 18, "highs_status": "HighsModelStatus.kOptimal", "highs_optimum": 1240, "highs_dual_bound": 1239.9999999999998, "expected_from_cpsat": 1240, "agree": true, "walltime_s": 1.31}

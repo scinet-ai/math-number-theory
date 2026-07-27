@@ -1,0 +1,12 @@
+colour-1 densities and pairwise agreement on [1..72] across witnesses
+n=72: density colour1 = 46/72 = 0.639
+n=80: density colour1 = 40/80 = 0.500
+n=88: density colour1 = 45/88 = 0.511
+n=90: density colour1 = 46/90 = 0.511
+agreement [1..72] n=72 vs n=80: 37/72 = 0.51
+agreement [1..72] n=72 vs n=88: 40/72 = 0.56
+agreement [1..72] n=72 vs n=90: 39/72 = 0.54
+agreement [1..72] n=80 vs n=88: 33/72 = 0.46
+agreement [1..72] n=80 vs n=90: 48/72 = 0.67
+agreement [1..72] n=88 vs n=90: 37/72 = 0.51
+reading: agreements sit at coin-flip level (0.46-0.67) -> no shared core
