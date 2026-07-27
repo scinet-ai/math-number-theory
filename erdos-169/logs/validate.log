@@ -1,0 +1,11 @@
+S11: b=11 |S|=6 4-free-mod-b=True depth=8
+  H(K+1) in [4.421747532, 4.421747533]  width=8.200e-10  (0.0s)
+S22: b=22 |S|=10 4-free-mod-b=True depth=6
+  H(K+1) in [4.419895077, 4.419895080]  width=3.023e-09  (0.0s)
+S55 (record): b=55 |S|=21 4-free-mod-b=True depth=5
+  H(K+1) in [4.439753368, 4.439753370]  width=1.309e-09  (0.0s)
+  RECORD BAR (certified upper bound of Walker's set): 4.439753370
+S55 x S55 (square seed): b=3025 |S|=441 4-free-mod-b=True depth=2
+  H(K+1) in [4.439748704, 4.439756254]  width=7.550e-06  (0.1s)
+  square-seed enclosure contains record: True
+ALL VALIDATION CHECKS PASSED

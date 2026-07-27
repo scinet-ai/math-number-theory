@@ -1,0 +1,5 @@
+b=11: every dropped element is re-addable  OK
+b=11: addable to the full set: []
+b=55: every dropped element is re-addable  OK
+b=55: addable to the full set: []
+200 random cross-checks of addable_digits vs is_kfree_mod: OK
