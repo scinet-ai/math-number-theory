@@ -1,0 +1,2 @@
+wrote cnf/k7_m3_B1600000.cnf: 11200014 vars, 109264860 clauses
+python3 src/encode_assignment_cnf.py encode 7 3 1600000 cnf/k7_m3_B1600000.cn  35.59s user 1.89s system 70% cpu 53.200 total

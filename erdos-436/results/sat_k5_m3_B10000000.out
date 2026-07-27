@@ -1,0 +1,55 @@
+c ---- [ banner ] ------------------------------------------------------------
+c
+c Kissat SAT Solver
+c 
+c Copyright (c) 2021-2024 Armin Biere University of Freiburg
+c Copyright (c) 2019-2021 Armin Biere Johannes Kepler University Linz
+c 
+c Version 4.0.4 unknown
+c Apple clang version 17.0.0 (clang-1700.3.19.1) -W -Wall -O3 -DNDEBUG
+c Thu Oct 16 20:09:41 UTC 2025 Darwin Tahoe-arm64.local 25.0.0 arm64
+c
+c ---- [ parsing ] -----------------------------------------------------------
+c
+c opened and reading DIMACS file:
+c
+c   cnf/k5_m3_B10000000.cnf
+c
+c parsed 'p cnf 50000010 353385569' header
+c closing input after reading 8454274212 bytes (8 GB)
+c finished parsing after 48.30 seconds
+c
+c ---- [ solving ] -----------------------------------------------------------
+c
+c seconds   switched rate     size/glue tier1      binary                 remaining
+c          MB reductions conflicts size  tier2           irredundant
+c           level restarts redundant glue  trail                   variables
+c
+c * 48.30 5831 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 100002241 253383320 50000002 100%
+c caught signal 15 (SIGTERM)
+c
+c ---- [ profiling ] ---------------------------------------------------------
+c
+c          48.30   54.37 %  parse
+c          40.54   45.63 %  lucky
+c           0.00    0.00 %  search
+c           0.00    0.00 %  simplify
+c =============================================
+c          88.84  100.00 %  total
+c
+c ---- [ statistics ] --------------------------------------------------------
+c
+c conflicts:                                0                0.00 per second
+c decisions:                                0                0.00 per conflict
+c propagations:                      10852651           122160    per second
+c switched:                                 0                0    interval
+c
+c ---- [ glue usage ] --------------------------------------------------------
+c
+c no clauses used at all
+c
+c ---- [ resources ] ---------------------------------------------------------
+c
+c maximum-resident-set-size:     12512145702912 bytes   11932512 MB
+c process-time:                         1m 29s              88.84 seconds
+c raising signal 15 (SIGTERM)

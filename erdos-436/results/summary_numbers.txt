@@ -1,0 +1,5 @@
+pi(5000002) = 348513  # primes in the k=5 B=5000000 certificate
+pi(1600002) = 121127  # primes in the k=7 B=1600000 certificate
+k=5 scanned primes p<1e8, p=1 mod 5: 166104 + 1274194 = 1440298
+k=5 trivial (gcd(5,p-1)=1) primes p<1e8: 498475 + 3822682 = 4321157
+scan shortfall ratio for k=3 m=3 at 1e8: 23532 / 549 = 42.9

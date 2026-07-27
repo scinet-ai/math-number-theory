@@ -1,0 +1,91 @@
+c ---- [ banner ] ------------------------------------------------------------
+c
+c Kissat SAT Solver
+c 
+c Copyright (c) 2021-2024 Armin Biere University of Freiburg
+c Copyright (c) 2019-2021 Armin Biere Johannes Kepler University Linz
+c 
+c Version 4.0.4 unknown
+c Apple clang version 17.0.0 (clang-1700.3.19.1) -W -Wall -O3 -DNDEBUG
+c Thu Oct 16 20:09:41 UTC 2025 Darwin Tahoe-arm64.local 25.0.0 arm64
+c
+c ---- [ parsing ] -----------------------------------------------------------
+c
+c opened and reading DIMACS file:
+c
+c   cnf/k5_m2_B7888.cnf
+c
+c parsed 'p cnf 39445 266939' header
+c closing input after reading 4598218 bytes (4 MB)
+c finished parsing after 0.03 seconds
+c
+c ---- [ solving ] -----------------------------------------------------------
+c
+c seconds switched rate     size/glue tier1  binary           remaining
+c        MB reductions conflicts size  tier2     irredundant
+c         level restarts redundant glue  trail           variables
+c
+c *  0.03 33 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 86857 180048 39376 100%
+c (  0.03 35 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 86857 180048 39376 100%
+c .  0.03 37 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 106384 81163 39376 100%
+c =  0.07 48 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 108588 81163 38291 97%
+c d  0.07 48 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 105366 81163 38291 97%
+c f  0.12 49 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 95542 81163 45949 116%
+c )  0.12 49 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 95542 81163 45949 116%
+c {  0.12 49 0 0 0  0 0   0   0 0.0 0 0 2 6 0% 95542 81163 45949 116%
+c i  0.12 49 20 0 0 12 5 122  71 1.7 4 2 2 6 6% 95563 81163 45948 116%
+c i  0.13 49 14 0 0 12 4 202 111 1.7 4 2 2 6 7% 95573 81163 45736 116%
+c i  0.13 49 12 0 0 12 3 238 129 1.8 4 2 2 6 7% 95582 81163 45355 115%
+c i  0.13 49 12 0 0 12 3 239 129 1.8 4 2 2 6 7% 95582 81163 45354 115%
+c i  0.13 49 12 0 0 12 3 250 133 1.8 4 2 2 6 7% 95586 81163 45353 115%
+c i  0.13 49 12 0 0 12 3 251 133 1.8 4 2 2 6 7% 95586 81163 44834 114%
+c }  0.13 49 12 0 0 12 3 253 133 1.8 4 2 2 6 7% 95586 81163 39835 101%
+c 0  0.13 49 12 0 0 12 3 253 133 1.8 4 2 2 6 7% 95586 81163 39835 101%
+c
+c ---- [ result ] ------------------------------------------------------------
+c
+s UNSATISFIABLE
+c
+c ---- [ profiling ] ---------------------------------------------------------
+c
+c           0.09   65.20 %  preprocess
+c           0.08   62.04 %  probe
+c           0.04   30.85 %  factor
+c           0.03   21.13 %  parse
+c           0.02   15.65 %  sweep
+c           0.01   11.02 %  search
+c           0.01   11.02 %  focused
+c           0.01   10.77 %  congruence
+c           0.01    3.89 %  substitute
+c           0.00    2.52 %  lucky
+c           0.00    0.86 %  backbone
+c           0.00    0.00 %  simplify
+c =============================================
+c           0.13  100.00 %  total
+c
+c ---- [ statistics ] --------------------------------------------------------
+c
+c chronological:                            1                0 %  conflicts
+c conflicts:                              253             1876.60 per second
+c decisions:                              793                3.13 per conflict
+c factored:                              7658               19 %  variables
+c iterations:                               7                0 %  variables
+c propagations:                        631988          4687712    per second
+c restarts:                                12               21    interval
+c substituted:                           1074                3 %  variables
+c switched:                                 0                0    interval
+c
+c ---- [ glue usage ] --------------------------------------------------------
+c
+c focused glue 2 used 104 clauses 50.49% accumulated 64.08% tier1
+c focused glue 3 used  58 clauses 28.16% accumulated 92.23% tier2
+c
+c ---- [ resources ] ---------------------------------------------------------
+c
+c maximum-resident-set-size:      52596572160 bytes      50160 MB
+c process-time:                                              0.13 seconds
+c
+c ---- [ shutting down ] -----------------------------------------------------
+c
+c exit 20
+kissat cnf/k5_m2_B7888.cnf  0.13s user 0.01s system 92% cpu 0.146 total

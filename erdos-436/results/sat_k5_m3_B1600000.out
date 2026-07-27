@@ -1,0 +1,66 @@
+c ---- [ banner ] ------------------------------------------------------------
+c
+c Kissat SAT Solver
+c 
+c Copyright (c) 2021-2024 Armin Biere University of Freiburg
+c Copyright (c) 2019-2021 Armin Biere Johannes Kepler University Linz
+c 
+c Version 4.0.4 unknown
+c Apple clang version 17.0.0 (clang-1700.3.19.1) -W -Wall -O3 -DNDEBUG
+c Thu Oct 16 20:09:41 UTC 2025 Darwin Tahoe-arm64.local 25.0.0 arm64
+c
+c ---- [ parsing ] -----------------------------------------------------------
+c
+c opened and reading DIMACS file:
+c
+c   cnf/k5_m3_B1600000.cnf
+c
+c parsed 'p cnf 8000010 56171869' header
+c closing input after reading 1239530742 bytes (1 GB)
+c finished parsing after 6.62 seconds
+c
+c ---- [ solving ] -----------------------------------------------------------
+c
+c seconds   switched rate     size/glue tier1     binary               remaining
+c          MB reductions conflicts size  tier2         irredundant
+c           level restarts redundant glue  trail                 variables
+c
+c *  6.62 2546 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 16001036 40170825 8000002 100%
+c lucky in forward setting literals to true
+c l  8.40 3811 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 16001036 40170825 8000002 100%
+c 1  8.40 3811 0 0 0  0 0   0   0 0.0 0 0 0 0 0% 16001036 40170825 8000002 100%
+c
+c ---- [ result ] ------------------------------------------------------------
+c
+s SATISFIABLE
+c
+c ---- [ profiling ] ---------------------------------------------------------
+c
+c           6.62   64.30 %  parse
+c           1.78   17.32 %  lucky
+c           0.00    0.00 %  search
+c           0.00    0.00 %  simplify
+c =============================================
+c          10.29  100.00 %  total
+c
+c ---- [ statistics ] --------------------------------------------------------
+c
+c conflicts:                                0                0.00 per second
+c decisions:                                0                0.00 per conflict
+c propagations:                       9166134           890102    per second
+c switched:                                 0                0    interval
+c
+c ---- [ glue usage ] --------------------------------------------------------
+c
+c no clauses used at all
+c
+c ---- [ resources ] ---------------------------------------------------------
+c
+c maximum-resident-set-size:     4091526774784 bytes    3901984 MB
+c process-time:                            10s              10.29 seconds
+c
+c ---- [ shutting down ] -----------------------------------------------------
+c
+c exit 10
+kissat cnf/k5_m3_B1600000.cnf  9.47s user 0.87s system 75% cpu 13.706 total
+exit=10

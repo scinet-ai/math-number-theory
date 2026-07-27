@@ -1,0 +1,2 @@
+wrote cnf/k5_m3_B10000000.cnf: 50000010 vars, 353385569 clauses
+python3 src/encode_assignment_cnf.py encode 5 3 10000000   124.76s user 5.29s system 72% cpu 2:59.35 total

@@ -1,0 +1,118 @@
+c --- [ banner ] -------------------------------------------------------------
+c 
+c CaDiCaL SAT Solver
+c Copyright (c) 2016-2026
+c A. Biere, M. Fleury, N. Froleyks, K. Fazekas, F. Pollitt, T. Faller
+c JKU Linz, University of Freiburg, TU Wien
+c 
+c Version 3.0.1
+c Apple clang version 21.0.0 (clang-2100.0.123.102) -Wall -Wextra -O3 -DNDEBUG -DNCLOSEFROM
+c Sun Jul 19 15:40:55 UTC 2026 Darwin Tahoe-arm64.local 25.4.0 arm64
+c 
+c --- [ parsing input ] ------------------------------------------------------
+c 
+c reading DIMACS file from 'cnf/k3_m3_B23532.cnf'
+c opening file to read 'cnf/k3_m3_B23532.cnf'
+c found 'p cnf 70602 305930' header
+c parsed 305930 clauses in 0.06 seconds process time
+c 
+c --- [ options ] ------------------------------------------------------------
+c 
+c all options are set to their default value
+c 
+c --- [ solving ] ------------------------------------------------------------
+c 
+c time measured in process time since initialization
+c 
+c  seconds  reduction conflicts       size tier2        variables
+c         MB    restarts   redundant    glue  trail          remaining
+c          level     rate       size/glu tier1  irredundant
+c 
+c *  0.06  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 305926 70598 100%
+c )  0.08  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 305926 70598 100%
+c {  0.09  0  0 0   0  0    0    0 0.0 0 0 2 6  0% 305926 70598 100%
+c -  0.18  0 46 1  51 12  300  199 1.7 9 6 2 6 12% 270624 70598 100%
+c i  0.21  0 35 1  69 10  411  262 1.6 9 6 2 6 13% 270624 70595 100%
+c i  0.34  0 19 1  69  5  882  466 1.5 8 5 2 6 14% 270624 70592 100%
+c i  0.34  0 19 1  69  5  916  488 1.5 8 5 2 6 14% 270624 70589 100%
+c -  0.36  0 19 2  69  5  920  436 1.5 8 5 2 6 14% 270571 70589 100%
+c }  0.40  0 18 2  74  5 1003  508 1.5 8 6 2 6 14% 270571 70589 100%
+c [  0.40  0  0 2  74  0 1003  508 0.0 0 0 2 6  0% 270571 70589 100%
+c O  0.40  0  2 2  74  3 1004  509 1.5 3 2 2 6 12% 270571 70589 100%
+c i  0.53  0  5 2  74  1 1428  688 1.5 7 4 2 6 14% 270571 70527 100%
+c i  0.57  0  5 2  74  1 1607  787 1.6 7 4 2 6 14% 270571 70526 100%
+c i  0.63  0  5 2  74  1 1767  885 1.6 7 4 2 6 13% 270571 70525 100%
+c i  0.70  0  5 2  74  1 1971 1037 1.7 7 4 2 6 13% 270571 69847 99%
+c i  0.70  0  5 2  74  1 1976 1040 1.7 7 4 2 6 13% 270571 69342 98%
+c i  0.70  0  5 2  74  1 1991 1050 1.7 7 4 2 6 13% 270571 68683 97%
+c i  0.70  0  5 2  74  1 1998 1055 1.7 7 4 2 6 13% 270571 67418 95%
+c ]  0.70  0  5 2  74  1 2000 1055 1.7 7 4 2 6 13% 270571 62766 89%
+c 0  0.70  0  5 2  74  1 2000 1055 1.7 7 4 2 6 13% 270571 62766 89%
+c 
+c --- [ result ] -------------------------------------------------------------
+c 
+s UNSATISFIABLE
+c 
+c --- [ run-time profiling ] -------------------------------------------------
+c 
+c process time taken by individual solving procedures
+c (percentage relative to process time for solving)
+c 
+c         0.64   99.98% search
+c         0.31   48.49% unstable
+c         0.30   47.05% stable
+c         0.06    9.79% parse
+c         0.03    4.44% lucky
+c         0.00    0.00% simplify
+c   =================================
+c         0.64   91.04% solve
+c 
+c last line shows process time for solving
+c (percentage relative to total process time)
+c 
+c --- [ statistics ] ---------------------------------------------------------
+c 
+c chronological:               269        13.45 %  of conflicts
+c conflicts:                  2000      3126.21    per second
+c decisions:                  5577      8717.44    per second
+c fixed:                      7836        11.10 %  of all variables
+c learned:                    1958        97.90 %  per conflict
+c learned_lits:              28452       100.00 %  learned literals
+c minimized:                     0         0.00 %  learned literals
+c shrunken:                  10763        37.83 %  learned literals
+c minishrunken:               2946        10.35 %  learned literals
+c otfs:                          5         0.25 %  of conflict
+c propagations:            9559042        14.94 M  per second
+c reduced:                      96         4.80 %  per conflict
+c rephased:                      1      2000.00    interval
+c restarts:                     74        27.03    interval
+c stabilizing:                   1        49.80 %  of conflicts
+c subsumed:                    789         0.26 %  of all clauses
+c strengthened:                  5         0.00 %  of all clauses
+c ticks:                  38156878         3.99    propagation
+c 
+c seconds are measured in process time for solving
+c 
+c --- [ glue usage ] ---------------------------------------------------------
+c 
+c focused glue 2 used 51 clauses 4.235% accumulated 8.637% tier1
+c focused glue 3 used 150 clauses 12.45% accumulated 21.09%
+c focused glue 4 used 219 clauses 18.18% accumulated 39.28%
+c focused glue 5 used 249 clauses 20.68% accumulated 59.96%
+c focused glue 6 used 228 clauses 18.93% accumulated 78.90% tier2
+c 
+c stable glue 3 used 373 clauses 27.79% accumulated 52.23% tier1
+c stable glue 4 used 311 clauses 23.17% accumulated 75.40% tier2
+c 
+c 
+c --- [ resources ] ----------------------------------------------------------
+c 
+c total process time since initialization:         0.70    seconds
+c total real time since initialization:            0.87    seconds
+c maximum resident set size of process:           70.06    MB
+c 
+c --- [ shutting down ] ------------------------------------------------------
+c 
+c exit 20
+cadical cnf/k3_m3_B23532.cnf  0.70s user 0.01s system 80% cpu 0.883 total
+exit=20
