@@ -1,0 +1,10 @@
+OK   n=4 k=2 C(n,k)=6 = 2*3
+OK   n=6 k=2 C(n,k)=15 = 3*5
+OK   n=7 k=3 C(n,k)=35 = 5*7
+OK   n=10 k=4 C(n,k)=210 = 2*3*5*7
+OK   n=14 k=4 C(n,k)=1001 = 7*11*13
+OK   n=15 k=2 C(n,k)=105 = 3*5*7
+OK   n=15 k=6 C(n,k)=5005 = 5*7*11*13
+OK   n=21 k=2 C(n,k)=210 = 2*3*5*7
+OK   n=715 k=2 C(n,k)=255255 = 3*5*7*11*13*17
+# CHECK validation/c_4_2000.txt: 9 solution lines, 0 failures

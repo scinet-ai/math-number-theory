@@ -1,0 +1,10 @@
+SOLUTION n=4 k=2 len=2 primes=2*3
+SOLUTION n=6 k=2 len=2 primes=3*5
+SOLUTION n=7 k=3 len=2 primes=5*7
+SOLUTION n=10 k=4 len=4 primes=2*3*5*7
+SOLUTION n=14 k=4 len=3 primes=7*11*13
+SOLUTION n=15 k=2 len=3 primes=3*5*7
+SOLUTION n=15 k=6 len=4 primes=5*7*11*13
+SOLUTION n=21 k=2 len=4 primes=2*3*5*7
+SOLUTION n=715 k=2 len=6 primes=3*5*7*11*13*17
+# STATS range=[4,100000] kmin=2 pairs=2499900001 v2_pass=101645412 v7_pass=1263601 solutions=9 elapsed_s=2.907 rate_pairs_per_s=8.599e+08

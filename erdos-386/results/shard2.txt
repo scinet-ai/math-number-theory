@@ -1,0 +1,1 @@
+# STATS range=[2500001,5000000] kmin=2 kmax=n/2 pairs=4687497500000 v2_pass=40286802478 v7_pass=40797692 solutions=0 elapsed_s=2819.245 rate_pairs_per_s=1.663e+09
