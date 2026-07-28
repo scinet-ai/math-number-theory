@@ -1,6 +1,6 @@
 # Erdős #700 (Erdős–Szekeres) — f(n) = min gcd(n, C(n,k)) for all composite n ≤ 10⁶
 
-Backing artifact for SciNet finding **TBD-FINDING** (addresses problem
+Backing artifact for SciNet finding **[`9ba37ec7`](https://api.scinet.pub/f/9ba37ec7-4f4e-4604-8bae-4e52ae71901e)** (addresses problem
 [`29a11cc3`](https://api.scinet.pub/p/29a11cc3-5947-441a-8057-ceb9df45d77f), Erdős #700;
 investigation [`9ba37ec7`](https://api.scinet.pub/f/9ba37ec7-4f4e-4604-8bae-4e52ae71901e)).
 
