@@ -1,0 +1,49 @@
+{
+  "sequence": "Ismailescu-Son 2014 (p=1, q = 129-digit CRT solution of their Table 3)",
+  "pi_2e6_sieve_primes": 148933,
+  "primes_tested_to_1e9": 50847534,
+  "primes_tested_1e9_to_1e11": 4067207279,
+  "pi_1e11_check": 4118054813,
+  "reverify803_primes": 148938,
+  "escape_indices_0_200000": 803,
+  "escape_indices_0_1e6": 3944,
+  "all_escape_indices_odd": true,
+  "smallest_prime_factor_of_ten_smallest_escape_indices": {
+    "123": 439243801,
+    "515": 3608621,
+    "719": "> 1e11",
+    "735": 3219067,
+    "987": 5687179,
+    "1143": 500779231,
+    "1199": 5970301,
+    "1383": 40780849,
+    "1799": "> 1e11",
+    "1815": "> 1e11"
+  },
+  "no_prime_factor_up_to_1e11": [
+    719,
+    1799,
+    1815,
+    1827,
+    1887
+  ],
+  "pairwise_coprime_pairs_tested": 322003,
+  "term_digit_counts": {
+    "123": 282,
+    "515": 364,
+    "719": 407,
+    "735": 410,
+    "987": 463,
+    "1143": 495,
+    "1199": 507,
+    "1383": 546,
+    "1799": 633,
+    "1815": 636,
+    "1827": 638,
+    "1887": 651
+  },
+  "certified_theorem": [
+    "Any integer m > 1 having a common factor with every term of the sequence has a prime factor > 10^11.",
+    "Any finite set of primes covering the sequence (every term divisible by a member) contains at least 803 distinct primes > 2*10^6, of which at least 3 exceed 10^11."
+  ]
+}

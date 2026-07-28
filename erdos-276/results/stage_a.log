@@ -1,0 +1,14 @@
+q digits: 129
+A2 PASS: all 30 Table-2 moduli are prime (deterministic MR, n < 3.3e24)
+CRT modulus M = prod p_i has 129 digits
+A1 PASS: q equals the smallest positive CRT solution of Table 3 exactly
+x0 digits: 257, x1 digits: 257
+A3 PASS: gcd(x0, x1) = 1
+lcm(m_i) = 5040
+A4 PASS: every even residue mod 5040 is covered by some (r_i, m_i)
+A5 PASS: p_i | F_(m_i) for all 30 quadruples
+A6 PASS: x0 == c_i F_(m_i-r_i), x1 == c_i F_(m_i-r_i+1) (mod p_i) for all i
+     => THEOREM (paper eq. (8) argument): x_(2n) == 0 mod some p_i for ALL n>=0
+A7 PASS: x_(2n+1) = (F_n + q F_(n+1)) (L_n + q L_(n+1)) exactly for n = 0..60
+A8 PASS: 2000 random even indices n<=10^6: x_n divisible by a Table-2 prime
+STAGE A RESULT: ALL PASS

@@ -1,0 +1,262 @@
+{
+ "table": {
+  "4": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "5": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "6": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "7": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "8": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "9": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "10": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "11": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "12": {
+   "h": 3,
+   "sat_seconds": 0.0
+  },
+  "13": {
+   "h": 4,
+   "sat_seconds": 0.0
+  },
+  "14": {
+   "h": 4,
+   "sat_seconds": 0.0
+  },
+  "15": {
+   "h": 4,
+   "sat_seconds": 0.0
+  },
+  "16": {
+   "h": 4,
+   "sat_seconds": 0.01
+  },
+  "17": {
+   "h": 4,
+   "sat_seconds": 0.01
+  },
+  "18": {
+   "h": 4,
+   "sat_seconds": 0.02
+  },
+  "19": {
+   "h": 4,
+   "sat_seconds": 0.02
+  },
+  "20": {
+   "h": 4,
+   "sat_seconds": 0.02
+  },
+  "21": {
+   "h": 4,
+   "sat_seconds": 0.02
+  },
+  "22": {
+   "h": 4,
+   "sat_seconds": 0.02
+  },
+  "23": {
+   "h": 5,
+   "sat_seconds": 0.0
+  },
+  "24": {
+   "h": 5,
+   "sat_seconds": 0.0
+  },
+  "25": {
+   "h": 5,
+   "sat_seconds": 0.0
+  },
+  "26": {
+   "h": 5,
+   "sat_seconds": 0.02
+  },
+  "27": {
+   "h": 5,
+   "sat_seconds": 0.02
+  },
+  "28": {
+   "h": 5,
+   "sat_seconds": 0.02
+  },
+  "29": {
+   "h": 5,
+   "sat_seconds": 0.02
+  },
+  "30": {
+   "h": 5,
+   "sat_seconds": 0.02
+  },
+  "31": {
+   "h": 5,
+   "sat_seconds": 0.02
+  },
+  "32": {
+   "h": 5,
+   "sat_seconds": 0.02
+  },
+  "33": {
+   "h": 5,
+   "sat_seconds": 0.09
+  },
+  "34": {
+   "h": 5,
+   "sat_seconds": 0.32
+  },
+  "35": {
+   "h": 5,
+   "sat_seconds": 1.31
+  },
+  "36": {
+   "h": 6,
+   "sat_seconds": 0.02
+  },
+  "37": {
+   "h": 6,
+   "sat_seconds": 0.02
+  },
+  "38": {
+   "h": 6,
+   "sat_seconds": 0.02
+  },
+  "39": {
+   "h": 6,
+   "sat_seconds": 0.03
+  },
+  "40": {
+   "h": 6,
+   "sat_seconds": 0.03
+  },
+  "41": {
+   "h": 6,
+   "sat_seconds": 0.02
+  },
+  "42": {
+   "h": 6,
+   "sat_seconds": 0.03
+  },
+  "43": {
+   "h": 6,
+   "sat_seconds": 0.05
+  },
+  "44": {
+   "h": 6,
+   "sat_seconds": 0.03
+  },
+  "45": {
+   "h": 6,
+   "sat_seconds": 0.05
+  },
+  "46": {
+   "h": 6,
+   "sat_seconds": 0.11
+  },
+  "47": {
+   "h": 6,
+   "sat_seconds": 0.23
+  },
+  "48": {
+   "h": 6,
+   "sat_seconds": 0.58
+  },
+  "49": {
+   "h": 6,
+   "sat_seconds": 2.52
+  },
+  "50": {
+   "h": 6,
+   "sat_seconds": 7.03
+  },
+  "51": {
+   "h": 6,
+   "sat_seconds": 88.05
+  }
+ },
+ "jumps": {
+  "2": {
+   "first_N": 4,
+   "unsat_k": 1,
+   "unsat_seconds": 0.0,
+   "proof": "certs/e160_N4_k1.drat",
+   "cnf": "cnf/e160_N4_k1.cnf",
+   "proof_sha256": "347c28d678ce5124fd6d6299341c06ccc6135ba54584b89af30d5121e6a7acc0",
+   "cnf_sha256": "2a61689701b31762bf2fad43d4547dac95ea2019ec583fd315b1cd2c2856fc66",
+   "proof_bytes": 69,
+   "drat_verified": true
+  },
+  "3": {
+   "first_N": 4,
+   "unsat_k": 2,
+   "unsat_seconds": 0.0,
+   "proof": "certs/e160_N4_k2.drat",
+   "cnf": "cnf/e160_N4_k2.cnf",
+   "proof_sha256": "fbf84c655c6526504e403b3272df8350597cb02f490d597bd0b5ee0d0d5fb5d0",
+   "cnf_sha256": "548b65cf8cc9e6ab2312b66a7282ad64b84f33d7b178f8e7e7935996871b82eb",
+   "proof_bytes": 117,
+   "drat_verified": true
+  },
+  "4": {
+   "first_N": 13,
+   "unsat_k": 3,
+   "unsat_seconds": 0.01,
+   "proof": "certs/e160_N13_k3.drat",
+   "cnf": "cnf/e160_N13_k3.cnf",
+   "proof_sha256": "3c30b9a26ce6495f1bbda06cfb89acec2cf8b183b388d8b16ca5056e17205516",
+   "cnf_sha256": "0f0e2fc3ff8ebbb1f3663166a7bf3da97c9bd4e2d0e2224ddf95d76fff401640",
+   "proof_bytes": 5101,
+   "drat_verified": true
+  },
+  "5": {
+   "first_N": 23,
+   "unsat_k": 4,
+   "unsat_seconds": 0.04,
+   "proof": "certs/e160_N23_k4.drat",
+   "cnf": "cnf/e160_N23_k4.cnf",
+   "proof_sha256": "aa60c335d4d2cca93f58378d6380ddf5361b9c50379b44eeff4b0e3b834bb227",
+   "cnf_sha256": "c8fb565479fe8008e2c5802b2a910579965e9b37e0ef2d3db639a5a0a6b50356",
+   "proof_bytes": 92458,
+   "drat_verified": true
+  },
+  "6": {
+   "first_N": 36,
+   "unsat_k": 5,
+   "unsat_seconds": 10.86,
+   "proof": "certs/e160_N36_k5.drat",
+   "cnf": "cnf/e160_N36_k5.cnf",
+   "proof_sha256": "f3abbb43ad1b96817166c358fbeff2b14150a7ff24c31ecf9a160c9b3be6326f",
+   "cnf_sha256": "59cd150ced33c05abdcdb415ef9de47eb425a9485e8a4a4e45c122c988c7cde2",
+   "proof_bytes": 29916225,
+   "drat_verified": true
+  }
+ },
+ "meta": {
+  "kissat_version": "4.0.4",
+  "invocation": "kissat -q <cnf> <drat>; drat-trim <cnf> <drat>",
+  "stopped": {
+   "N": 52,
+   "k": 6,
+   "reason": "call-timeout"
+  }
+ }
+}

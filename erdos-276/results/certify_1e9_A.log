@@ -1,0 +1,6 @@
+DIVISOR: prime 3219067 divides results/xvals/x_735.txt
+DIVISOR: prime 3608621 divides results/xvals/x_515.txt
+DIVISOR: prime 5687179 divides results/xvals/x_987.txt
+DIVISOR: prime 5970301 divides results/xvals/x_1199.txt
+DIVISOR: prime 40780849 divides results/xvals/x_1383.txt
+RANGE [2,400000000]: tested 21336326 primes (first 2, last 399999959), DIVISOR FOUND
