@@ -1,0 +1,154 @@
+{
+ "N(2,1)": {
+  "value": 3,
+  "source": "spencer"
+ },
+ "N(2,2)": {
+  "value": 3,
+  "source": "vdW"
+ },
+ "N(3,1)": {
+  "value": 3,
+  "source": "spencer"
+ },
+ "N(3,2)": {
+  "value": 9,
+  "source": "goss"
+ },
+ "N(3,3)": {
+  "value": 9,
+  "source": "vdW"
+ },
+ "N(4,1)": {
+  "value": 13,
+  "source": "spencer"
+ },
+ "N(4,2)": {
+  "value": 13,
+  "source": "parity<-spencer"
+ },
+ "N(4,3)": {
+  "value": 35,
+  "source": "parity<-this-work"
+ },
+ "N(4,4)": {
+  "value": 35,
+  "source": "this-work"
+ },
+ "N(5,1)": {
+  "value": 5,
+  "source": "spencer"
+ },
+ "N(5,2)": {
+  "value": 22,
+  "source": "this-work"
+ },
+ "N(5,3)": {
+  "value": 22,
+  "source": "parity<-this-work"
+ },
+ "N(5,4)": {
+  "value": 178,
+  "source": "parity<-vdW"
+ },
+ "N(5,5)": {
+  "value": 178,
+  "source": "vdW"
+ },
+ "N(6,1)": {
+  "value": 11,
+  "source": "spencer"
+ },
+ "N(6,2)": {
+  "value": 11,
+  "source": "parity<-spencer"
+ },
+ "N(6,3)": {
+  "value": 42,
+  "source": "parity<-this-work"
+ },
+ "N(6,4)": {
+  "value": 42,
+  "source": "this-work"
+ },
+ "N(6,5)": {
+  "value": 1132,
+  "source": "parity<-vdW"
+ },
+ "N(6,6)": {
+  "value": 1132,
+  "source": "vdW"
+ },
+ "N(7,1)": {
+  "value": 7,
+  "source": "spencer"
+ },
+ "N(7,2)": {
+  "value": 49,
+  "source": "goss"
+ },
+ "N(7,3)": {
+  "value": 49,
+  "source": "parity<-goss"
+ },
+ "N(8,1)": {
+  "value": 57,
+  "source": "spencer"
+ },
+ "N(8,2)": {
+  "value": 57,
+  "source": "parity<-spencer"
+ },
+ "N(8,3)": {
+  "value": 66,
+  "source": "parity<-this-work"
+ },
+ "N(8,4)": {
+  "value": 66,
+  "source": "this-work"
+ },
+ "N(9,1)": {
+  "value": 9,
+  "source": "spencer"
+ },
+ "N(9,2)": {
+  "value": 65,
+  "source": "goss"
+ },
+ "N(9,3)": {
+  "value": 65,
+  "source": "parity<-goss"
+ },
+ "N(10,1)": {
+  "value": 19,
+  "source": "spencer"
+ },
+ "N(10,2)": {
+  "value": 19,
+  "source": "parity<-spencer"
+ },
+ "N(11,1)": {
+  "value": 11,
+  "source": "spencer"
+ },
+ "N(11,2)": {
+  "value": 112,
+  "source": "goss"
+ },
+ "N(11,3)": {
+  "value": 112,
+  "source": "parity<-goss"
+ },
+ "N(12,1)": {
+  "value": 45,
+  "source": "spencer"
+ },
+ "N(12,2)": {
+  "value": 45,
+  "source": "parity<-spencer"
+ },
+ "N(13,1)": {
+  "value": 13,
+  "source": "spencer"
+ }
+}
