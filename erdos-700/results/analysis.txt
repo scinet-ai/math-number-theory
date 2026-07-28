@@ -1,0 +1,47 @@
+composites: 921,501 (N=1000000)
+violations of f<=n/P: 0
+f>sqrt(n) census: 21,806 terms; first [(30, 6), (70, 10), (84, 12), (105, 15), (132, 12)]
+  density [1e2,1e3): 0.050000 (45)
+  density [1e3,1e4): 0.041333 (372)
+  density [1e4,1e5): 0.030778 (2770)
+  density [1e5,1e6): 0.020684 (18616)
+  all bigs have P(n)<=sqrt(n): True
+equality f=n/P: 475,416 (51.6% of composites)
+  equality cases with P>sqrt(n): 462,303/475,416 = 97.2%
+  baseline composites with P>sqrt(n): 653,162 (equality rate there: 70.8%)
+  squarefree: equality 71.3% vs non-equality 42.7%
+record envelope (A_hat = log(n/f)/log log n):
+  f(30)=6  n/f=5.0  A_hat=1.315
+  f(70)=10  n/f=7.0  A_hat=1.345
+  f(84)=12  n/f=7.0  A_hat=1.307
+  f(105)=15  n/f=7.0  A_hat=1.265
+  f(168)=21  n/f=8.0  A_hat=1.273
+  f(280)=35  n/f=8.0  A_hat=1.203
+  f(520)=40  n/f=13.0  A_hat=1.399
+  f(546)=42  n/f=13.0  A_hat=1.393
+  f(616)=44  n/f=14.0  A_hat=1.419
+  f(765)=45  n/f=17.0  A_hat=1.497
+  f(770)=70  n/f=11.0  A_hat=1.266
+  f(1386)=126  n/f=11.0  A_hat=1.212
+  f(2310)=154  n/f=15.0  A_hat=1.323
+  f(4485)=195  n/f=23.0  A_hat=1.473
+  f(5083)=221  n/f=23.0  A_hat=1.462
+  f(7293)=429  n/f=17.0  A_hat=1.296
+  f(12673)=437  n/f=29.0  A_hat=1.499
+  f(13455)=585  n/f=23.0  A_hat=1.392
+  f(14858)=646  n/f=23.0  A_hat=1.386
+  f(22040)=760  n/f=29.0  A_hat=1.462
+  f(31775)=775  n/f=41.0  A_hat=1.588
+  f(33046)=806  n/f=41.0  A_hat=1.585
+  f(34510)=1015  n/f=34.0  A_hat=1.503
+  f(48174)=1302  n/f=37.0  A_hat=1.519
+  f(60680)=1480  n/f=41.0  A_hat=1.548
+  f(62031)=2001  n/f=31.0  A_hat=1.430
+  f(89096)=2072  n/f=43.0  A_hat=1.546
+  f(90272)=2821  n/f=32.0  A_hat=1.424
+  f(147407)=5083  n/f=29.0  A_hat=1.360
+  f(172550)=5950  n/f=29.0  A_hat=1.352
+  f(320775)=6825  n/f=47.0  A_hat=1.516
+  f(418159)=8897  n/f=47.0  A_hat=1.504
+  f(626275)=13325  n/f=47.0  A_hat=1.486
+  f(744809)=14053  n/f=53.0  A_hat=1.525
