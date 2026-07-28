@@ -1,0 +1,142 @@
+{
+ "certified_height": 11520000000000,
+ "blocks": 1199,
+ "odd_primes": 396722129482,
+ "clusters": 1182852309,
+ "nonclusters": 395539277173,
+ "largest_cluster_prime": 11519999994329,
+ "max_k_m": 4093,
+ "argmax_k_m": 2811324624088,
+ "cpu_seconds": 14157.5,
+ "oeis_checks": [
+  {
+   "power": 7,
+   "clusters": 40017,
+   "ok_clusters": true,
+   "nonclusters": 624561,
+   "ok_nonclusters": true,
+   "odd_primes": 664578,
+   "ok_pi": true,
+   "max_cluster": 9997879,
+   "ok_max_cluster": true
+  },
+  {
+   "power": 8,
+   "clusters": 202208,
+   "ok_clusters": true,
+   "nonclusters": 5559246,
+   "ok_nonclusters": true,
+   "odd_primes": 5761454,
+   "ok_pi": true,
+   "max_cluster": 99999551,
+   "ok_max_cluster": true
+  },
+  {
+   "power": 9,
+   "clusters": 1059807,
+   "ok_clusters": true,
+   "nonclusters": 49787726,
+   "ok_nonclusters": true,
+   "odd_primes": 50847533,
+   "ok_pi": true,
+   "max_cluster": 999998693,
+   "ok_max_cluster": true
+  },
+  {
+   "power": 10,
+   "clusters": 5736717,
+   "ok_clusters": true,
+   "nonclusters": 449315793,
+   "ok_nonclusters": true,
+   "odd_primes": 455052510,
+   "ok_pi": true,
+   "max_cluster": 9999995363,
+   "ok_max_cluster": true
+  },
+  {
+   "power": 11,
+   "clusters": 31911465,
+   "ok_clusters": true,
+   "nonclusters": 4086143347,
+   "ok_nonclusters": true,
+   "odd_primes": 4118054812,
+   "ok_pi": true,
+   "max_cluster": 99999976319,
+   "ok_max_cluster": true
+  },
+  {
+   "power": 12,
+   "clusters": 182019293,
+   "ok_clusters": true,
+   "nonclusters": 37425892724,
+   "ok_nonclusters": true,
+   "odd_primes": 37607912017,
+   "ok_pi": true,
+   "max_cluster": 999999998533,
+   "ok_max_cluster": true
+  },
+  {
+   "power": 13,
+   "clusters": 1060723057,
+   "ok_clusters": true,
+   "nonclusters": 345004813781,
+   "ok_nonclusters": true,
+   "odd_primes": 346065536838,
+   "ok_pi": true,
+   "max_cluster": 9999999954787,
+   "ok_max_cluster": true
+  }
+ ],
+ "oeis_all_ok": true,
+ "decade_table": [
+  {
+   "decade": "[1e7,1e8)",
+   "covered_to": 100000000,
+   "clusters": 162191,
+   "odd_primes": 5096876,
+   "cluster_fraction": 0.031822
+  },
+  {
+   "decade": "[1e8,1e9)",
+   "covered_to": 1000000000,
+   "clusters": 857599,
+   "odd_primes": 45086079,
+   "cluster_fraction": 0.019021
+  },
+  {
+   "decade": "[1e9,1e10)",
+   "covered_to": 10000000000,
+   "clusters": 4676910,
+   "odd_primes": 404204977,
+   "cluster_fraction": 0.011571
+  },
+  {
+   "decade": "[1e10,1e11)",
+   "covered_to": 100000000000,
+   "clusters": 26174748,
+   "odd_primes": 3663002302,
+   "cluster_fraction": 0.007146
+  },
+  {
+   "decade": "[1e11,1e12)",
+   "covered_to": 1000000000000,
+   "clusters": 150107828,
+   "odd_primes": 33489857205,
+   "cluster_fraction": 0.004482
+  },
+  {
+   "decade": "[1e12,1e13)",
+   "covered_to": 10000000000000,
+   "clusters": 878703764,
+   "odd_primes": 308457624821,
+   "cluster_fraction": 0.002849
+  },
+  {
+   "decade": "[1e13,1e14)",
+   "covered_to": 11520000000000,
+   "clusters": 122129252,
+   "odd_primes": 50656592644,
+   "cluster_fraction": 0.002411
+  }
+ ]
+}
