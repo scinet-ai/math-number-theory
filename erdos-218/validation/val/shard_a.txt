@@ -1,0 +1,6 @@
+CERT1 lo=2 hi=100002 primes=9592 first=2 last=99991 next=100003 gt=4615 eq=434 lt=4543
+CERT1 lo=100002 hi=200002 primes=8392 first=100003 last=199999 next=200003 gt=4021 eq=338 lt=4033
+CERT1 lo=200002 hi=300002 primes=8013 first=200003 last=299993 next=300007 gt=3839 eq=308 lt=3866
+CERT1 lo=300002 hi=400002 primes=7863 first=300007 last=399989 next=400009 gt=3781 eq=305 lt=3777
+CERT1 lo=400002 hi=500000 primes=7678 first=400009 last=499979 next=500009 gt=3674 eq=284 lt=3720
+TOTAL1 lo=2 hi=500000 primes=41538 gt=19930 eq=1669 lt=19939
