@@ -1,0 +1,17 @@
+step 1: enumerating all forests on 1..12 vertices explicitly ...
+  ok: 2948 forests, counts match A005195(1..12), product==brute force everywhere, all unimodal
+step 2: TOTAL=12 mini-sweep, C binary vs independent Python ...
+  k=1: C FCHECK reproduced exactly (trees=1 checks=11 hash=3a2bce3bcf8b3daf)
+  k=2: C FCHECK reproduced exactly (trees=1 checks=35 hash=91f78e8de71a774a)
+  k=3: C FCHECK reproduced exactly (trees=1 checks=52 hash=2767533538a14af1)
+  k=4: C FCHECK reproduced exactly (trees=2 checks=130 hash=27297f3c8e21440a)
+  k=5: C FCHECK reproduced exactly (trees=3 checks=168 hash=27a8d54148e4a534)
+  k=6: C FCHECK reproduced exactly (trees=6 checks=252 hash=79638b32c4d0f149)
+  k=7: C FCHECK reproduced exactly (trees=11 checks=242 hash=42cf26f6eb9b8ca7)
+  k=8: C FCHECK reproduced exactly (trees=23 checks=276 hash=d9ce036426003d4c)
+  k=9: C FCHECK reproduced exactly (trees=47 checks=282 hash=204cef1f7e38cfec)
+  k=10: C FCHECK reproduced exactly (trees=106 checks=318 hash=142e8a2c7d117546)
+  k=11: C FCHECK reproduced exactly (trees=235 checks=235 hash=74ae4b75db5febb5)
+step 3: coverage identity ...
+  ok: sum_k trees(k) x forests(m<=12-k, comps<=k) = 2001 = sum over disconnected forests of #max-components (explicit)
+ALL END-TO-END TESTS PASSED

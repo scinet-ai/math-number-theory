@@ -1,0 +1,9 @@
+[    0.0s] loaded+reverified all 149 non-LC trees (orders {26: 2, 28: 19, 29: 7, 30: 121}); all non-LC, all unimodal, seqs match round 1
+[    0.0s] level 2: 11175 candidate multisets (extensions of |H_1|=149)
+[    0.2s] level 2: all 11175 products UNIMODAL; hereditary candidates: 11078 log-concave, 97 non-log-concave -> |H_2| = 97 (total vertices 56..60); non-hereditary (K-G-guaranteed, still checked): 0
+          H_2 members written to lane_a_H2_members.txt
+[    0.2s] level 3: 10823 candidate multisets (extensions of |H_2|=97)
+[    0.5s] level 3: all 10823 products UNIMODAL; hereditary candidates: 111 log-concave, 0 non-log-concave -> |H_3| = 0; non-hereditary (K-G-guaranteed, still checked): 10712
+[    0.5s] closure ended at level 3; H_3 size = 0; products checked (levels 2..3): 21998; counterexample found: False
+CLOSURE TERMINATED EMPTY => THEOREM (conditional only on Hoggar 1974 + Keilson-Gerber 1971 + the round-1 exhaustive tree results): EVERY forest all of whose components have at most 30 vertices has a unimodal independent-set sequence. Any counterexample to Erdős #993 must contain a tree component on >= 31 vertices.
+LANE_A_STATUS CLOSED

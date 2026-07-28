@@ -1,0 +1,16 @@
+Non-log-concave products in the <=30-vertex forest sweep (all unimodal; all
+independently recomputed in Python big-int arithmetic; census completeness
+proved against a from-scratch recomputation over the 28 non-LC trees of order
+<= 29 x their full q-sets):
+
+  order-26 tree component: 16 non-log-concave products (of 2 x 12 candidate products)
+  order-28 tree component: 47 non-log-concave products (of 19 x 3 candidate products)
+  order-29 tree component: 7 non-log-concave products (of 7 x 1 candidate products)
+
+total: 70 distinct non-log-concave product polynomials, realised by
+  16 disconnected forests with an order-26 non-LC component
+  47 disconnected forests with an order-28 non-LC component
+  7 disconnected forests with an order-29 non-LC component
+= 70 disconnected non-log-concave forests on <= 30 vertices; every one
+is unimodal.  (By Hoggar's theorem these, plus the 149 non-LC trees of round 1,
+are the ONLY non-log-concave forests on <= 30 vertices: 219 in all.)

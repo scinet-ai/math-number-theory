@@ -1,0 +1,1945 @@
+{
+ "1": {
+  "budget": 29,
+  "cap": 1,
+  "nq": 29,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "3": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "4": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "5": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "6": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "7": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "8": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "9": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "10": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "11": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "12": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "13": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "14": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "15": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "16": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "17": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "18": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "19": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "20": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "21": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "22": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "23": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "24": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "25": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "26": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "27": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "28": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "29": {
+    "distinct": 1,
+    "forests": 1
+   }
+  }
+ },
+ "2": {
+  "budget": 28,
+  "cap": 2,
+  "nq": 224,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "4": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "5": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "6": {
+    "distinct": 4,
+    "forests": 4
+   },
+   "7": {
+    "distinct": 4,
+    "forests": 4
+   },
+   "8": {
+    "distinct": 5,
+    "forests": 5
+   },
+   "9": {
+    "distinct": 5,
+    "forests": 5
+   },
+   "10": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "11": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "12": {
+    "distinct": 7,
+    "forests": 7
+   },
+   "13": {
+    "distinct": 7,
+    "forests": 7
+   },
+   "14": {
+    "distinct": 8,
+    "forests": 8
+   },
+   "15": {
+    "distinct": 8,
+    "forests": 8
+   },
+   "16": {
+    "distinct": 9,
+    "forests": 9
+   },
+   "17": {
+    "distinct": 9,
+    "forests": 9
+   },
+   "18": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "19": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "20": {
+    "distinct": 11,
+    "forests": 11
+   },
+   "21": {
+    "distinct": 11,
+    "forests": 11
+   },
+   "22": {
+    "distinct": 12,
+    "forests": 12
+   },
+   "23": {
+    "distinct": 12,
+    "forests": 12
+   },
+   "24": {
+    "distinct": 13,
+    "forests": 13
+   },
+   "25": {
+    "distinct": 13,
+    "forests": 13
+   },
+   "26": {
+    "distinct": 14,
+    "forests": 14
+   },
+   "27": {
+    "distinct": 14,
+    "forests": 14
+   },
+   "28": {
+    "distinct": 15,
+    "forests": 15
+   }
+  }
+ },
+ "3": {
+  "budget": 27,
+  "cap": 3,
+  "nq": 784,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 4,
+    "forests": 4
+   },
+   "5": {
+    "distinct": 5,
+    "forests": 5
+   },
+   "6": {
+    "distinct": 7,
+    "forests": 7
+   },
+   "7": {
+    "distinct": 8,
+    "forests": 8
+   },
+   "8": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "9": {
+    "distinct": 12,
+    "forests": 12
+   },
+   "10": {
+    "distinct": 14,
+    "forests": 14
+   },
+   "11": {
+    "distinct": 16,
+    "forests": 16
+   },
+   "12": {
+    "distinct": 19,
+    "forests": 19
+   },
+   "13": {
+    "distinct": 21,
+    "forests": 21
+   },
+   "14": {
+    "distinct": 24,
+    "forests": 24
+   },
+   "15": {
+    "distinct": 27,
+    "forests": 27
+   },
+   "16": {
+    "distinct": 30,
+    "forests": 30
+   },
+   "17": {
+    "distinct": 33,
+    "forests": 33
+   },
+   "18": {
+    "distinct": 37,
+    "forests": 37
+   },
+   "19": {
+    "distinct": 40,
+    "forests": 40
+   },
+   "20": {
+    "distinct": 44,
+    "forests": 44
+   },
+   "21": {
+    "distinct": 48,
+    "forests": 48
+   },
+   "22": {
+    "distinct": 52,
+    "forests": 52
+   },
+   "23": {
+    "distinct": 56,
+    "forests": 56
+   },
+   "24": {
+    "distinct": 61,
+    "forests": 61
+   },
+   "25": {
+    "distinct": 65,
+    "forests": 65
+   },
+   "26": {
+    "distinct": 70,
+    "forests": 70
+   },
+   "27": {
+    "distinct": 75,
+    "forests": 75
+   }
+  }
+ },
+ "4": {
+  "budget": 26,
+  "cap": 4,
+  "nq": 3536,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 7,
+    "forests": 7
+   },
+   "6": {
+    "distinct": 11,
+    "forests": 11
+   },
+   "7": {
+    "distinct": 14,
+    "forests": 14
+   },
+   "8": {
+    "distinct": 21,
+    "forests": 21
+   },
+   "9": {
+    "distinct": 25,
+    "forests": 25
+   },
+   "10": {
+    "distinct": 34,
+    "forests": 34
+   },
+   "11": {
+    "distinct": 41,
+    "forests": 41
+   },
+   "12": {
+    "distinct": 55,
+    "forests": 55
+   },
+   "13": {
+    "distinct": 64,
+    "forests": 64
+   },
+   "14": {
+    "distinct": 81,
+    "forests": 81
+   },
+   "15": {
+    "distinct": 95,
+    "forests": 95
+   },
+   "16": {
+    "distinct": 119,
+    "forests": 119
+   },
+   "17": {
+    "distinct": 136,
+    "forests": 136
+   },
+   "18": {
+    "distinct": 165,
+    "forests": 165
+   },
+   "19": {
+    "distinct": 189,
+    "forests": 189
+   },
+   "20": {
+    "distinct": 227,
+    "forests": 227
+   },
+   "21": {
+    "distinct": 256,
+    "forests": 256
+   },
+   "22": {
+    "distinct": 301,
+    "forests": 301
+   },
+   "23": {
+    "distinct": 339,
+    "forests": 339
+   },
+   "24": {
+    "distinct": 396,
+    "forests": 396
+   },
+   "25": {
+    "distinct": 441,
+    "forests": 441
+   },
+   "26": {
+    "distinct": 507,
+    "forests": 507
+   }
+  }
+ },
+ "5": {
+  "budget": 25,
+  "cap": 5,
+  "nq": 11257,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 14,
+    "forests": 14
+   },
+   "7": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "8": {
+    "distinct": 30,
+    "forests": 30
+   },
+   "9": {
+    "distinct": 43,
+    "forests": 43
+   },
+   "10": {
+    "distinct": 61,
+    "forests": 61
+   },
+   "11": {
+    "distinct": 80,
+    "forests": 80
+   },
+   "12": {
+    "distinct": 109,
+    "forests": 109
+   },
+   "13": {
+    "distinct": 145,
+    "forests": 145
+   },
+   "14": {
+    "distinct": 192,
+    "forests": 192
+   },
+   "15": {
+    "distinct": 249,
+    "forests": 249
+   },
+   "16": {
+    "distinct": 318,
+    "forests": 318
+   },
+   "17": {
+    "distinct": 405,
+    "forests": 405
+   },
+   "18": {
+    "distinct": 513,
+    "forests": 513
+   },
+   "19": {
+    "distinct": 642,
+    "forests": 642
+   },
+   "20": {
+    "distinct": 801,
+    "forests": 801
+   },
+   "21": {
+    "distinct": 984,
+    "forests": 984
+   },
+   "22": {
+    "distinct": 1209,
+    "forests": 1209
+   },
+   "23": {
+    "distinct": 1473,
+    "forests": 1473
+   },
+   "24": {
+    "distinct": 1789,
+    "forests": 1789
+   },
+   "25": {
+    "distinct": 2158,
+    "forests": 2158
+   }
+  }
+ },
+ "6": {
+  "budget": 24,
+  "cap": 6,
+  "nq": 28691,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 25,
+    "forests": 26
+   },
+   "8": {
+    "distinct": 41,
+    "forests": 42
+   },
+   "9": {
+    "distinct": 59,
+    "forests": 61
+   },
+   "10": {
+    "distinct": 94,
+    "forests": 97
+   },
+   "11": {
+    "distinct": 134,
+    "forests": 140
+   },
+   "12": {
+    "distinct": 204,
+    "forests": 214
+   },
+   "13": {
+    "distinct": 266,
+    "forests": 286
+   },
+   "14": {
+    "distinct": 388,
+    "forests": 414
+   },
+   "15": {
+    "distinct": 528,
+    "forests": 570
+   },
+   "16": {
+    "distinct": 749,
+    "forests": 810
+   },
+   "17": {
+    "distinct": 998,
+    "forests": 1095
+   },
+   "18": {
+    "distinct": 1377,
+    "forests": 1517
+   },
+   "19": {
+    "distinct": 1774,
+    "forests": 1988
+   },
+   "20": {
+    "distinct": 2409,
+    "forests": 2695
+   },
+   "21": {
+    "distinct": 3135,
+    "forests": 3549
+   },
+   "22": {
+    "distinct": 4164,
+    "forests": 4734
+   },
+   "23": {
+    "distinct": 5333,
+    "forests": 6143
+   },
+   "24": {
+    "distinct": 6971,
+    "forests": 8066
+   }
+  }
+ },
+ "7": {
+  "budget": 23,
+  "cap": 7,
+  "nq": 58557,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 51,
+    "forests": 53
+   },
+   "9": {
+    "distinct": 80,
+    "forests": 83
+   },
+   "10": {
+    "distinct": 125,
+    "forests": 130
+   },
+   "11": {
+    "distinct": 197,
+    "forests": 206
+   },
+   "12": {
+    "distinct": 307,
+    "forests": 324
+   },
+   "13": {
+    "distinct": 476,
+    "forests": 506
+   },
+   "14": {
+    "distinct": 709,
+    "forests": 766
+   },
+   "15": {
+    "distinct": 1008,
+    "forests": 1098
+   },
+   "16": {
+    "distinct": 1476,
+    "forests": 1613
+   },
+   "17": {
+    "distinct": 2146,
+    "forests": 2360
+   },
+   "18": {
+    "distinct": 3113,
+    "forests": 3453
+   },
+   "19": {
+    "distinct": 4465,
+    "forests": 5002
+   },
+   "20": {
+    "distinct": 6335,
+    "forests": 7161
+   },
+   "21": {
+    "distinct": 8840,
+    "forests": 10105
+   },
+   "22": {
+    "distinct": 12204,
+    "forests": 14062
+   },
+   "23": {
+    "distinct": 16947,
+    "forests": 19651
+   }
+  }
+ },
+ "8": {
+  "budget": 22,
+  "cap": 8,
+  "nq": 85346,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 96,
+    "forests": 106
+   },
+   "10": {
+    "distinct": 162,
+    "forests": 176
+   },
+   "11": {
+    "distinct": 251,
+    "forests": 275
+   },
+   "12": {
+    "distinct": 420,
+    "forests": 462
+   },
+   "13": {
+    "distinct": 656,
+    "forests": 736
+   },
+   "14": {
+    "distinct": 1080,
+    "forests": 1226
+   },
+   "15": {
+    "distinct": 1674,
+    "forests": 1949
+   },
+   "16": {
+    "distinct": 2622,
+    "forests": 3108
+   },
+   "17": {
+    "distinct": 3699,
+    "forests": 4545
+   },
+   "18": {
+    "distinct": 5711,
+    "forests": 6995
+   },
+   "19": {
+    "distinct": 8496,
+    "forests": 10568
+   },
+   "20": {
+    "distinct": 12917,
+    "forests": 16269
+   },
+   "21": {
+    "distinct": 19006,
+    "forests": 24503
+   },
+   "22": {
+    "distinct": 28405,
+    "forests": 37200
+   }
+  }
+ },
+ "9": {
+  "budget": 21,
+  "cap": 9,
+  "nq": 107427,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 201,
+    "forests": 223
+   },
+   "11": {
+    "distinct": 333,
+    "forests": 369
+   },
+   "12": {
+    "distinct": 544,
+    "forests": 603
+   },
+   "13": {
+    "distinct": 908,
+    "forests": 1018
+   },
+   "14": {
+    "distinct": 1491,
+    "forests": 1696
+   },
+   "15": {
+    "distinct": 2502,
+    "forests": 2889
+   },
+   "16": {
+    "distinct": 4111,
+    "forests": 4847
+   },
+   "17": {
+    "distinct": 6765,
+    "forests": 8117
+   },
+   "18": {
+    "distinct": 10650,
+    "forests": 13105
+   },
+   "19": {
+    "distinct": 15889,
+    "forests": 19968
+   },
+   "20": {
+    "distinct": 24884,
+    "forests": 31450
+   },
+   "21": {
+    "distinct": 38856,
+    "forests": 49601
+   }
+  }
+ },
+ "10": {
+  "budget": 20,
+  "cap": 10,
+  "nq": 111580,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 405,
+    "forests": 475
+   },
+   "12": {
+    "distinct": 700,
+    "forests": 815
+   },
+   "13": {
+    "distinct": 1138,
+    "forests": 1336
+   },
+   "14": {
+    "distinct": 1973,
+    "forests": 2332
+   },
+   "15": {
+    "distinct": 3282,
+    "forests": 3949
+   },
+   "16": {
+    "distinct": 5699,
+    "forests": 6967
+   },
+   "17": {
+    "distinct": 9587,
+    "forests": 12039
+   },
+   "18": {
+    "distinct": 16477,
+    "forests": 21161
+   },
+   "19": {
+    "distinct": 27286,
+    "forests": 36186
+   },
+   "20": {
+    "distinct": 44446,
+    "forests": 60759
+   }
+  }
+ },
+ "11": {
+  "budget": 19,
+  "cap": 11,
+  "nq": 95321,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 873,
+    "forests": 1050
+   },
+   "13": {
+    "distinct": 1506,
+    "forests": 1806
+   },
+   "14": {
+    "distinct": 2518,
+    "forests": 3037
+   },
+   "15": {
+    "distinct": 4407,
+    "forests": 5359
+   },
+   "16": {
+    "distinct": 7529,
+    "forests": 9317
+   },
+   "17": {
+    "distinct": 13302,
+    "forests": 16739
+   },
+   "18": {
+    "distinct": 23095,
+    "forests": 29856
+   },
+   "19": {
+    "distinct": 40886,
+    "forests": 54046
+   }
+  }
+ },
+ "12": {
+  "budget": 18,
+  "cap": 12,
+  "nq": 71601,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 1348,
+    "forests": 1601
+   },
+   "13": {
+    "distinct": 1872,
+    "forests": 2357
+   },
+   "14": {
+    "distinct": 3308,
+    "forests": 4139
+   },
+   "15": {
+    "distinct": 5565,
+    "forests": 7012
+   },
+   "16": {
+    "distinct": 9954,
+    "forests": 12623
+   },
+   "17": {
+    "distinct": 17226,
+    "forests": 22249
+   },
+   "18": {
+    "distinct": 31123,
+    "forests": 40876
+   }
+  }
+ },
+ "13": {
+  "budget": 17,
+  "cap": 13,
+  "nq": 52886,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 1348,
+    "forests": 1601
+   },
+   "13": {
+    "distinct": 2974,
+    "forests": 3658
+   },
+   "14": {
+    "distinct": 4194,
+    "forests": 5440
+   },
+   "15": {
+    "distinct": 7444,
+    "forests": 9614
+   },
+   "16": {
+    "distinct": 12741,
+    "forests": 16526
+   },
+   "17": {
+    "distinct": 22980,
+    "forests": 30055
+   }
+  }
+ },
+ "14": {
+  "budget": 16,
+  "cap": 14,
+  "nq": 38829,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 1348,
+    "forests": 1601
+   },
+   "13": {
+    "distinct": 2974,
+    "forests": 3658
+   },
+   "14": {
+    "distinct": 6777,
+    "forests": 8599
+   },
+   "15": {
+    "distinct": 9456,
+    "forests": 12773
+   },
+   "16": {
+    "distinct": 17069,
+    "forests": 22844
+   }
+  }
+ },
+ "15": {
+  "budget": 15,
+  "cap": 15,
+  "nq": 28043,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 1348,
+    "forests": 1601
+   },
+   "13": {
+    "distinct": 2974,
+    "forests": 3658
+   },
+   "14": {
+    "distinct": 6777,
+    "forests": 8599
+   },
+   "15": {
+    "distinct": 15739,
+    "forests": 20514
+   }
+  }
+ },
+ "16": {
+  "budget": 14,
+  "cap": 14,
+  "nq": 12304,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 1348,
+    "forests": 1601
+   },
+   "13": {
+    "distinct": 2974,
+    "forests": 3658
+   },
+   "14": {
+    "distinct": 6777,
+    "forests": 8599
+   }
+  }
+ },
+ "17": {
+  "budget": 13,
+  "cap": 13,
+  "nq": 5527,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 1348,
+    "forests": 1601
+   },
+   "13": {
+    "distinct": 2974,
+    "forests": 3658
+   }
+  }
+ },
+ "18": {
+  "budget": 12,
+  "cap": 12,
+  "nq": 2553,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   },
+   "12": {
+    "distinct": 1348,
+    "forests": 1601
+   }
+  }
+ },
+ "19": {
+  "budget": 11,
+  "cap": 11,
+  "nq": 1205,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   },
+   "11": {
+    "distinct": 618,
+    "forests": 710
+   }
+  }
+ },
+ "20": {
+  "budget": 10,
+  "cap": 10,
+  "nq": 587,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   },
+   "10": {
+    "distinct": 294,
+    "forests": 329
+   }
+  }
+ },
+ "21": {
+  "budget": 9,
+  "cap": 9,
+  "nq": 293,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   },
+   "9": {
+    "distinct": 142,
+    "forests": 153
+   }
+  }
+ },
+ "22": {
+  "budget": 8,
+  "cap": 8,
+  "nq": 151,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   },
+   "8": {
+    "distinct": 73,
+    "forests": 76
+   }
+  }
+ },
+ "23": {
+  "budget": 7,
+  "cap": 7,
+  "nq": 78,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   },
+   "7": {
+    "distinct": 36,
+    "forests": 37
+   }
+  }
+ },
+ "24": {
+  "budget": 6,
+  "cap": 6,
+  "nq": 42,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   },
+   "6": {
+    "distinct": 20,
+    "forests": 20
+   }
+  }
+ },
+ "25": {
+  "budget": 5,
+  "cap": 5,
+  "nq": 22,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   },
+   "5": {
+    "distinct": 10,
+    "forests": 10
+   }
+  }
+ },
+ "26": {
+  "budget": 4,
+  "cap": 4,
+  "nq": 12,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   },
+   "4": {
+    "distinct": 6,
+    "forests": 6
+   }
+  }
+ },
+ "27": {
+  "budget": 3,
+  "cap": 3,
+  "nq": 6,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   },
+   "3": {
+    "distinct": 3,
+    "forests": 3
+   }
+  }
+ },
+ "28": {
+  "budget": 2,
+  "cap": 2,
+  "nq": 3,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   },
+   "2": {
+    "distinct": 2,
+    "forests": 2
+   }
+  }
+ },
+ "29": {
+  "budget": 1,
+  "cap": 1,
+  "nq": 1,
+  "per_m": {
+   "1": {
+    "distinct": 1,
+    "forests": 1
+   }
+  }
+ }
+}

@@ -1,0 +1,46 @@
+Exhaustive unimodality check of all forests on <= 30 vertices (disconnected ones;
+single trees were exhausted by round 1). Scheme: for every tree T of order k
+(gentreeg stream) and every distinct forest polynomial q on m <= 30-k vertices
+with components of order <= k, test p_T * q. Chunk hashes are order-independent
+FNV-1a sums.
+
+  k      trees(=A000055)      q-polys       product_checks  nonuni  nonLC  hash
+   1                  1           29                   29      0      0  3f6f6013c3bebcb1
+   2                  1          224                  224      0      0  33681175b0695528
+   3                  1          784                  784      0      0  b243164cad49c250
+   4                  2        3,536                7,072      0      0  c1fe0a07411da137
+   5                  3       11,257               33,771      0      0  110f26300f78679b
+   6                  6       28,691              172,146      0      0  0c17b43b9c999f0c
+   7                 11       58,557              644,127      0      0  135ab1504d0ab541
+   8                 23       85,346            1,962,958      0      0  15bc8c6e9713d7bc
+   9                 47      107,427            5,049,069      0      0  a5e2da89091591a5
+  10                106      111,580           11,827,480      0      0  32482b681f43cba6
+  11                235       95,321           22,400,435      0      0  7eea1fc8730754ee
+  12                551       71,601           39,452,151      0      0  6830f4107e9ef691
+  13              1,301       52,886           68,804,686      0      0  b88c43c3a5288304
+  14              3,159       38,829          122,660,811      0      0  0c3d918f348c445f
+  15              7,741       28,043          217,080,863      0      0  df32e953f3b1a020
+  16             19,320       12,304          237,713,280      0      0  baee18cb557db3c4
+  17             48,629        5,527          268,772,483      0      0  08465cba8bff166f
+  18            123,867        2,553          316,232,451      0      0  e59c1c1ec14cc2d2
+  19            317,955        1,205          383,135,775      0      0  0080928b67f79c8f
+  20            823,065          587          483,139,155      0      0  139f8a719667da42
+  21          2,144,505          293          628,339,965      0      0  cf228930b4aee507
+  22          5,623,756          151          849,187,156      0      0  c36f44221d2267fc
+  23         14,828,074           78        1,156,589,772      0      0  7bb27c7de2fd3178
+  24         39,299,897           42        1,650,595,674      0      0  7287ee79289def06
+  25        104,636,890           22        2,302,011,580      0      0  4490d762410aec81
+  26        279,793,450           12        3,357,521,400      0     16  68534018532315d6
+  27        751,065,460            6        4,506,392,760      0      0  ef9ec75d1db512e4
+  28      2,023,443,032            3        6,070,329,096      0     47  2c9d7568fc8b516b
+  29      5,469,566,585            1        5,469,566,585      0      7  e41dfbbb5952962b
+
+totals: 186 banked chunk tasks; trees streamed 8,691,747,673; distinct q-polynomials 716,895; product checks 28,169,623,738;
+non-unimodal 0; non-log-concave products 70; check cpu 8866s
+coverage: forests on 1..30 vertices (OEIS A005195 partial sum) = 52,068,524,664,
+of which 23,522,619,475 are single trees (verified by round 1, orders 1..30)
+and 28,545,905,189 are disconnected -- each factoring as T + q with T a
+maximum component of order k <= 29 and poly(q) in the order-k q-set, so each is
+covered by the 28,169,623,738 distinct (T, q) product checks above.
+certificates: per-order tree counts == A000055, checks == trees x nq: ALL PASS
+RESULT: every forest on <= 30 vertices has a unimodal independent-set sequence.
