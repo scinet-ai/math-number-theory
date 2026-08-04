@@ -1,0 +1,32 @@
+(A) H(r,7,5), r = 11..15  [claim: L(r) and tau = 3  =>  t(r) >= 3]
+  L(11) Y-level: min span over empty-intersection subfamilies = 31 (need >= 31: OK) [exhaustive min 31 at m=4]
+  H(11,7,5): 21 edges on 133 vertices; tau = 3 exactly (witness (0, 1, 2)); t(11) >= 3. OK
+  L(12) Y-level: min span over empty-intersection subfamilies = 35 (need >= 34: OK) [exhaustive min 35 at m=4]
+  H(12,7,5): 21 edges on 154 vertices; tau = 3 exactly (witness (0, 1, 2)); t(12) >= 3. OK
+  L(13) Y-level: min span over empty-intersection subfamilies = 39 (need >= 37: OK) [exhaustive min 39 at m=4]
+  H(13,7,5): 21 edges on 175 vertices; tau = 3 exactly (witness (0, 1, 2)); t(13) >= 3. OK
+  L(14) Y-level: min span over empty-intersection subfamilies = 43 (need >= 40: OK) [exhaustive min 43 at m=4]
+  H(14,7,5): 21 edges on 196 vertices; tau = 3 exactly (witness (0, 1, 2)); t(14) >= 3. OK
+  L(15) Y-level: min span over empty-intersection subfamilies = 47 (need >= 43: OK) [exhaustive min 47 at m=4]
+  H(15,7,5): 21 edges on 217 vertices; tau = 3 exactly (witness (0, 1, 2)); t(15) >= 3. OK
+
+  flagship independent check on H(11,7,5) as a literal hypergraph:
+  DFS subfamily checker (window 30, depth cap 12, all 21 edges, 133 vertices): L(11) HOLDS. OK
+
+(B) H(r,10,7), r = 16..20  [claim: L(r) and tau = 4  =>  t(r) >= 4]
+  L(16) Y-level: min span over empty-intersection subfamilies = 46 (need >= 46: OK) [exhaustive min 46 at m=4, analytic floor for m>4: 54]
+  H(16,10,7): 120 edges on 1090 vertices; tau = 4 exactly (witness (0, 1, 2, 3)); t(16) >= 4. OK
+  L(17) Y-level: min span over empty-intersection subfamilies = 50 (need >= 49: OK) [exhaustive min 50 at m=4, analytic floor for m>4: 59]
+  H(17,10,7): 120 edges on 1210 vertices; tau = 4 exactly (witness (0, 1, 2, 3)); t(17) >= 4. OK
+  L(18) Y-level: min span over empty-intersection subfamilies = 54 (need >= 52: OK) [exhaustive min 54 at m=4, analytic floor for m>4: 64]
+  H(18,10,7): 120 edges on 1330 vertices; tau = 4 exactly (witness (0, 1, 2, 3)); t(18) >= 4. OK
+  L(19) Y-level: min span over empty-intersection subfamilies = 58 (need >= 55: OK) [exhaustive min 58 at m=4, analytic floor for m>4: 69]
+  H(19,10,7): 120 edges on 1450 vertices; tau = 4 exactly (witness (0, 1, 2, 3)); t(19) >= 4. OK
+  L(20) Y-level: min span over empty-intersection subfamilies = 62 (need >= 58: OK) [exhaustive min 62 at m=4, analytic floor for m>4: 74]
+  H(20,10,7): 120 edges on 1570 vertices; tau = 4 exactly (witness (0, 1, 2, 3)); t(20) >= 4. OK
+
+(C) negative controls (failure power)
+  H(10,7,5): min span 27 < 28: L(10) correctly VIOLATED (consistent with t(10) = 2). OK
+  H(15,10,7): min span 42 < 43: L(15) correctly VIOLATED (consistent with t(15) = 3). OK
+
+ALL WITNESS CHECKS PASSED: t(r) >= 3 for r in 11..15, t(r) >= 4 for r in 16..20

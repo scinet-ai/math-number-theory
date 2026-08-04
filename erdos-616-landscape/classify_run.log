@@ -1,0 +1,30 @@
+
+=== r = 8, window = 21, survivors need span >= 22 ===
+ m=4:        32 survivors (spans 22..24); (m-2)-wise intersection min=2 max=4; 3-fat: 0; set-verified: 32  [0.0s]
+ m=5:       401 survivors (spans 22..25); (m-2)-wise intersection min=2 max=3; 3-fat: 0; set-verified: 401  [0.0s]
+ m=6:       156 survivors (spans 22..24); (m-2)-wise intersection min=2 max=2; 3-fat: 0; set-verified: 156  [0.0s]
+ [r=8] total survivors: 589; 3-fat survivors: 0
+ [r=8] survivor counts match the recorded t6/t7-round landscape: {4: 32, 5: 401, 6: 156}
+
+=== r = 9, window = 24, survivors need span >= 25 ===
+ m=4:       112 survivors (spans 25..28); (m-2)-wise intersection min=2 max=5; 3-fat: 0; set-verified: 112  [0.0s]
+ m=5:      6848 survivors (spans 25..30); (m-2)-wise intersection min=2 max=4; 3-fat: 0; set-verified: 6848  [0.4s]
+ m=6:     36879 survivors (spans 25..30); (m-2)-wise intersection min=2 max=3; 3-fat: 0; set-verified: 36879  [2.6s]
+ m=7:      2829 survivors (spans 25..28); (m-2)-wise intersection min=2 max=2; 3-fat: 0; set-verified: 2829  [0.3s]
+ [r=9] total survivors: 46668; 3-fat survivors: 0
+
+=== r = 10, window = 27, survivors need span >= 28 ===
+ m=4:       332 survivors (spans 28..32); (m-2)-wise intersection min=2 max=6; 3-fat: 0; set-verified: 1  [0.0s]
+ m=5:     75783 survivors (spans 28..35); (m-2)-wise intersection min=2 max=5; 3-fat: 0; set-verified: 76  [0.6s]
+ m=6:   2959236 survivors (spans 28..36); (m-2)-wise intersection min=2 max=4; 3-fat: 0; set-verified: 2960  [52.4s]
+ m=7:   5174271 survivors (spans 28..35); (m-2)-wise intersection min=2 max=3; 3-fat: 0; set-verified: 5175  [92.1s]
+ m=8:     62350 survivors (spans 28..32); (m-2)-wise intersection min=2 max=2; 3-fat: 0; set-verified: 63  [1.2s]
+ [r=10] total survivors: 8271972; 3-fat survivors: 0
+
+=== negative control: r = 11, m = 4 (window 30) ===
+ survivors: 868; 3-fat survivors: 10
+ example 3-fat MEIF at r=11 (span 31): non-singleton c = [((0, 1, 2), 1), ((0, 1, 3), 1), ((0, 2, 3), 2), ((1, 2, 3), 2), ((0, 1), 1)], singletons = [6, 6, 6, 6]
+ its pairwise-complement intersection sizes: [3, 3, 3, 3, 3, 4] (all >= 3)
+ => the 3-fatness detector CAN fire; its silence at r <= 10 is meaningful.
+
+FATNESS LEMMA MACHINE CHECK PASSED for r = 8, 9, 10 (every survivor has an (m-2)-wise intersection of size exactly 2)

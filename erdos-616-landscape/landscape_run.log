@@ -1,0 +1,48 @@
+Theorem 3 reduction verified: p(r, ceil(r/5)) <= 3r-3 for 3 <= r <= 60
+Thresholds r0(t) = 5t+1+floor((t-1)/3) agree with Theorem 6(II) for t = 1..8: [6, 11, 16, 22, 27, 32, 38, 43]
+
+ r : lower <= t(r) <= upper   (EHT91-derivable)
+  3: 1 <= t <= 1   PINNED
+  4: 1 <= t <= 1   PINNED
+  5: 1 <= t <= 1   PINNED
+  6: 2 <= t <= 2   PINNED
+  7: 2 <= t <= 2   PINNED
+  8: 2 <= t <= 2   PINNED
+  9: 2 <= t <= 2   PINNED
+ 10: 2 <= t <= 2   PINNED
+ 11: 3 <= t <= 3   PINNED
+ 12: 3 <= t <= 3   PINNED
+ 13: 3 <= t <= 3   PINNED
+ 14: 3 <= t <= 3   PINNED
+ 15: 3 <= t <= 3   PINNED
+ 16: 4 <= t <= 4   PINNED
+ 17: 4 <= t <= 4   PINNED
+ 18: 4 <= t <= 4   PINNED
+ 19: 4 <= t <= 4   PINNED
+ 20: 4 <= t <= 4   PINNED
+ 21: 4 <= t <= 5   OPEN {4..5}
+ 22: 5 <= t <= 5   PINNED
+ 23: 5 <= t <= 5   PINNED
+ 24: 5 <= t <= 5   PINNED
+ 25: 5 <= t <= 5   PINNED
+ 26: 5 <= t <= 6   OPEN {5..6}
+ 31: 6 <= t <= 7   OPEN {6..7}
+ 36: 7 <= t <= 8   OPEN {7..8}
+ 37: 7 <= t <= 8   OPEN {7..8}
+ 41: 8 <= t <= 9   OPEN {8..9}
+ 42: 8 <= t <= 9   OPEN {8..9}
+ 46: 9 <= t <= 10   OPEN {9..10}
+ 47: 9 <= t <= 10   OPEN {9..10}
+ 51: 10 <= t <= 11   OPEN {10..11}
+ 52: 10 <= t <= 11   OPEN {10..11}
+ 53: 10 <= t <= 11   OPEN {10..11}
+ 56: 11 <= t <= 12   OPEN {11..12}
+ 57: 11 <= t <= 12   OPEN {11..12}
+ 58: 11 <= t <= 12   OPEN {11..12}
+
+Pinned: t(r) = ceil(r/5) for all 3 <= r <= 20.
+Undetermined by EHT91's stated results (r <= 60): [21, 26, 31, 36, 37, 41, 42, 46, 47, 51, 52, 53, 56, 57, 58]
+H(r,k,q) family exhausted at r=21: no (k,q) with k-q >= 4 satisfies L(21) => the EHT construction cannot decide t(21). OK
+  (complement criterion reproduces the exhaustively-computed min spans 31/46/27/42 at (r,q,d) = (11,5,2),(16,7,3),(10,5,2),(15,7,3))
+
+LANDSCAPE CHECKS PASSED

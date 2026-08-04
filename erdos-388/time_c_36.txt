@@ -1,0 +1,1 @@
+./sweep 36 > out_c_36.txt  32.23s user 0.04s system 99% cpu 32.296 total

@@ -1,0 +1,52 @@
+# sweep.py  N=10^24  smin=1  kmax=24  time=0.43s
+count k=4: 999998
+count k=5: 63093
+count k=6: 9997
+count k=7: 2679
+count k=8: 996
+count k=9: 460
+count k=10: 246
+count k=11: 147
+count k=12: 94
+count k=13: 64
+count k=14: 45
+count k=15: 33
+count k=16: 24
+count k=17: 18
+count k=18: 13
+count k=19: 10
+count k=20: 7
+count k=21: 5
+count k=22: 3
+count k=23: 2
+count k=24: 1
+total: 1077935
+checksum: 1733539725825114731
+collision OVERLAP: 120 = [1..5] = [2..5]
+collision OVERLAP: 720 = [1..6] = [2..6]
+collision OVERLAP: 5040 = [1..7] = [2..7]
+collision OVERLAP: 5040 = [1..7] = [7..10]
+collision OVERLAP: 5040 = [2..7] = [7..10]
+collision OVERLAP: 40320 = [1..8] = [2..8]
+collision OVERLAP: 362880 = [1..9] = [2..9]
+collision OVERLAP: 3628800 = [1..10] = [2..10]
+collision DISJOINT: 17297280 = [8..14] = [63..66]
+collision OVERLAP: 19958400 = [3..11] = [5..12]
+collision OVERLAP: 39916800 = [1..11] = [2..11]
+collision OVERLAP: 259459200 = [5..13] = [8..15]
+collision OVERLAP: 479001600 = [1..12] = [2..12]
+collision OVERLAP: 6227020800 = [1..13] = [2..13]
+collision OVERLAP: 87178291200 = [1..14] = [2..14]
+collision OVERLAP: 1307674368000 = [1..15] = [2..15]
+collision OVERLAP: 20922789888000 = [1..16] = [2..16]
+collision OVERLAP: 355687428096000 = [1..17] = [2..17]
+collision OVERLAP: 6402373705728000 = [1..18] = [2..18]
+collision OVERLAP: 20274183401472000 = [4..19] = [6..20]
+collision OVERLAP: 121645100408832000 = [1..19] = [2..19]
+collision OVERLAP: 2432902008176640000 = [1..20] = [2..20]
+collision OVERLAP: 51090942171709440000 = [1..21] = [2..21]
+collision OVERLAP: 1124000727777607680000 = [1..22] = [2..22]
+collision OVERLAP: 25852016738884976640000 = [1..23] = [2..23]
+collision OVERLAP: 25852016738884976640000 = [1..23] = [5..24]
+collision OVERLAP: 25852016738884976640000 = [2..23] = [5..24]
+collision OVERLAP: 620448401733239439360000 = [1..24] = [2..24]

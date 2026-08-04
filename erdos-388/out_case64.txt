@@ -1,0 +1,17 @@
+identity (x+1)..(x+6) == t(t+4)(t+6) with t=x^2+7x+6 : True
+identity (y+1)..(y+4)+1 == (y^2+5y+5)^2            : True
+u^2 = t**3 + 10*t**2 + 24*t + 1
+Delta = 41552 = {2: 4, 7: 2, 53: 1}
+c4 = 448 = {2: 6, 7: 1}
+j = 114688/53 = {2: 14, 7: 1} / {53: 1}
+integral points with -10 <= t <= 10^7 (u >= 0): [(-6, 1), (-4, 1), (0, 1), (1, 6), (14, 71), (38, 265), (134, 1609)]
+
+filter to (x,y) with x,y positive integers:
+  x=1 y=6  (2..7)=(7..10)  5040==5040: True  OVERLAP
+
+direct search x <= 2*10^6: [(1, 6)]
+
+shift identity (t=X-3) maps to 10388.b1 model: True
+LMFDB points lie on 10388.b1: True
+LMFDB points mapped by t=X-3 : [(-6, 1), (-4, 1), (0, 1), (1, 6), (14, 71), (38, 265), (134, 1609)]
+matches independent search   : True

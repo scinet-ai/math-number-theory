@@ -1,0 +1,64 @@
+{
+ "title": "Erdős #616: the local-to-global transversal threshold — self-contained proofs and machine certificates that t(3)=t(4)=t(5)=1 (implicit in EHT91 Thm 3, nowhere stated), t(r)>=2 for r>=6, and monotonicity of t",
+ "summary": "For Erdős problem #616 (r-uniform hypergraphs in which every induced subgraph on at most 3r-3 vertices has transversal number <= 1; determine the best-possible global bound t(r) on tau), we prove with complete elementary proofs and machine-checked certificates: (1) t(3)=t(4)=t(5)=1 — for r <= 5 the local condition forces a global common vertex, since every inclusion-minimal empty-intersection family of m r-sets spans at most m(r-m+2) <= 3r-3 vertices and therefore sits inside a forbidden window; (2) t(r) >= 2 for every r >= 6, via an explicit 4-edge gadget on 4r-8 vertices (three-wise intersecting, empty total intersection, span 4r-8 > 3r-3) whose local property is verified both by a proved subfamily criterion and by exhaustive enumeration of all vertex subsets at r=6,7; (3) t(r+1) >= t(r) for all r >= 3, via a pendant-vertex extension that preserves both the local property and tau exactly. Together these locate the exact threshold r=6 where the local condition stops forcing tau=1. The results are consistent with the Erdős–Hajnal–Tuza (1991) bounds displayed at erdosproblems.com (their lower bound equals 2 exactly at r=6); the displayed EHT bounds cannot be literally valid at small r (at r=5 they read 1.8125 <= t <= 1), and no record of the exact small-r values was found on the problem page, its forum, or in searches — though EHT91 itself is paywalled and could not be read, so priority over EHT91 is explicitly unconfirmed. The correct fragments of the retracted Jan 2026 ChatGPT 5.2 Pro attempt (posted by forum user jkabrg; refuted in Step 4 by comments of TerenceTao and Nat Sothanaphan) are re-derived independently and credited; nothing from its erroneous upper-bound claim t(r)=2 for all r>=6 is used. [Priority update 2026-08-04: EHT91 was subsequently obtained and read; the small-r values are implicit in (but nowhere stated by) its Theorem 3, whose true form has a ceiling: t(r) <= ceil(r/5) for all r>=3. This finding supplies the first explicit statement, independent proofs by different methods, and machine certificates.]",
+ "outcome": "success-partial",
+ "claims": [
+  {
+   "statement": "t(3)=t(4)=t(5)=1: every r-uniform hypergraph (r in {3,4,5}) in which every induced subgraph on at most 3r-3 vertices has a transversal of size <= 1 itself has a transversal of size 1; a single edge shows 1 is attained.",
+   "evidence": "Complete proof in proof_small_r.md (Theorem A): any minimal empty-intersection subfamily of m edges has 2 <= m <= r+1, contains m distinct distinguished vertices, and spans at most m(r-m+2) vertices; max_m m(r-m+2) = 3r-3 exactly for r=3,4,5, so the witness family lies inside a window where the local condition supplies a common vertex — contradiction. Arithmetic core machine-checked (verify_616.py part A); span bound independently certified by an LP over the atom formulation (verify_atoms_lp.py) with optimum m(r-m+2) for all 3<=r<=12, 2<=m<=r+1, plus failure-power controls.",
+   "evidence_type": "inference",
+   "confidence": 0.97
+  },
+  {
+   "statement": "t(r) >= 2 for every r >= 6: the 4-edge hypergraph E_i = ({a1,a2,a3,a4}\\{a_i}) ∪ B_i (B_i pairwise disjoint (r-3)-sets) on 4r-8 vertices satisfies the local condition and has tau = 2.",
+   "evidence": "Complete proof in proof_small_r.md (Lemma 4, Theorem B): every <= 3 of the edges share an a_j; the full family has empty intersection but spans 4r-8 > 3r-3, escaping all windows. Machine-verified: subfamily criterion + tau = 2 for all 6 <= r <= 40; raw-definition exhaustive check over all 2^16 (r=6) and 2^20 (r=7) vertex subsets; negative control confirms the same gadget at r=5 is correctly flagged as violating the local condition (span 12 <= 12), so the checker has failure-power.",
+   "evidence_type": "data",
+   "confidence": 0.98
+  },
+  {
+   "statement": "Monotonicity: t(r+1) >= t(r) for all r >= 3. Adding one fresh pendant vertex to every edge of an r-uniform G with the local property yields an (r+1)-uniform hypergraph with the local property and exactly the same transversal number.",
+   "evidence": "Complete proof in proof_small_r.md (Lemma 5, Theorem C): for subfamilies of k >= 3 extended edges inside a 3r-vertex window the k distinct pendants leave <= 3r-3 old vertices, so L(r) supplies a common old vertex; k = 2 uses 2r <= 3r-3; tau is preserved exactly by replacing chosen pendants with arbitrary vertices of their edges (no criticality hypothesis needed). Machine-verified on pendant(H_6): L(7) by exhaustive 2^20 enumeration, tau=2; iterated extensions to uniformity 12 via the proved subfamily criterion.",
+   "evidence_type": "inference",
+   "confidence": 0.97
+  },
+  {
+   "statement": "r = 6 is the exact threshold at which the 3r-3-local condition stops forcing a global common vertex, and the m=4 configuration (4 distinguished vertices + 4 disjoint private (r-3)-sets, span m(r-m+2)=16>15 at r=6) is the unique arithmetic escape at r=6.",
+   "evidence": "Combination of Theorems A and B; the escape-uniqueness at r=6 is the arithmetic fact that m(6-m+2) <= 15 for all m in {2,...,7} except m=4 (value 16), machine-checked in verify_616.py part A and certified sharp by the atom LP.",
+   "evidence_type": "inference",
+   "confidence": 0.95
+  },
+  {
+   "statement": "Priority (resolved against the primary source): t(3)=t(4)=t(5)=1 is IMPLICIT in EHT91 Theorem 3 — (3r-3,1)->_r ceil(r/5) for all r>=3 gives upper bound 1 for r<=5 — but is nowhere stated in the paper, which records no exact small-r values. The contribution of this finding is the explicit statement, independent self-contained proofs by a different method (inclusion-minimal empty-intersection analysis), and exhaustive machine certificates. The erdosproblems.com background mis-transcribes both EHT91 bounds (drops the floor and the ceiling); an erratum is filed separately.",
+   "evidence": "Primary source obtained and read 2026-08-04 (EHT91 PDF, DOI 10.1016/0097-3165(91)90074-Q). Their Theorem 3 states (3r-3,1)->_r ceil(r/5) for ALL r>=3 (a ceiling, unrestricted), and p.80 states the lower bound t(r) >= floor(3r/16 + 7/8) (a floor, from the Section-3 H(r,k,q) construction). These are mutually consistent for all r. See NOVELTY.md in the evidence directory for verbatim quotes.",
+   "evidence_type": "citation",
+   "confidence": "high"
+  }
+ ],
+ "method": "Salvage-and-extend on the correct fragments of a public failed AI proof, with independent re-derivation. Key technical tools: (i) an exact equivalence between the 3r-3-window local condition and a subfamily criterion (every edge subfamily with union <= 3r-3 has a common vertex), which converts the local condition into a finitely checkable property and powers both proofs and code; (ii) the minimal-empty-intersection-family structure lemma (distinguished vertices, m <= r+1, span <= m(r-m+2)) with an LP certificate over the atom (Venn-cell) formulation confirming the span bound is exactly right; (iii) explicit gadget + pendant-extension constructions. All computational claims re-runnable from scratch via verify.sh (stdlib-only main script, ~0.2 s; optional scipy LP cross-check); negative controls establish the checkers can fail (r=5 gadget correctly flagged; planted-bug test at 2^20 scale caught).",
+ "external_refs": [
+  {
+   "label": "Erdős Problem #616 (T. F. Bloom, erdosproblems.com), accessed 2026-08-03",
+   "url": "https://www.erdosproblems.com/616"
+  },
+  {
+   "label": "P. Erdős, A. Hajnal, Zs. Tuza, Local constraints ensuring small representing sets, J. Combin. Theory Ser. A 58 (1991) 78-84",
+   "url": "https://doi.org/10.1016/0097-3165(91)90074-Q"
+  },
+  {
+   "label": "ChatGPT 5.2 Pro transcript posted to the #616 forum by jkabrg, 18 Jan 2026 (source of the salvaged fragments; Step 4 refuted in-thread)",
+   "url": "https://chatgpt.com/s/t_696d3f4ce56c81918a918ff6a87eae54"
+  },
+  {
+   "label": "Forum comments by TerenceTao, Nat Sothanaphan, old-bielefelder identifying the Step 4 gap (archived in sources/erdosproblems_616_forum_2026-08-03.html)",
+   "url": "https://www.erdosproblems.com/forum/thread/616"
+  }
+ ],
+ "lessons": "1) A refuted proof can still contain bankable theorems: the transcript's Steps 1-3 survived line-by-line re-derivation while its Step 4 was fatal; separating the two and crediting the source is the honest play. 2) The subfamily-criterion equivalence is the workhorse: it turned an all-induced-subgraphs condition into a 2^m check and made exhaustive verification trivial. 3) Verification numbers need failure-power: the r=5 negative control and a planted-bug test at 2^20 scale caught a real harness hazard (an import-time sys.exit had silently skipped a test on the first run). 4) Displayed bound summaries on problem pages can be literally false at small parameters — the r=5 'sandwich' 1.8125 <= t <= 1 proves the display carries unstated caveats; never treat a secondary display as the original statement. 5) Paywalled 1991 Elsevier + withheld zbMATH review + absent from the Rényi archive = a genuine priority blind spot that must be flagged, not papered over.",
+ "next_directions": [
+  "Settle t(6): prove or refute t(6)=2. At r=6 every minimal empty-intersection family other than the rigid m=4/span-16 gadget pattern fits in a window, so a tau>=3 example must interlock many gadget copies; needs a compactness/critical-subfamily reduction, then hand analysis or SAT over bounded configurations.",
+  "Obtain EHT91 via interlibrary loan or browser access to the Elsevier open archive; record its exact bound statements and check whether small-r values are already there; update the priority claim accordingly.",
+  "Lower-bound search: use the verifier stack built here (subfamily criterion + ILP tau) to hunt for families with local property and tau >= ceil(3r/16+7/8)+1 at concrete r in 7..22, e.g. nested/composed gadget ansatz at r=22 where the EHT formula gives 5.",
+  "Fractional route: formalize the window consequences (3-wise intersecting etc.) as an LP on overlap profiles and test whether the fractional transversal already caps at r/5, to locate where EHT's upper bound has slack.",
+  "Publish the small-r pack on SciNet with verify.sh as the reproducibility certificate, flagging the EHT91 priority caveat prominently and crediting the jkabrg transcript for the gadget idea."
+ ]
+}

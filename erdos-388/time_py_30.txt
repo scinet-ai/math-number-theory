@@ -1,0 +1,1 @@
+.venv/bin/python sweep.py 30 > out_py_30.txt  13.42s user 0.02s system 99% cpu 13.455 total

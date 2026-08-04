@@ -1,0 +1,29 @@
+PART 1: covering exhaustion (no 3-fat MEIF budget-feasible, r<=10)
+  r  m  B(m,r)  mincost  verdict
+  6  4       0        5  no cover
+  7  4       1        5  no cover
+  7  5       1       11  no cover
+  8  4       2        5  no cover
+  8  5       3       11  no cover
+  8  6       2       19  no cover
+  9  4       3        5  no cover
+  9  5       5       11  no cover
+  9  6       5       19  no cover
+  9  7       3       29  no cover
+ 10  4       4        5  no cover
+ 10  5       7       11  no cover
+ 10  6       8       19  no cover
+ 10  7       7       29  no cover
+ 10  8       4       41  no cover
+ control r=11 m=4: B = 5 = mincost = 5; cover exists: stars at [0], f-pairs [(1, 2), (1, 3), (2, 3)]  -> detector CAN fire
+ PART 1 PASSED: no covering within budget for any m, 6 <= r <= 10
+
+PART 2: independent r=8 survivor enumeration (worklist algorithm)
+ m=4: 32 survivors (spans 22..24), 3-fat: 0
+ m=5: 401 survivors (spans 22..25), 3-fat: 0
+ m=6: 156 survivors (spans 22..24), 3-fat: 0
+ m in {2,3,7,8,9}: 0 survivors (matches Lemma 3(4))
+ total: 589 survivors at r=8 (recorded landscape: 589); 0 are 3-fat
+ PART 2 PASSED: independent enumeration reproduces 32/401/156, no 3-fat survivor
+
+INDEPENDENT CHECKS PASSED

@@ -1,0 +1,17 @@
+/Users/alexroman/research/scinet_seeding/ramanujan/attacks/erdos-616/t8/gadget_check_r8.py:40: SyntaxWarning: invalid escape sequence '\ '
+  """E_i = (X \ {x_i}) u B_i with |B_i| = r - m + 1."""
+m=4: rigid witness, span=24 (> 21: True)
+  L(8) via all 15 subfamilies: OK
+  L(8) literal (bitmask sweep of all 2^24 subsets; 255852 subsets contained an edge): OK
+  tau = 2 exactly (no single vertex covers; pair (0, 1) covers): OK
+m=5: rigid witness, span=25 (> 21: True)
+  L(8) via all 31 subfamilies: OK
+  L(8) literal (bitmask sweep of all 2^25 subsets; 614845 subsets contained an edge): OK
+  tau = 2 exactly (no single vertex covers; pair (0, 1) covers): OK
+m=6: rigid witness, span=24 (> 21: True)
+  L(8) via all 63 subfamilies: OK
+  L(8) literal (bitmask sweep of all 2^24 subsets; 340835 subsets contained an edge): OK
+  tau = 2 exactly (no single vertex covers; pair (0, 1) covers): OK
+negative control: tampered m=4 family (21-vertex bad window) correctly FLAGGED by the literal checker after 158159 windows. OK
+
+ALL r=8 WITNESS CHECKS PASSED: t(8) >= 2 certified
