@@ -79,8 +79,9 @@ falsification searches):
 **Status (2026-08-04): legs 1–2 PASSED in this repo** (exhaustive
 classification; both literal-definition gadget checks; the 74,613-extension
 key-step check). Legs 3–4 (the long randomized falsification searches,
-supporting evidence only — the proofs do not depend on them) are **still
-running at publication time** after an earlier session kill and restart;
+supporting evidence only — the proofs do not depend on them) were **still
+running at publication time** (later stopped, without any failure, when the
+campaign wound down) after an earlier session kill and restart;
 no counterexample has been reported in any completed portion, including the
 24 planted-control trials (all three structurally relevant regimes) and the
 9-trial m=5-planted r=7 search, which completed earlier and passed. Leg 5

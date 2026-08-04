@@ -77,11 +77,12 @@ randomized falsification step 6 of ~30–60 min; `--quick` reduces step 6):
 **Status (2026-08-04): steps 1–5 PASSED in this repo** (classification
 counts 589/46,668/8,271,972 reproduced; all witnesses certified; landscape
 extraction confirmed; "H(r,k,q) exhausted at r=21" confirmed). Step 6 (the
-long randomized search, supporting evidence only) ran to the end of its
-trial list in this repo with every completed trial at τ = 2 — including all
-planted-m6 controls — and no counterexample; the workspace's original run's
-24 planted-control trials also passed (`search_run.log` snapshot). All
-proof-bearing checks are steps 1–5.
+long randomized search, supporting evidence only) was stopped before
+emitting a completion banner; every trial it logged in this repo was
+τ = 2 — including all planted-m6 controls — with no counterexample signal,
+and the workspace's original run's 24 planted-control trials passed
+(`search_run.log` snapshot). All proof-bearing checks are steps 1–5;
+re-run step 6 in full with `./verify.sh`.
 
 ## Trusted base / caveats (disclosed)
 
