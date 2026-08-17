@@ -110,3 +110,13 @@ family appears beyond the 10^7 box: a second orbit-independent **(r=25, c=729)**
 **x = 71,912,934**, independent of Weintraub's 3114 orbit. Reproduce: rebuild `code/sweep.c`, run
 `sweep 2 100000000 40 1000000000 12`, then `code/postprocess.py hits.txt 100000000 40` and
 `code/verify_certificates.py` on the output.
+
+## Audit discharge: overflow-truncated orbits (2026-08-04, post-publication)
+
+A relay-protocol audit found that `logs/hits_all.txt` contains 85,569 `T` (overflow-truncated)
+orbit lines, all at r ∈ {38, 39, 40}, which `postprocess.py` silently skips — leaving the
+"complete at r ≤ 40" claim certified only for r ≤ 37 on those orbits. Discharged the same day:
+`code/complete_tails.py` continues every truncated orbit in exact big-int arithmetic —
+**85,569/85,569 tails completed, 0 new hits** (`logs/tail_completion.log`), so the catalogue
+(25,513 hits / 16,832 certificates / 20 primitive families) is unchanged and the r ≤ 40
+completeness claim now holds in full. Extension protocol: see [`RELAY.md`](RELAY.md).
